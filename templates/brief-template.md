@@ -9,7 +9,7 @@ Dibuat oleh kontrak-brainstorm pada {{TANGGAL_BRIEF}}. Setiap baris fakta berakh
 
 ## Pihak Pertama (PT)
 - Nama, alamat, penandatangan, dan dasar kewenangan diambil dari vault company-legal pada {{TANGGAL_BACA_VAULT}} [vault]
-- Jenis usaha Pihak Pertama: {{PT_JENIS_USAHA}} (wajib untuk PKWT dan PKWTT; freelancer: "tidak berlaku") [vault]
+- Jenis usaha Pihak Pertama: {{PT_JENIS_USAHA}} (wajib untuk PKWT dan PKWTT; freelancer: "tidak berlaku"; ganti tag menjadi [user] bila tidak ada di vault dan Ali yang menjawab) [vault]
 - Penandatangan: {{PT_PENANDATANGAN_NAMA}}, {{PT_PENANDATANGAN_JABATAN}}; dasar kewenangan: {{PT_DASAR_KEWENANGAN}} [vault]
 
 ## Pihak Kedua

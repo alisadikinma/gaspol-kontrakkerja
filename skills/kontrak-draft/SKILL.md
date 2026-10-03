@@ -25,7 +25,7 @@ Satu folder kerja = satu kontrak.
    ke `kontrak-brainstorm`. Jangan menulis kontrak dari ingatan atau dari percakapan.
 2. **STOP dan tanya Ali** jika fakta yang menentukan hukum bertag `[ASUMSI]`, kosong, atau
    ada di "Hal yang belum diketahui". Fakta penentu hukum: identitas pihak (nama, alamat,
-   jenis dan nomor identitas), tanggal lahir atau usia, Status kawin (bila usia di bawah 21), tempat pekerjaan (PKWT dan PKWTT), wadah, upah atau imbalan, tingkat
+   jenis dan nomor identitas, jenis kelamin untuk PKWT dan PKWTT), tanggal lahir (usia dihitung ulang darinya, langkah 1), Status kawin (bila usia di bawah 21), tempat pekerjaan dan jenis usaha Pihak Pertama (PKWT dan PKWTT), wadah, upah atau imbalan, tingkat
    akses (source code, data klien), penandatangan PT beserta dasar kewenangannya, tujuan
    non-kompetisi bila pasal itu dipasang, dan wali bila usia di bawah 21 dan belum kawin. Jangan diisi
    nilai "yang biasa". Jawaban Ali dicatat di brief (lihat langkah 1).
@@ -100,7 +100,7 @@ Salin template wadah ke `kontrak.md`, lalu isi dari atas ke bawah.
   dst.): dari brief dan vault. Tanggal ditulis panjang (15 Oktober 2026). Uang ditulis
   `Rp 18.000.000 (delapan belas juta rupiah)`.
 - `{{TEMPAT_KERJA}}` dan `{{KONDISI_KERJA}}` (hanya PKWT dan PKWTT; freelancer tidak punya slot ini dan tidak boleh diberi bahasa jam kerja): dari baris `Tempat pekerjaan` dan `Ringkasan jam kerja dan syarat kerja` di brief, apa adanya. `{{TEMPAT_KERJA}}` kosong: STOP (tempat pekerjaan wajib tertulis, `ketenagakerjaan.md`).
-- `{{PT_JENIS_USAHA}}`, `{{PIHAK_KEDUA_JENIS_KELAMIN}}`, `{{PIHAK_KEDUA_USIA}}` (hanya PKWT dan PKWTT, komparisi): dari baris `Jenis usaha Pihak Pertama`, `Jenis kelamin`, dan `usia` di brief. Salah satunya kosong: STOP.
+- `{{PT_JENIS_USAHA}}`, `{{PIHAK_KEDUA_JENIS_KELAMIN}}`, `{{PIHAK_KEDUA_USIA}}` (hanya PKWT dan PKWTT, komparisi): dari baris `Jenis usaha Pihak Pertama`, `Jenis kelamin`, dan `usia` di brief. `{{PIHAK_KEDUA_USIA}}` diisi ANGKA saja (misalnya `19`), bukan seluruh baris usia yang memuat tanggal lahir, tanggal acuan, dan hasil hitung. Salah satunya kosong: STOP.
   Dasar untuk PKWT: PP 35/2021 Art. 13. Dasar untuk perjanjian kerja tertulis umum:
   UU 13/2003 Art. 54(1) (`ketenagakerjaan.md`).
 - `{{HARI_TANGGAL_TTD}}`: nama hari dihitung dari tanggal tanda tangan di brief

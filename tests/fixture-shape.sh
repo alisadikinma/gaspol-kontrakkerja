@@ -71,6 +71,8 @@ done
 tot=$(grep -c 'DEFECT' "$b"); [ "$tot" -eq 6 ] || bad "bad-kontrak.md: DEFECT total=$tot (want 6)"
 grep -q 'Budi Contoh' "$b" || bad "bad-kontrak.md: fictional party Budi Contoh missing"
 grep -q '{{' "$b" && bad "bad-kontrak.md: contains {{"
+# the bad fixture must carry the Art. 13 komparisi fields and place of work so that only D1-D6 are defects
+for k in 'bergerak di bidang usaha' 'berjenis kelamin' 'bertempat kerja di'; do grep -qF "$k" "$b" || bad "bad-kontrak.md: missing '$k' (would be an unplanted 7th defect)"; done
 
 # --- good fixture
 g="$EX/good-kontrak.md"

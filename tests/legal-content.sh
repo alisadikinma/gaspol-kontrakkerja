@@ -132,6 +132,15 @@ hasnt "$g" 'lolos pemeriksaan'
 has "$g" '<!-- GATE-STATUS -->Draf ini DISUSUN per'
 [ "$(grep -c 'GATE-STATUS' "$g")" -eq 1 ] || bad "good-kontrak.md: GATE-STATUS must appear exactly once"
 
+# --- fix-round 3
+has "$S/kontrak-draft/SKILL.md" 'ANGKA saja'
+sed -n '/Fakta penentu hukum:/,/Jangan diisi/p' "$S/kontrak-draft/SKILL.md" | grep -q 'jenis usaha' || bad "kontrak-draft/SKILL.md: mandatory-facts list lacks jenis usaha"
+sed -n '/Fakta penentu hukum:/,/Jangan diisi/p' "$S/kontrak-draft/SKILL.md" | grep -q 'jenis kelamin' || bad "kontrak-draft/SKILL.md: mandatory-facts list lacks jenis kelamin"
+grep -E 'Jenis usaha Pihak Pertama' "$T/brief-template.md" | grep -qF '[user]' || bad "brief-template.md: Jenis usaha line must allow [user]"
+has "$ROOT/evals/03-underage-noncompete.md" 'already ends with a `<!-- GATE-STATUS -->` line'
+hasnt "$ROOT/evals/03-underage-noncompete.md" 'A `<!-- GATE-STATUS -->` last line added'
+has "$ROOT/evals/01-bad-fixture.md" 'EXTRA catches'
+
 # --- item 10: env var inline on the build.sh call
 hasre "$S/kontrak-finish/SKILL.md" 'KONTRAK_REVIEW=review\.md bash \.\./\.\./scripts/build\.sh'
 

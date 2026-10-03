@@ -4,17 +4,17 @@ Nomor: 001/PKWT/CPL/X/2026
 
 Pada hari ini, Sabtu, 3 Oktober 2026, bertempat di Kota Batam, yang bertanda tangan di bawah ini:
 
-1. **PT Contoh Perangkat Lunak**, berkedudukan di Jalan Contoh Nomor 1, Kota Batam, Kepulauan Riau, dalam hal ini diwakili oleh **Siti Fiktif**, selaku Direktur Utama, berdasarkan akta pendirian dan anggaran dasar PT Contoh Perangkat Lunak yang disahkan Menteri Hukum dan HAM serta keputusan RUPS tentang pengangkatan direksi (data fiktif untuk contoh), selanjutnya disebut **"INDUSIA"**.
+1. **PT Contoh Perangkat Lunak**, berkedudukan di Jalan Contoh Nomor 1, Kota Batam, Kepulauan Riau, bergerak di bidang usaha pengembangan perangkat lunak, dalam hal ini diwakili oleh **Siti Fiktif**, selaku Direktur Utama, berdasarkan akta pendirian dan anggaran dasar PT Contoh Perangkat Lunak yang disahkan Menteri Hukum dan HAM serta keputusan RUPS tentang pengangkatan direksi (data fiktif untuk contoh), selanjutnya disebut **"INDUSIA"**.
 
 <!-- DEFECT D5 -->
-2. **Budi Contoh**, lahir pada tanggal 15 Maret 2007 (berusia 19 tahun pada tanggal Perjanjian ini), pemegang KTP nomor 9999-0000-1111-2222 (data fiktif), beralamat di Jalan Fiktif Nomor 7, Kota Batam, Kepulauan Riau, selanjutnya disebut **"Pihak Kedua"**.
+2. **Budi Contoh**, berjenis kelamin laki-laki, lahir pada tanggal 15 Maret 2007 (berusia 19 tahun pada tanggal Perjanjian ini), pemegang KTP nomor 9999-0000-1111-2222 (data fiktif), beralamat di Jalan Fiktif Nomor 7, Kota Batam, Kepulauan Riau, selanjutnya disebut **"Pihak Kedua"**.
 
 INDUSIA dan Pihak Kedua selanjutnya disebut bersama **"Para Pihak"**. Para Pihak sepakat membuat perjanjian kerja waktu tertentu dengan ketentuan berikut.
 
 ## Pasal 1 Pekerjaan dan Jangka Waktu
 > **Catatan penyusun — dasar:** P-PM-01; PP 35/2021 Art. 8(1)-(3)
 
-Pihak Kedua bekerja pada INDUSIA sebagai Software Developer untuk pekerjaan pengembangan modul aplikasi pelaporan pada proyek Sistem Pelaporan Pelanggan Contoh, yang selesai dalam waktu tidak terlalu lama dan bersifat sementara karena berbasis proyek tersebut. Perjanjian berlaku mulai 12 Oktober 2026 sampai 11 Oktober 2027. INDUSIA mencatatkan Perjanjian ini secara daring sesuai peraturan yang berlaku.
+Pihak Kedua bekerja pada INDUSIA sebagai Software Developer, bertempat kerja di kantor INDUSIA, Jalan Contoh Nomor 1, Kota Batam, Kepulauan Riau, untuk pekerjaan pengembangan modul aplikasi pelaporan pada proyek Sistem Pelaporan Pelanggan Contoh, yang selesai dalam waktu tidak terlalu lama dan bersifat sementara karena berbasis proyek tersebut. Perjanjian berlaku mulai 12 Oktober 2026 sampai 11 Oktober 2027. INDUSIA mencatatkan Perjanjian ini secara daring sesuai peraturan yang berlaku.
 
 ## Pasal 2 Masa Percobaan
 > **Catatan penyusun — dasar:** P-PJ-04; UU 13/2003 Art. 60(1)-(2) dan Penjelasan Art. 60(1)

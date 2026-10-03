@@ -35,6 +35,10 @@ scan_all "personal employee folder path my-data/.../Karyawan/" 'my-data/[^ ]*/Ka
 hits=$(cd "$ROOT" && grep -rEIn --exclude-dir=docs --exclude-dir=research --exclude-dir=.gaspol --exclude-dir=.git --exclude-dir=.cache --exclude-dir=node_modules \
   --exclude="$(basename "$SELF")" -e '/Users/[A-Za-z0-9_.-]+/|/private/tmp/claude-' . 2>/dev/null \
   | grep -vE '^\./(scripts/(build\.sh|md2docx\.js)|skills/[a-z-]+/SKILL\.md|README\.md):' | grep -v '^$')
+# in the allow-listed files only the vault and my-data defaults are tolerated, and a session scratch path never
+allowed=$(cd "$ROOT" && grep -rEIn --exclude-dir=.cache --exclude-dir=node_modules -e '/Users/[A-Za-z0-9_.-]+/|/private/tmp/claude-' scripts skills README.md 2>/dev/null \
+  | sed -E 's#/Users/[A-Za-z0-9_.-]+/Drive-D/(Obsidian-Vault|my-data)/##g' | grep -E '/Users/|/private/tmp/claude-')
+hits="$hits$allowed"
 if [ -n "$hits" ]; then echo "FAIL guard-generic: absolute /Users/<name>/ or session path outside the allow-list"; echo "$hits" | head -5; fail=1; fi
 scan "16-digit number (NIK pattern)" '[0-9]{16}'
 scan "forbidden token ktp-" 'ktp-'
