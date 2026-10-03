@@ -15,7 +15,7 @@ Build the Claude Code plugin `gaspol-kontrakkerja` (working dir `/Users/alisadik
 
 ## Architecture Context
 
-Project CLAUDE.md (`/Users/alisadikin/Drive-D/claude-plugin/gaspol-kontrakkerja/CLAUDE.md`) holds the ticket counter only (Prefix `KKJ`, Last ticket `KKJ-1`). The folder is **not a git repo** and has no source code yet. Therefore: no "Commit" steps in this plan (n/a, no git); ledger `## Phase log` writes `n/a (no git)` as the SHA. Do NOT run `git init` without asking the user (Utang terbuka item).
+Project CLAUDE.md (`/Users/alisadikin/Drive-D/claude-plugin/gaspol-kontrakkerja/CLAUDE.md`) holds the ticket counter only (Prefix `KKJ`, Last ticket `KKJ-1`). At plan time the folder was **not a git repo**; on 2026-10-03 the user asked for a git repo and marketplace link, so from Phase E2 onward commit steps are real (one commit per phase, local; push only at the end). Phases A–E1 landed in one combined commit `0dd55c6`.
 
 Pattern source (read-only, do not edit): `~/.claude/plugins/cache/gaspol-one/gaspol-brdwriter/0.1.1/` — layout `.claude-plugin/plugin.json`, `skills/<name>/SKILL.md`, `references/`, `templates/`, `tests/run-all.sh`, `evals/`, `research/`. Skills name plugin files as `../../references/...` / `../../templates/...` (relative to the skill folder, because an installed skill runs in the user's project directory).
 
