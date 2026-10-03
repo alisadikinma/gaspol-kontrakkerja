@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Asserts references/pasal/*.md clause entries are well-formed and grounded in references/hukum/.
-# Checks only files that exist (the all-groups existence check belongs to Phase E2).
+# Also asserts all 11 expected group files exist.
 set -uo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 PASAL="$ROOT/references/pasal"
@@ -9,6 +9,11 @@ if [ ! -d "$PASAL" ] || ! ls "$PASAL"/*.md >/dev/null 2>&1; then
   echo "references/pasal: no such file or directory"
   exit 1
 fi
+missing=0
+for g in kerahasiaan hki non-kompetisi clean-room copyleft data-klien aset-akses ganti-rugi forum-sengketa pemutusan pajak; do
+  if [ ! -f "$PASAL/$g.md" ]; then echo "references/pasal/$g.md: No such file or directory"; missing=1; fi
+done
+[ "$missing" -eq 0 ] || exit 1
 # Normalised blob of every [dasar: ...] tag in the hukum files (lowercase, collapsed whitespace).
 BLOB="$(cat "$HUKUM"/*.md | grep -o '\[dasar: [^]]*\]' | tr 'A-Z' 'a-z' | tr -s ' \t' ' ')"
 export BLOB
