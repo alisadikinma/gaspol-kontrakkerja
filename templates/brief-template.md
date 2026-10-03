@@ -14,7 +14,8 @@ Dibuat oleh kontrak-brainstorm pada {{TANGGAL_BRIEF}}. Setiap baris fakta berakh
 ## Pihak Kedua
 - Nama lengkap: {{PIHAK_KEDUA_NAMA}} [user]
 - Tanggal lahir: {{PIHAK_KEDUA_TANGGAL_LAHIR}}; usia pada tanggal tanda tangan: {{PIHAK_KEDUA_USIA}} [user]
-- Jika usia di bawah 21 tahun: blok tanda tangan wali "mengetahui dan menyetujui" WAJIB. Wali: {{WALI_NAMA}}, hubungan: {{WALI_HUBUNGAN}} [user]
+- Status kawin: {{STATUS_KAWIN}} (belum kawin / sudah kawin / pernah kawin; Art. 330 KUHPerdata: belum dewasa = belum genap 21 tahun DAN belum kawin; yang sudah atau pernah kawin dianggap dewasa) [user]
+- Jika usia di bawah 21 tahun DAN belum kawin: blok tanda tangan wali "mengetahui dan menyetujui" WAJIB, dan pembatasan pasca-kerja (non-kompetisi, larangan membujuk) tidak dipasang. Wali: {{WALI_NAMA}}, hubungan: {{WALI_HUBUNGAN}}; bila tidak berlaku tulis "tidak berlaku" [user]
 - Alamat: {{PIHAK_KEDUA_ALAMAT}} [user]
 - Jenis dan nomor identitas: {{PIHAK_KEDUA_JENIS_ID}} {{PIHAK_KEDUA_NO_ID}} [user]
 - Punya NPWP: {{PIHAK_KEDUA_NPWP_YA_TIDAK}} [user]
@@ -23,6 +24,8 @@ Dibuat oleh kontrak-brainstorm pada {{TANGGAL_BRIEF}}. Setiap baris fakta berakh
 - Jabatan atau peran: {{JABATAN}} [user]
 - Hasil kerja yang dibuat: {{HASIL_KERJA}} [user]
 - Jam kerja, tempat, alat, dan pengawasan (uji tiga unsur): {{JAM_TEMPAT_ALAT_PENGAWASAN}} [user]
+- Tempat pekerjaan (alamat atau lokasi tertulis; wajib untuk PKWT dan PKWTT, PP 35/2021 Art. 13; freelancer: tulis "tidak berlaku"): {{TEMPAT_KERJA}} [user]
+- Ringkasan jam kerja dan syarat kerja yang disepakati (PKWT dan PKWTT; freelancer: "tidak berlaku"): {{KONDISI_KERJA}} [user]
 - Eksklusivitas dan klien lain: {{EKSKLUSIVITAS}} [user]
 - Akses ke source code dan data klien: {{TINGKAT_AKSES}} (akses ada = varian ketat) [user]
 - Membuat Hasil Karya milik INDUSIA: {{BUAT_HKI_YA_TIDAK}} [user]

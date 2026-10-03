@@ -83,9 +83,9 @@ PDF dan DOCX satu kontrak memakai NNN yang sama. Jangan menimpa file bertanda ta
 ## Langkah 1 — salinan bersih dan PDF
 
 ```bash
-export KONTRAK_REVIEW=review.md          # PASS yang berlaku; clean.sh memeriksanya lagi
 bash ../../scripts/clean.sh kontrak.md "$TMPDIR/bersih.md" review.md
-bash ../../scripts/build.sh kontrak.md KONTRAK-<CODE>-<NNN>.pdf
+# KONTRAK_REVIEW dipasang inline di panggilan ini: variabel env tidak bertahan antar panggilan Bash terpisah
+KONTRAK_REVIEW=review.md bash ../../scripts/build.sh kontrak.md KONTRAK-<CODE>-<NNN>.pdf   # PASS yang berlaku; clean.sh memeriksanya lagi
 ```
 
 (`../../scripts/` dihitung dari folder skill; dari folder kerja, pakai path absolut

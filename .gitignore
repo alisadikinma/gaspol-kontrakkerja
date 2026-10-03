@@ -2,3 +2,4 @@ work/
 *.pdf
 .gaspol/
 *.docx
+.cache/

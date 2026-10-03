@@ -25,9 +25,9 @@ Satu folder kerja = satu kontrak.
    ke `kontrak-brainstorm`. Jangan menulis kontrak dari ingatan atau dari percakapan.
 2. **STOP dan tanya Ali** jika fakta yang menentukan hukum bertag `[ASUMSI]`, kosong, atau
    ada di "Hal yang belum diketahui". Fakta penentu hukum: identitas pihak (nama, alamat,
-   jenis dan nomor identitas), tanggal lahir atau usia, wadah, upah atau imbalan, tingkat
+   jenis dan nomor identitas), tanggal lahir atau usia, Status kawin (bila usia di bawah 21), tempat pekerjaan (PKWT dan PKWTT), wadah, upah atau imbalan, tingkat
    akses (source code, data klien), penandatangan PT beserta dasar kewenangannya, tujuan
-   non-kompetisi bila pasal itu dipasang, dan wali bila usia di bawah 21. Jangan diisi
+   non-kompetisi bila pasal itu dipasang, dan wali bila usia di bawah 21 dan belum kawin. Jangan diisi
    nilai "yang biasa". Jawaban Ali dicatat di brief (lihat langkah 1).
 3. **Angka dan nama hanya dari brief, vault, atau `../../references/`.** UMK untuk PKWT dan
    PKWTT hanya dari brief (diambil langsung, bertanggal, bersumber). Tanpa tanggal ambil,
@@ -73,7 +73,9 @@ pertanyaan, pilihan yang bisa diklik lewat `AskUserQuestion`). Jangan menulis se
 | Fakta penentu hukum | salah satunya `[ASUMSI]`, kosong, atau hanya ada di "belum diketahui" |
 | Wadah | tidak salah satu dari PKWT, PKWTT, freelancer |
 | Usia | hitung ulang dari tanggal lahir dan tanggal tanda tangan; beda dengan brief, atau di bawah 18 tahun |
-| Wali | usia di bawah 21 tetapi nama atau hubungan wali tidak ada (alamat wali boleh belum ada; catat di CATATAN PENYUSUN) |
+| Status kawin | usia di bawah 21 tetapi Status kawin kosong atau `[ASUMSI]` (Art. 330: belum dewasa = belum genap 21 tahun DAN belum kawin) |
+| Wali | usia di bawah 21 **dan belum kawin** tetapi nama atau hubungan wali tidak ada (alamat wali boleh belum ada; catat di CATATAN PENYUSUN). Pihak Kedua yang sudah kawin atau pernah kawin dianggap dewasa: tidak ada wali, tidak ada pembatasan usia |
+| Tempat pekerjaan (PKWT dan PKWTT) | `Tempat pekerjaan` di brief kosong (PP 35/2021 Art. 13 huruf d) |
 | Penandatangan PT | nama, jabatan, atau dasar kewenangan kosong atau `[ASUMSI]`; bukan direksi tanpa surat kuasa khusus; atau ada benturan kepentingan (UU 40/2007 Art. 98 dan 99, Art. 103, lihat `signing-authority.md`) |
 | UMK (PKWT dan PKWTT) | nilai, sumber, atau tanggal ambil tidak ada di brief |
 | Jangka waktu | tanggal mulai atau selesai kosong |
@@ -97,6 +99,7 @@ Salin template wadah ke `kontrak.md`, lalu isi dari atas ke bawah.
 - **Placeholder para pihak dan jangka waktu** (`{{PIHAK_KEDUA_NAMA}}`, `{{TANGGAL_MULAI}}`,
   dst.): dari brief dan vault. Tanggal ditulis panjang (15 Oktober 2026). Uang ditulis
   `Rp 18.000.000 (delapan belas juta rupiah)`.
+- `{{TEMPAT_KERJA}}` dan `{{KONDISI_KERJA}}` (hanya PKWT dan PKWTT; freelancer tidak punya slot ini dan tidak boleh diberi bahasa jam kerja): dari baris `Tempat pekerjaan` dan `Ringkasan jam kerja dan syarat kerja` di brief, apa adanya. `{{TEMPAT_KERJA}}` kosong: STOP (tempat pekerjaan wajib tertulis, `ketenagakerjaan.md`, PP 35/2021 Art. 13).
 - `{{HARI_TANGGAL_TTD}}`: nama hari dihitung dari tanggal tanda tangan di brief
   (`date -j -f "%Y-%m-%d" <tanggal> "+%A"`), bukan ditebak.
 - `{{TEMPAT_TTD}}`: dari brief; jika tidak ada, kota kedudukan PT dari vault, dan catat itu
@@ -143,15 +146,19 @@ Salin template wadah ke `kontrak.md`, lalu isi dari atas ke bawah.
 4. **Pasal yang dilepas bila brief tidak membutuhkannya** (catat semuanya di CATATAN
    PENYUSUN):
    - Brief: tidak perlu non-kompetisi → lepas P-NK-01, P-NK-02, P-NK-03.
+   - **Pihak Kedua belum genap 21 tahun dan belum kawin** (Status kawin di brief) → JANGAN pasang P-NK-01 dan P-NK-03 (pembatasan setelah hubungan berakhir; Art. 1601x(1) mensyaratkan buruh dewasa, dan blok wali bukan penyembuh yang didukung sumber), sekalipun brief memintanya. Lepas keduanya, tulis di CATATAN PENYUSUN bahwa advokat sebaiknya mengonfirmasi pembacaan ini, dan beri tahu Ali. P-NK-02 (selama hubungan berjalan), kerahasiaan, dan HKI tetap dipasang. Yang sudah kawin atau pernah kawin dianggap dewasa: semua klausul NK boleh dipasang.
    - Brief: tidak ada akses data klien → lepas P-DK-01 sampai P-DK-04.
    - Selain itu, setiap slot di template **tetap dipasang**.
 5. **Penyesuaian yang boleh pada non-kompetisi** (P-NK-01 sampai 03): kegiatan, lama,
    dan wilayah disesuaikan dengan brief, **tidak boleh melebihi varian ketat**. Kalimat
-   tujuan perlindungan rahasia dagang selalu tertulis. Penyesuaian dicatat. Usia di bawah
-   21: kalimat "Pihak Kedua menyatakan telah dewasa menurut hukum dan menandatangani
-   klausul ini secara tertulis" tidak benar, ganti dengan "Pihak Kedua belum genap 21
-   (dua puluh satu) tahun, sehingga klausul ini ditandatangani dengan persetujuan Wali
-   sebagaimana tertulis pada blok tanda tangan wali", dan catat penggantian itu.
+   tujuan perlindungan rahasia dagang selalu tertulis. Penyesuaian dicatat. Kalimat
+   "Pihak Kedua menyatakan telah dewasa menurut hukum dan menandatangani klausul ini secara
+   tertulis" hanya benar untuk Pihak Kedua dewasa. Untuk yang belum genap 21 tahun dan belum
+   kawin P-NK-01 dan P-NK-03 tidak dipasang sama sekali, jadi kalimat itu dan kalimat
+   "persetujuan wali" untuk klausul pasca-kerja tidak pernah ditulis. Kalimat "telah dewasa"
+   di pasal lain Lampiran I (bila ada) diganti "Pihak Kedua belum genap 21 (dua puluh satu)
+   tahun dan menandatangani dengan persetujuan Wali sebagaimana tertulis pada blok tanda
+   tangan wali" hanya bila klausulnya bukan pembatasan pasca-kerja; catat penggantian itu.
 6. **Freelancer: tidak boleh ada bahasa hubungan kerja** di kontrak. Teks pustaka
    yang memuatnya diganti tepat begini, dan penggantian dicatat:
    - "hari kerja" → "hari kalender"
@@ -232,7 +239,7 @@ Di bawah **setiap** judul `## Pasal N …`, baris pertama berikutnya adalah:
    tempel di tempat `{{LAMPIRAN_I}}` pada kontrak. Berlaku untuk PKWT, PKWTT, dan
    freelancer. Ganti kalimat "Pemilihan varian …" di pembuka dengan kalimat konkret: varian
    mana yang dipakai dan alasannya (ada atau tidak ada akses source code dan data klien).
-2. **Blok wali, usia di bawah 21** (KUHPerdata Art. 330): ganti `{{BLOK_WALI_JIKA_<21}}`
+2. **Blok wali, usia di bawah 21 DAN belum kawin** (KUHPerdata Art. 330; Status kawin dari brief): ganti `{{BLOK_WALI_JIKA_<21}}`
    di **kontrak dan di Lampiran I** dengan:
 
    ```
@@ -244,12 +251,12 @@ Di bawah **setiap** judul `## Pasal N …`, baris pertama berikutnya adalah:
    | **<nama wali>**<br>(<hubungan> Pihak Kedua) |
    ```
 
-   Usia 21 ke atas: **hapus** slot itu bersih-bersih, tanpa baris kosong berlebih dan tanpa
-   blok wali.
+   Usia 21 ke atas, atau di bawah 21 tetapi sudah kawin atau pernah kawin (dianggap dewasa menurut Art. 330): **hapus** slot itu bersih-bersih, tanpa baris kosong berlebih, tanpa blok wali, dan jangan menulis kalimat "belum genap 21 (dua puluh satu) tahun" apa pun.
 3. **Tanda tangan PT**: tabel `INDUSIA` dan `PIHAK KEDUA` dari template diisi nama dan
    jabatan penandatangan dari vault. Dasar kewenangan sudah ada di komparisi (langkah 2).
-4. Cek usia terhadap isi: kontrak untuk calon di bawah 21 yang memuat non-kompetisi hanya
-   sah dengan tanda tangan wali; blok wali di atas memenuhinya.
+4. Cek usia terhadap isi: kontrak untuk calon di bawah 21 dan belum kawin tidak boleh memuat
+   P-NK-01 atau P-NK-03 atau teks pembatasan pasca-kerja yang setara. Blok wali tidak
+   memperbaikinya (gate G4 dan G5 menahannya).
 
 ## Langkah 7 — bagian `# CATATAN PENYUSUN`
 
@@ -308,7 +315,8 @@ grep -ci dijamin kontrak.md                    # harus 0
 grep -nE '^[0-9]+[a-z]\. |^## Pasal [0-9]+[a-z]' kontrak.md   # harus kosong
 awk '/^## Pasal/{if(h&&!g)print "tanpa dasar: " h; h=$0; g=0; next} /^> \*\*Catatan penyusun — dasar:\*\* P-/{g=1} /^# /{if(h&&!g)print "tanpa dasar: " h; h=""} END{if(h&&!g)print "tanpa dasar: " h}' kontrak.md   # harus kosong
 grep -c '^# LAMPIRAN I' kontrak.md             # harus 1
-grep -c 'mengetahui dan menyetujui' kontrak.md # 2 bila usia di bawah 21, 0 bila tidak
+grep -c 'mengetahui dan menyetujui' kontrak.md # 2 bila usia di bawah 21 dan belum kawin, 0 bila tidak
+grep -c 'sejak Perjanjian berakhir, Pihak Kedua tidak akan' kontrak.md   # harus 0 bila di bawah 21 dan belum kawin
 grep -c 'GATE-STATUS' kontrak.md               # harus 1
 grep -c 'lolos pemeriksaan' kontrak.md         # harus 0
 ```

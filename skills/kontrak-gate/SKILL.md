@@ -62,12 +62,12 @@ description: The blocking gate of gaspol-kontrakkerja. Use before any employment
 Jalankan semuanya, berurutan, setiap kali. Teks gate di bawah adalah daftar resmi, disalin
 apa adanya. Pemeriksaan tambahan ada di bawah tiap gate.
 
-- **G1 Wadah:** wadah (PKWT / PKWTT / freelancer) contradicts the facts. Fixed working hours or attendance in a freelancer agreement; probation in a PKWT (Art. 58 UU 13/2003, batal demi hukum); PKWT used for permanent core work.
+- **G1 Wadah:** wadah (PKWT / PKWTT / freelancer) contradicts the facts. Fixed working hours or attendance in a freelancer agreement; probation in a PKWT (Art. 58 UU 13/2003, batal demi hukum); PKWT used for permanent core work; PKWT or PKWTT without a stated place of work (tempat pekerjaan, PP 35/2021 Art. 13 huruf d).
 - **G2 Dasar hukum:** a clause without a `Catatan penyusun — dasar:` line, or citing a clause id absent from `../../references/pasal/`.
 - **G3 Jebakan terlarang:** withholding diploma/ID/original documents; wage below UMK while a work relationship exists (prohibition Art. 88E(2) UU 13/2003 jo. UU 6/2023; criminal sanction per Art. 185 as amended by UU 1/2026 — cite from `../../references/hukum/ketenagakerjaan.md`, never a figure from memory); removing mandatory rights (BPJS enrolment, PKWT compensation, THR, overtime); penalty above ~1 month fee/wage (Art. 1309 KUHPer: judge may reduce if the main obligation was partly performed) without a stated reduction-proof rationale; time limit on ownership of IP or source code.
-- **G4 Non-kompetisi:** non-compete without an explicit written purpose of protecting trade secrets / legitimate business interest; or scope not specific (activity, duration, area).
-- **G5 Usia:** candidate under 21 (KUHPer Art. 330) with no guardian "mengetahui dan menyetujui" signature block.
-- **G6 HKI:** IP assignment not explicit (Art. 16(2) UU 28/2014 requires only a written agreement; "comprehensive, permanent, irrevocable" is INDUSIA's own clause design, not a statutory requirement); "Hasil Karya" defined narrowly (must cover source code, object code, repository + commit history, database + schema, scripts, configuration, prompts, models + weights, datasets, algorithms, technical documentation, SOP, test results, derivative works; across all projects/customers/business lines); moral-rights handling missing (Art. 5: moral rights stay with creator — clause obtains non-assertion consent only); no copyleft-hygiene warranty.
+- **G4 Non-kompetisi:** non-compete without an explicit written purpose of protecting trade secrets / legitimate business interest; or scope not specific (activity, duration, area); or any post-employment restriction (P-NK-01, P-NK-03 or equivalent text: non-compete or non-solicit that runs after the relationship ends, Art. 1601x KUHPerdata requires an adult worker) on a party under 21 and not married (belum kawin), BLOCKING even when a guardian block is present.
+- **G5 Usia:** candidate under 21 AND not married (belum kawin; KUHPer Art. 330, a married party is adult) with no guardian "mengetahui dan menyetujui" signature block.
+- **G6 HKI:** IP assignment not explicit (Art. 16(2) UU 28/2014 requires only a written agreement; "comprehensive, permanent, irrevocable" is INDUSIA's own clause design, not a statutory requirement); "Hasil Karya" defined narrowly (must cover source code, object code, repository + commit history, database + schema, scripts, configuration, prompts, models + weights, datasets, algorithms, technical documentation, SOP, test results, derivative works; across all projects/customers/business lines); economic-rights assignment without the confirmation-of-assignment + licence-back clause (P-HKI-04; Art. 18 UU 28/2014 risk); moral-rights handling missing (Art. 5: moral rights stay with creator — clause obtains non-assertion consent only); no copyleft-hygiene warranty.
 - **G7 Penegakan:** no "upaya layak" confidentiality clause (Art. 3 UU 30/2000); no set-off clause (Art. 1425 KUHPer) where damages exist; no dispute forum stated correctly (PHI for employment; PN for freelancer agreement).
 - **G8 Angka & kesegaran:** a number (UMK, rate, percentage, amount) without a verification date; any referenced `../../references/hukum/*.md` with `verified:` older than 180 days relative to today.
 - **G9 Penandatangan:** the PT signatory has no stated authority basis (per `../../references/hukum/signing-authority.md` and vault `company-legal`); party identity fields incomplete; criminal-law text used as a threat to force civil payment instead of as a plain notice.
@@ -84,6 +84,10 @@ apa adanya. Pemeriksaan tambahan ada di bawah tiap gate.
 - PKWTT: kontrak yang memuat tanggal berakhir adalah kontradiksi.
 - Kontradiksi wadah yang dicatat penyusun di CATATAN PENYUSUN tetap temuan; gate yang
   memutuskan, bukan catatan.
+- PKWT dan PKWTT: Pasal 1 (atau pasal pekerjaan) harus menyebut tempat pekerjaan (alamat
+  atau lokasi). Tidak ada, atau hanya placeholder kosong = temuan (`ketenagakerjaan.md`,
+  PP 35/2021 Art. 13). Ketiadaan klausul THR, lembur, atau cuti BUKAN temuan. Freelancer: tidak
+  diminta.
 
 **G2.** Untuk setiap `## Pasal` (di kontrak **dan** di Lampiran I) harus ada baris
 `> **Catatan penyusun — dasar:** P-XXX-NN; …` tepat di bawah judul.
@@ -125,14 +129,16 @@ larangan membujuk): harus ada kalimat tujuan tertulis yang menyebut perlindungan
 dagang atau kepentingan bisnis yang sah, **dan** kegiatan, lama, wilayah yang spesifik.
 Salah satunya hilang atau umum ("semua usaha sejenis, tanpa batas") = temuan. Brief
 meminta non-kompetisi tetapi kontrak tanpa pasalnya bukan temuan G4 (catat di G2/CATATAN).
+**Pembatasan pasca-kerja untuk Pihak Kedua di bawah 21 dan belum kawin (Art. 1601x(1): buruh dewasa):** hitung usia dan baca Status kawin di `brief.md`. Bila di bawah 21 dan belum kawin, setiap klausul yang berlaku setelah hubungan berakhir (P-NK-01, P-NK-03, atau teks setara: dilarang bekerja di bidang tertentu, bersaing, atau membujuk klien atau rekan sesudah Perjanjian berakhir) = temuan G4, BLOCKING walau ada blok wali "mengetahui dan menyetujui"; sebutkan juga di G5. Dasar: `perdata.md` dan `hki-rahasia-dagang.md` (persetujuan wali bukan penyembuh yang didukung sumber; pembacaan ini sebaiknya dikonfirmasi advokat). P-NK-02 (selama hubungan) dan kerahasiaan bukan temuan. Yang sudah kawin: bukan temuan.
 
 **G5.** Hitung usia dari tanggal lahir di `brief.md` (atau komparisi) terhadap tanggal tanda
-tangan. Di bawah 21 (Art. 330 KUHPerdata, lihat `perdata.md`): harus ada blok wali
+tangan, dan baca Status kawin di brief. Di bawah 21 dan belum kawin (Art. 330 KUHPerdata, lihat `perdata.md`): harus ada blok wali
 berisi "mengetahui dan menyetujui", nama wali, dan hubungan; di kontrak **dan** di Lampiran
 I bila lampiran punya blok tanda tangan sendiri. Tambahan (a): kalimat bahwa Pihak Kedua
 "telah dewasa" (misal "menyatakan telah dewasa menurut hukum") padahal berusia di bawah 21
 adalah **kontradiksi G5/G1** dan BLOCKING, sekalipun blok wali ada. Kutip kalimatnya.
 Usia di kontrak harus sama dengan hasil hitungan; selisih = temuan. Usia di bawah 18 = temuan.
+Pihak Kedua yang sudah kawin atau pernah kawin dianggap dewasa (Art. 330): blok wali atau kalimat "belum genap 21" untuknya adalah temuan (kalimat tidak benar); kalimat "telah dewasa" benar. Status kawin kosong atau `[ASUMSI]` di brief untuk usia di bawah 21 = temuan.
 
 **G6.** Baca pasal Hasil Karya dan pasal pengalihan.
 - Pengalihan hak ekonomi harus tertulis dan eksplisit ("mengalihkan"), bukan sekadar
@@ -142,6 +148,10 @@ Usia di kontrak harus sama dengan hasil hitungan; selisih = temuan. Usia di bawa
   model beserta bobot, dataset, algoritma, dokumentasi teknis, SOP, hasil pengujian, karya
   turunan; dan berlaku untuk seluruh proyek, pelanggan, dan lini bisnis. Daftar butir yang
   hilang disebut satu per satu.
+- Konfirmasi pengalihan dan lisensi cadangan (P-HKI-04): harus ada klausul yang menegaskan
+  ulang pengalihan secara tertulis (konfirmasi pengalihan) disertai lisensi kembali dari
+  pencipta ke INDUSIA. Pengalihan hak ekonomi tanpa klausul itu = temuan (risiko Art. 18
+  UU 28/2014, `hki-rahasia-dagang.md`).
 - Hak moral: harus ada persetujuan tidak menggunakan (non-assertion), bukan klaim
   pengalihan hak moral. Klausul yang bilang hak moral "dialihkan" = temuan.
 - Garansi copyleft: ada janji tidak ada komponen GPL/AGPL tanpa persetujuan tertulis.

@@ -6,13 +6,16 @@ const fs=require('fs');
 const [,, MD, VAULT, OUT, LOGOARG]=process.argv;
 const LOGO=LOGOARG||process.env.KONTRAK_LOGO||'/Users/alisadikin/Drive-D/my-data/INDUSIA/PT/brand-industria-logo.png';
 if(!fs.existsSync(LOGO)){console.error('md2docx: logo tidak ditemukan: '+LOGO+' (set KONTRAK_LOGO)');process.exit(2);}
-const d=require('docx');
 const v=fs.readFileSync(VAULT,'utf8').split('\n');
 const bullet=(k)=>{const l=v.find(x=>x.startsWith('- **'+k));if(!l)return '';return l.replace(/^[^:]*\*\*:\s*/,'').replace(/\s*\(.*$/,'');};
 const nama=bullet('Nama'),nib=bullet('NIB'),npwp=bullet('NPWP'),sk=bullet('SK Pengesahan'),telp=bullet('Telp'),email=bullet('Email');
-const ai=v.findIndex(x=>/^## Alamat/.test(x));const alamat=v.slice(ai+1).find(x=>x.trim());
+const ai=v.findIndex(x=>/^## Alamat/.test(x));
+// address = first non-empty line under "## Alamat", never a following heading or front matter
+const alamat=ai<0?'':(v.slice(ai+1).find(x=>x.trim())||'').replace(/^#.*/,'').trim();
 const merek=bullet('Merek')||nama;
-for(const [k,x] of Object.entries({nama,alamat,nib,npwp,sk,telp,email})) if(!x){console.error('missing '+k);process.exit(2);}
+const need={nama:'- **Nama**',alamat:'## Alamat (baris pertama di bawah judul)',nib:'- **NIB**',npwp:'- **NPWP**',sk:'- **SK Pengesahan**',telp:'- **Telp**',email:'- **Email**'};
+for(const [k,x] of Object.entries({nama,alamat,nib,npwp,sk,telp,email})) if(!x){console.error('md2docx: nilai kop tidak ada di catatan vault: '+need[k]+' ('+VAULT+'); DOCX tidak dibuat');process.exit(2);}
+const d=require('docx');
 const F='Times New Roman';
 function runs(s,base={}){const out=[];s.split(/(\*\*[^*]+\*\*)/).forEach(p=>{if(!p)return;
   if(p.startsWith('**'))out.push(new d.TextRun({text:p.slice(2,-2),bold:true,font:F,size:21,...base}));

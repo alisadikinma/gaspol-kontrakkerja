@@ -35,6 +35,13 @@ passed as of the date in `review.md`. It is not legal advice and not a validity 
 The word "dijamin" is never written into a contract. There is no guarantee in the output: tidak ada
 jaminan bahwa kontrak bebas masalah hukum. Have an advocate review the final text.
 
+Age rule: Art. 330 KUHPerdata makes a person a minor only if under 21 AND not married. For such a party
+the post-employment restrictions (non-compete and non-solicit after the relationship ends) are not
+installed, and the gate blocks them even with a guardian signature block, because Art. 1601x(1) KUHPerdata
+requires an adult worker, and the research found no article or decision that a guardian's
+consent cures this for ages 18-20. An advocate should confirm this reading. Confidentiality, IP assignment and
+the non-compete during the relationship do not rest on Art. 1601x and stay.
+
 Clauses that rest on weak grounds (the drafter's own design, secondary sources, no explicit article) are
 flagged in the `Risiko` field of each entry in `references/pasal/`, and `kontrak-draft` lists the installed
 ones in the drafter-notes section of `kontrak.md` (stripped from the PDF and DOCX).

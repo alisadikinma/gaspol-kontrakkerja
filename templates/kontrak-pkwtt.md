@@ -11,9 +11,9 @@ Pada hari ini, {{HARI_TANGGAL_TTD}}, bertempat di {{TEMPAT_TTD}}, yang bertanda 
 INDUSIA dan Pihak Kedua selanjutnya disebut bersama **"Para Pihak"**. Para Pihak sepakat membuat perjanjian kerja waktu tidak tertentu dengan ketentuan berikut.
 
 ## Pasal 1 Pekerjaan dan Mulai Bekerja
-> **Catatan penyusun — dasar:** P-PM-03; UU 13/2003 Art. 51(1)
+> **Catatan penyusun — dasar:** P-PM-03; UU 13/2003 Art. 51(1); UU 13/2003 Art. 54(1)
 
-Pihak Kedua bekerja pada INDUSIA sebagai {{JABATAN}} untuk pekerjaan {{HASIL_KERJA}}, mulai {{TANGGAL_MULAI}}, tanpa batas waktu berakhir yang ditentukan lebih dulu.
+Pihak Kedua bekerja pada INDUSIA sebagai {{JABATAN}}, bertempat kerja di {{TEMPAT_KERJA}}, untuk pekerjaan {{HASIL_KERJA}}, mulai {{TANGGAL_MULAI}}, tanpa batas waktu berakhir yang ditentukan lebih dulu. Syarat kerja yang disepakati: {{KONDISI_KERJA}}.
 
 ## Pasal 2 Upah dan Upah Minimum
 Upah pokok Pihak Kedua sebesar {{UPAH_POKOK}} per bulan, ditambah tunjangan tetap {{TUNJANGAN_TETAP}}, dibayar paling lambat tanggal {{TANGGAL_BAYAR}} setiap bulan.

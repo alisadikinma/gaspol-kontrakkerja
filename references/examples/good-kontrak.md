@@ -11,9 +11,9 @@ Pada hari ini, Sabtu, 3 Oktober 2026, bertempat di Kota Batam, yang bertanda tan
 INDUSIA dan Pihak Kedua selanjutnya disebut bersama **"Para Pihak"**. Para Pihak sepakat membuat perjanjian kerja waktu tertentu dengan ketentuan berikut.
 
 ## Pasal 1 Pekerjaan dan Jangka Waktu
-> **Catatan penyusun — dasar:** P-PM-01; PP 35/2021 Art. 8(1)-(3)
+> **Catatan penyusun — dasar:** P-PM-01; PP 35/2021 Art. 8(1)-(3); PP 35/2021 Art. 13
 
-Pihak Kedua bekerja pada INDUSIA sebagai Software Developer untuk pekerjaan pengembangan modul aplikasi pelaporan pada proyek Sistem Pelaporan Pelanggan Contoh, yang selesai dalam waktu tidak terlalu lama dan bersifat sementara karena berbasis proyek tersebut. Perjanjian berlaku mulai 12 Oktober 2026 sampai 11 Oktober 2027. INDUSIA mencatatkan Perjanjian ini secara daring sesuai peraturan yang berlaku.
+Pihak Kedua bekerja pada INDUSIA sebagai Software Developer, bertempat kerja di kantor INDUSIA, Jalan Contoh Nomor 1, Kota Batam, Kepulauan Riau, untuk pekerjaan pengembangan modul aplikasi pelaporan pada proyek Sistem Pelaporan Pelanggan Contoh, yang selesai dalam waktu tidak terlalu lama dan bersifat sementara karena berbasis proyek tersebut. Perjanjian berlaku mulai 12 Oktober 2026 sampai 11 Oktober 2027. INDUSIA mencatatkan Perjanjian ini secara daring sesuai peraturan yang berlaku. Syarat kerja yang disepakati: jam kerja Senin sampai Jumat pukul 09.00 sampai 17.00, dan hak serta kewajiban lain mengikuti peraturan yang berlaku.
 
 ## Pasal 2 Upah dan Upah Minimum
 > **Catatan penyusun — dasar:** P-PJ-04; UU 13/2003 Art. 88E(1)-(2) jo. UU 6/2023 Pasal 81 angka 28; PP 36/2021 Art. 26(1) jo. PP 49/2025; UU 13/2003 Art. 185(1) jo. UU 6/2023 Pasal 81 angka 66 jo. UU 1/2026 Lampiran I
@@ -28,9 +28,9 @@ Upah Pihak Kedua tidak lebih rendah dari upah minimum kabupaten atau kota (UMK) 
 Upah Pihak Kedua adalah upah bruto. INDUSIA memotong Pajak Penghasilan Pasal 21 atas upah itu sesuai peraturan perpajakan yang berlaku: pada masa pajak selain masa pajak terakhir dengan tarif efektif bulanan menurut kategori status Pihak Kedua, dan pada masa pajak terakhir, yaitu bulan Desember atau saat Pihak Kedua berhenti bekerja, dengan perhitungan setahun penuh dikurangi pajak yang telah dipotong. INDUSIA menyetorkan pajak itu tepat waktu, mencantumkan potongan pada slip upah, dan memberikan bukti potong kepada Pihak Kedua. Pihak Kedua menyampaikan nomor pokok wajib pajak dan data status yang diperlukan paling lambat pada hari kerja pertama, dan memberitahu INDUSIA secara tertulis dalam waktu wajar bila status itu berubah. Kekurangan atau kelebihan pemotongan karena data yang terlambat atau keliru diselesaikan menurut peraturan yang berlaku pada masa pajak terakhir.
 
 ## Pasal 4 Jaminan Sosial
-> **Catatan penyusun — dasar:** P-PJ-03; PP 44/2015 Art. 4(1)-(2); PP 44/2015 Art. 17(1) dan Art. 29; Perpres 82/2018 Art. 38(1); Perpres 82/2018 Art. 1 angka 8 dan Art. 15(1); PP 44/2015 Art. 5 dan Art. 11(1)
+> **Catatan penyusun — dasar:** P-PJ-03; PP 44/2015 Art. 4(1)-(2); Permenaker 5/2021 Art. 3(1); PP 44/2015 Art. 17(1) dan Art. 29; Perpres 82/2018 Art. 38(1); Perpres 82/2018 Art. 1 angka 8 dan Art. 15(1); PP 44/2015 Art. 5 dan Art. 11(1)
 
-Untuk Pihak Kedua sebagai karyawan, INDUSIA mendaftarkan Pihak Kedua pada program jaminan kecelakaan kerja dan jaminan kematian BPJS Ketenagakerjaan serta pada BPJS Kesehatan paling lambat dalam 7 (tujuh) hari kerja sejak Pihak Kedua mulai bekerja, dan membayar iuran bagian pemberi kerja, sedangkan iuran bagian pekerja dipotong dari upah, sesuai peraturan yang berlaku. INDUSIA memberikan bukti kepesertaan kepada Pihak Kedua, dan bila INDUSIA lalai mendaftarkan, INDUSIA memenuhi sendiri hak Pihak Kedua yang timbul. Pihak Kedua dapat mendaftarkan dirinya sendiri bila INDUSIA belum melakukannya. Untuk Pihak Kedua sebagai freelancer di luar hubungan kerja, Pihak Kedua mendaftarkan dirinya sendiri sebagai peserta bukan penerima upah pada BPJS Kesehatan dan BPJS Ketenagakerjaan sesuai peraturan yang berlaku, dan menunjukkan bukti kepesertaan kepada INDUSIA bila diminta. Besaran dan batas iuran mengikuti peraturan yang berlaku dan tidak ditulis dalam Perjanjian ini.
+Untuk Pihak Kedua sebagai karyawan, INDUSIA mendaftarkan Pihak Kedua pada program jaminan sosial ketenagakerjaan yang wajib menurut peraturan yang berlaku (antara lain JKK, JKM, JHT, dan program lain yang diwajibkan) serta pada BPJS Kesehatan paling lambat dalam 7 (tujuh) hari kerja sejak Pihak Kedua mulai bekerja, dan membayar iuran bagian pemberi kerja, sedangkan iuran bagian pekerja dipotong dari upah, sesuai peraturan yang berlaku. INDUSIA memberikan bukti kepesertaan kepada Pihak Kedua, dan bila INDUSIA lalai mendaftarkan, INDUSIA memenuhi sendiri hak Pihak Kedua yang timbul. Pihak Kedua dapat mendaftarkan dirinya sendiri bila INDUSIA belum melakukannya. Untuk Pihak Kedua sebagai freelancer di luar hubungan kerja, Pihak Kedua mendaftarkan dirinya sendiri sebagai peserta bukan penerima upah pada BPJS Kesehatan dan BPJS Ketenagakerjaan sesuai peraturan yang berlaku, dan menunjukkan bukti kepesertaan kepada INDUSIA bila diminta. Besaran dan batas iuran mengikuti peraturan yang berlaku dan tidak ditulis dalam Perjanjian ini.
 
 ## Pasal 5 Berakhirnya Perjanjian dan Uang Kompensasi
 > **Catatan penyusun — dasar:** P-PM-01; PP 35/2021 Art. 15(1)-(5); PP 35/2021 Art. 16(1)-(2); PP 35/2021 Art. 17
@@ -60,7 +60,7 @@ INDUSIA tidak akan menahan, menyimpan, atau menjadikan jaminan ijazah, kartu tan
 ## Pasal 10 Batas Ganti Rugi Aset
 > **Catatan penyusun — dasar:** P-GR-01; KUHPerdata Art. 1239; KUHPerdata Art. 1304; KUHPerdata Art. 1307; KUHPerdata Art. 1309; KUHPerdata Art. 1601v
 
-Pihak Kedua mengganti kerugian nyata INDUSIA atas kerusakan atau kehilangan aset INDUSIA yang dipinjamkan kepadanya bila terjadi karena kesengajaan atau kelalaian, termasuk biaya wajar untuk memulihkan data, menggantikan aset, dan memperbaiki aset itu. Jumlah ganti rugi seluruhnya, termasuk biaya pemulihan, paling banyak sebesar 1 (satu) bulan upah (untuk karyawan) atau 1 (satu) bulan imbalan (untuk freelancer), dan tidak melebihi nilai kerugian nyata yang INDUSIA buktikan secara tertulis dengan rincian dan bukti nilai aset. INDUSIA memberitahu Pihak Kedua secara tertulis dalam 14 (empat belas) hari sejak INDUSIA mengetahui kerusakan atau kehilangan itu, dan memberi Pihak Kedua kesempatan menanggapi sebelum jumlah ditetapkan. INDUSIA tidak mengenakan denda dan sekaligus menuntut ganti rugi untuk perbuatan yang sama. Ganti rugi ini adalah penggantian kerugian nyata, bukan hukuman tetap; bila sebagian kewajiban Pihak Kedua sudah dilaksanakan atau jumlahnya tidak patut, jumlahnya diturunkan sesuai Pasal 1309 KUH Perdata. Batas ini tidak berlaku untuk pelanggaran hak kekayaan intelektual dan rahasia dagang, yang diatur pada klausul tersendiri.
+Pihak Kedua mengganti kerugian nyata INDUSIA atas kerusakan atau kehilangan aset INDUSIA yang dipinjamkan kepadanya bila terjadi karena kesengajaan atau kelalaian, termasuk biaya wajar untuk memulihkan data, menggantikan aset, dan memperbaiki aset itu. Jumlah ganti rugi seluruhnya, termasuk biaya pemulihan, paling banyak sebesar 1 (satu) bulan upah (untuk karyawan) atau 1 (satu) bulan imbalan (untuk freelancer), dan tidak melebihi nilai kerugian nyata yang INDUSIA buktikan secara tertulis dengan rincian dan bukti nilai aset. INDUSIA memberitahu Pihak Kedua secara tertulis dalam 14 (empat belas) hari sejak INDUSIA mengetahui kerusakan atau kehilangan itu, dan memberi Pihak Kedua kesempatan menanggapi sebelum jumlah ditetapkan. INDUSIA tidak mengenakan denda dan sekaligus menuntut ganti rugi untuk perbuatan yang sama. Ganti rugi ini adalah penggantian kerugian nyata, bukan hukuman tetap; bila sebagian kewajiban Pihak Kedua sudah dilaksanakan, jumlahnya diturunkan sesuai Pasal 1309 KUH Perdata. Terlepas dari itu, INDUSIA berjanji menurunkan jumlah yang tidak patut dibanding kerugian nyata yang dibuktikan; janji ini berasal dari klausul ini, bukan dari Pasal 1309. Batas ini tidak berlaku untuk pelanggaran hak kekayaan intelektual dan rahasia dagang, yang diatur pada klausul tersendiri.
 
 ## Pasal 11 Pelanggaran HKI dan Rahasia Dagang
 > **Catatan penyusun — dasar:** P-GR-02; KUHPerdata Art. 1239; UU 30/2000 Art. 17(1) dan Art. 17(2)
@@ -166,62 +166,52 @@ Ciptaan, kode, pustaka, atau alat yang dimiliki Pihak Kedua sebelum Perjanjian a
 
 Hak INDUSIA atas Hasil Karya tidak dibatasi jangka waktu dan tidak berakhir karena berakhirnya Perjanjian, pengunduran diri, pemutusan, atau berakhirnya masa kerja sama. INDUSIA tidak dilarang memakai, menjual, mengumumkan, atau menerbitkan Hasil Karya setelah jangka waktu tertentu, dan Pihak Kedua tidak berhak atas pembayaran tambahan karena pemakaian itu. Klausul ini berlaku untuk karyawan PKWT, PKWTT, dan freelancer, untuk Hasil Karya yang dibuat selama Perjanjian dan bagian sebelum penandatanganan yang sudah dikerjakan untuk INDUSIA.
 
-## Pasal 13 Non-Kompetisi Setelah Hubungan Berakhir
-> **Catatan penyusun — dasar:** P-NK-01; KUHPerdata Art. 1601x(1); KUHPerdata Art. 1601x(2); KUHPerdata Art. 1320; MA 3549 K/Pdt/2023; MA 1248 PK/Pdt/2024
-
-Tujuan klausul ini adalah melindungi rahasia dagang INDUSIA, khususnya source code, arsitektur, dan data klien yang Pihak Kedua akses, serta kepentingan bisnis INDUSIA yang sah, bukan membatasi hak Pihak Kedua untuk bekerja. Selama 12 (dua belas) bulan sejak Perjanjian berakhir, Pihak Kedua tidak akan, secara langsung atau tidak langsung, (a) mengembangkan atau menjual perangkat lunak yang secara substansial menyerupai produk atau sistem INDUSIA yang Pihak Kedua kerjakan, akses, atau kenal, atau (b) mengerjakan proyek untuk klien INDUSIA yang Pihak Kedua tangani atau yang datanya Pihak Kedua akses dalam 24 (dua puluh empat) bulan terakhir sebelum Perjanjian berakhir. Wilayah berlaku: seluruh wilayah Republik Indonesia untuk huruf (a), dan klien yang disebut dalam huruf (b) di mana pun berada. Pelanggaran klausul ini adalah wanprestasi. Pihak Kedua belum genap 21 (dua puluh satu) tahun, sehingga klausul ini ditandatangani dengan persetujuan Wali sebagaimana tertulis pada blok tanda tangan wali.
-
-## Pasal 14 Larangan Bersaing Selama Perjanjian
+## Pasal 13 Larangan Bersaing Selama Perjanjian
 > **Catatan penyusun — dasar:** P-NK-02; KUHPerdata Art. 1320; PN Jkt.Brt 832/Pdt.G/2023/PN.Jkt.Brt
 
 Tujuan klausul ini adalah melindungi rahasia dagang INDUSIA, termasuk source code dan data klien yang Pihak Kedua akses, dan kepentingan bisnis INDUSIA yang sah. Selama Perjanjian berlaku, Pihak Kedua tidak akan bekerja untuk, menjadi penyedia jasa bagi, atau memiliki kepentingan di pihak ketiga yang mengembangkan atau menjual perangkat lunak yang bersaing dengan produk atau layanan INDUSIA, dan tidak akan mengerjakan pekerjaan lain untuk klien INDUSIA yang sama, tanpa persetujuan tertulis INDUSIA. Pihak Kedua wajib melaporkan setiap pekerjaan lain secara tertulis sebelum menerimanya.
 
-## Pasal 15 Larangan Membujuk Klien dan Rekan Kerja
-> **Catatan penyusun — dasar:** P-NK-03; KUHPerdata Art. 1601x(1); KUHPerdata Art. 1601x(2); KUHPerdata Art. 1320
-
-Tujuan klausul ini adalah melindungi rahasia dagang INDUSIA, khususnya daftar klien, harga, dan hubungan klien, serta kepentingan bisnis INDUSIA yang sah. Selama 12 (dua belas) bulan sejak Perjanjian berakhir, Pihak Kedua tidak akan, secara langsung atau tidak langsung, (a) membujuk atau menawarkan jasa kepada klien INDUSIA yang Pihak Kedua tangani atau yang datanya Pihak Kedua akses dalam 24 (dua puluh empat) bulan terakhir, untuk pekerjaan yang bersaing dengan INDUSIA, atau (b) membujuk karyawan atau freelancer INDUSIA yang Pihak Kedua kenal dalam pekerjaannya untuk meninggalkan INDUSIA. Wilayah berlaku: klien dan personel INDUSIA di mana pun berada. Pelanggaran adalah wanprestasi.
-
-## Pasal 16 Tidak Membawa Kode atau Rahasia Pihak Lain
+## Pasal 14 Tidak Membawa Kode atau Rahasia Pihak Lain
 > **Catatan penyusun — dasar:** P-CR-01; UU 30/2000 Art. 13; UU 28/2014 Art. 40(1) huruf s dan Art. 59(1) huruf e; UU 1/2023 Art. 444(1)
 
 Pihak Kedua menyatakan dan menjamin bahwa dalam pekerjaan untuk INDUSIA ia tidak akan membawa, menyalin, menempel, atau mengadaptasi source code, dokumen, data, kredensial, atau rahasia dagang milik bekas pemberi kerja atau klien lain, atau milik pihak lain yang ia tidak berhak memakainya. Pihak Kedua hanya memakai pengetahuan dan keterampilan umumnya, dan bahan yang berasal dari sumber terbuka sesuai Pasal Copyleft. Bila Pihak Kedua menduga suatu bahan bermasalah, ia wajib berhenti memakainya dan memberi tahu INDUSIA.
 
-## Pasal 17 Tidak Memakai Kode INDUSIA atau Klien untuk Pihak Lain
+## Pasal 15 Tidak Memakai Kode INDUSIA atau Klien untuk Pihak Lain
 > **Catatan penyusun — dasar:** P-CR-02; UU 30/2000 Art. 13; UU 28/2014 Art. 36; UU 28/2014 Art. 16(2) huruf e
 
 Pihak Kedua tidak akan memakai, menyalin, menyalurkan, atau mengadaptasi Hasil Karya, source code, dokumentasi, atau data INDUSIA atau klien INDUSIA untuk proyek pribadi, kerja lain, atau pihak ketiga mana pun, kecuali dengan persetujuan tertulis INDUSIA. Portofolio pribadi boleh menyebut jenis pekerjaan secara umum tanpa menampilkan kode, data, atau identitas klien.
 
-## Pasal 18 Pemisahan Perangkat dan Repositori
+## Pasal 16 Pemisahan Perangkat dan Repositori
 > **Catatan penyusun — dasar:** P-CR-03; UU 30/2000 Art. 3(4) dan Penjelasan Art. 3(1); UU 27/2022 Art. 35, Art. 36, Art. 37, Art. 38, Art. 39(1)
 
 Pihak Kedua bekerja untuk INDUSIA hanya dengan akun, repositori, dan penyimpanan yang ditunjuk INDUSIA. Pihak Kedua tidak mencampur Hasil Karya atau Informasi Rahasia INDUSIA dengan repositori pribadi atau repositori pihak lain, dan tidak memakai akun bekas pemberi kerja atau klien lain untuk bekerja pada sistem INDUSIA.
 
-## Pasal 19 Komponen Berlisensi Copyleft
+## Pasal 17 Komponen Berlisensi Copyleft
 > **Catatan penyusun — dasar:** P-CL-01; hasil riset ask-hki (e); UU 28/2014 Art. 1 angka 8, Art. 40(1) huruf s, Art. 80(1)
 
 Pihak Kedua menjanjikan bahwa Hasil Karya tidak memuat, menautkan, atau menyalin komponen yang berlisensi GPL, AGPL, atau lisensi sejenis yang mewajibkan pembukaan source code Hasil Karya atau karya turunannya, kecuali dengan persetujuan tertulis INDUSIA sebelum komponen itu dimasukkan. Janji ini adalah garansi kontraktual antara Para Pihak; undang-undang tidak mengatur kewajiban ini secara khusus. Pihak Kedua wajib memberi tahu INDUSIA sebelum memakai komponen berlisensi selain lisensi permisif yang umum.
 
-## Pasal 20 Daftar Lisensi Pihak Ketiga
+## Pasal 18 Daftar Lisensi Pihak Ketiga
 > **Catatan penyusun — dasar:** P-CL-02; hasil riset ask-hki (e); UU 28/2014 Art. 82 dan Art. 83
 
 Pihak Kedua wajib mencatat setiap pustaka, kerangka kerja, aset, dan potongan kode pihak ketiga yang ia masukkan ke Hasil Karya, termasuk nama, versi, sumber, dan lisensinya, dan menyerahkan catatan itu bersama Hasil Karya. Pihak Kedua wajib mematuhi syarat lisensi komponen itu, termasuk kewajiban menyertakan pemberitahuan hak cipta dan teks lisensi.
 
-## Pasal 21 Pemrosesan Data Pribadi Klien
+## Pasal 19 Pemrosesan Data Pribadi Klien
 > **Catatan penyusun — dasar:** P-DK-01; UU 27/2022 Art. 35, Art. 36, Art. 37, Art. 38, Art. 39(1); UU 27/2022 Art. 52; UU 27/2022 Art. 51(1) dan Art. 51(5)
 
 Pihak Kedua memproses data pribadi yang berasal dari klien INDUSIA atau pelanggan klien hanya atas perintah tertulis INDUSIA, hanya untuk tujuan pekerjaan yang diberikan, dan sesuai Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi. Pihak Kedua menjaga keamanan dan kerahasiaan data itu, mencegah akses dan pemrosesan tanpa hak, dan tidak melibatkan pihak lain dalam pemrosesan tanpa persetujuan tertulis INDUSIA, yang pada gilirannya dapat memerlukan persetujuan tertulis klien. Kewajiban ini tetap berlaku sesudah Perjanjian berakhir selama Pihak Kedua masih menguasai data tersebut.
 
-## Pasal 22 Akses Seperlunya
+## Pasal 20 Akses Seperlunya
 > **Catatan penyusun — dasar:** P-DK-02; UU 27/2022 Art. 35, Art. 36, Art. 37, Art. 38, Art. 39(1); UU 27/2022 Art. 3 huruf h dan Art. 36 dan Art. 37 dan Art. 38
 
 Pihak Kedua hanya mengakses data klien yang diperlukan untuk pekerjaannya (prinsip need-to-know), tidak menyalin, mengunduh, mengekspor, atau memotret data klien ke perangkat, akun, atau penyimpanan pribadi atau pihak lain, dan tidak mengirimnya lewat surel atau pesan pribadi. Data klien hanya disimpan dalam sistem yang ditunjuk INDUSIA.
 
-## Pasal 23 Pelaporan Insiden Data
+## Pasal 21 Pelaporan Insiden Data
 > **Catatan penyusun — dasar:** P-DK-03; UU 27/2022 Art. 46(1), Art. 46(2), Art. 46(3); UU 27/2022 Art. 51(1) dan Art. 51(5)
 
 Pihak Kedua wajib melapor kepada INDUSIA secepatnya dan paling lambat 24 (dua puluh empat) jam sejak mengetahui atau patut menduga terjadi kebocoran, kehilangan, atau akses tanpa hak atas data pribadi klien, dengan menyebut data yang terlibat, kapan dan bagaimana terjadi, dan langkah yang sudah diambil. Pihak Kedua membantu INDUSIA menangani dan memulihkan insiden itu dan tidak memberi tahu pihak luar tanpa arahan INDUSIA, kecuali diwajibkan undang-undang. Batas internal 24 jam adalah pilihan INDUSIA agar batas 3 x 24 jam dalam undang-undang dapat dikejar.
 
-## Pasal 24 Pemberitahuan Konsekuensi Hukum
+## Pasal 22 Pemberitahuan Konsekuensi Hukum
 > **Catatan penyusun — dasar:** P-DK-04; UU 27/2022 Art. 65(1), Art. 65(2), Art. 65(3), Art. 67(1), Art. 67(2), Art. 67(3); UU 1/2023 Art. 332(1), Art. 332(2), Art. 332(3); UU 1/2023 Art. 482(1) huruf b dan Art. 483(1)
 
 Pemberitahuan: memperoleh, mengumpulkan, mengungkapkan, atau memakai data pribadi yang bukan milik sendiri secara melawan hukum, serta mengakses komputer atau sistem elektronik tanpa hak, dapat berakibat pidana menurut Undang-Undang Nomor 27 Tahun 2022 dan Undang-Undang Nomor 1 Tahun 2023. Klausul ini hanya pemberitahuan atas hukum yang berlaku. INDUSIA tidak memakai ketentuan pidana, ancaman pencemaran, atau ancaman membuka rahasia sebagai alat untuk menagih pembayaran atau memaksa pengakuan utang.
@@ -242,7 +232,7 @@ Pemberitahuan: memperoleh, mengumpulkan, mengungkapkan, atau memakai data pribad
 
 # CATATAN PENYUSUN
 
-- Data para pihak adalah data fiktif untuk contoh. Pihak Kedua berusia 19 tahun pada tanggal Perjanjian, sehingga blok wali ditambahkan.
+- Data para pihak adalah data fiktif untuk contoh. Pihak Kedua berusia 19 tahun pada tanggal Perjanjian, sehingga blok wali ditambahkan. Karena belum genap 21 tahun dan belum kawin, pembatasan pasca-kerja (non-kompetisi dan larangan membujuk setelah hubungan berakhir) tidak dipasang; Art. 1601x(1) mensyaratkan buruh dewasa dan persetujuan wali bukan penyembuh yang didukung sumber. Advokat sebaiknya mengonfirmasi pembacaan ini. Status kawin: belum kawin. P-NK-02 (selama hubungan berjalan) tetap dipasang.
 - Wadah: PKWT untuk pekerjaan berbasis proyek yang selesai dalam waktu tidak terlalu lama; bukan pekerjaan tetap.
 - Angka upah Rp 6.500.000 adalah kesepakatan Para Pihak per tanggal Perjanjian; UMK tidak ditulis sebagai angka dan diverifikasi ulang pada tanggal penandatanganan.
 - File hukum yang dirujuk dan tanggal verifikasinya: ketenagakerjaan 2026-10-03; perdata 2026-10-03; hki-rahasia-dagang 2026-10-03; pidana 2026-10-03; data-pribadi 2026-10-03; pajak-jaminan-sosial 2026-10-03; signing-authority 2026-10-03.

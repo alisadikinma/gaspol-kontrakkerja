@@ -11,9 +11,9 @@ Pada hari ini, {{HARI_TANGGAL_TTD}}, bertempat di {{TEMPAT_TTD}}, yang bertanda 
 INDUSIA dan Pihak Kedua selanjutnya disebut bersama **"Para Pihak"**. Para Pihak sepakat membuat perjanjian kerja waktu tertentu dengan ketentuan berikut.
 
 ## Pasal 1 Pekerjaan dan Jangka Waktu
-> **Catatan penyusun — dasar:** P-PM-01; PP 35/2021 Art. 8(1)-(3)
+> **Catatan penyusun — dasar:** P-PM-01; PP 35/2021 Art. 8(1)-(3); PP 35/2021 Art. 13
 
-Pihak Kedua bekerja pada INDUSIA sebagai {{JABATAN}} untuk pekerjaan {{HASIL_KERJA}}, yang bersifat sementara atau selesai dalam waktu tertentu karena {{ALASAN_PKWT}}. Perjanjian berlaku mulai {{TANGGAL_MULAI}} sampai {{TANGGAL_SELESAI}}. INDUSIA mencatatkan Perjanjian ini secara daring sesuai peraturan yang berlaku.
+Pihak Kedua bekerja pada INDUSIA sebagai {{JABATAN}}, bertempat kerja di {{TEMPAT_KERJA}}, untuk pekerjaan {{HASIL_KERJA}}, yang bersifat sementara atau selesai dalam waktu tertentu karena {{ALASAN_PKWT}}. Perjanjian berlaku mulai {{TANGGAL_MULAI}} sampai {{TANGGAL_SELESAI}}. INDUSIA mencatatkan Perjanjian ini secara daring sesuai peraturan yang berlaku. Syarat kerja yang disepakati: {{KONDISI_KERJA}}.
 
 ## Pasal 2 Upah dan Upah Minimum
 Upah pokok Pihak Kedua sebesar {{UPAH_POKOK}} per bulan, ditambah tunjangan tetap {{TUNJANGAN_TETAP}}, dibayar paling lambat tanggal {{TANGGAL_BAYAR}} setiap bulan.

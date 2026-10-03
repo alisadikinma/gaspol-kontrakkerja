@@ -21,7 +21,7 @@ need kontrak-brainstorm \
   'AskUserQuestion' 'wadah' 'brief.md' '[ASUMSI]' \
   'references/hukum/ketenagakerjaan.md' 'playbook-kontrak-kerja-id' 'STOP' \
   'company-legal' 'Hal yang belum diketahui' 'templates/brief-template.md' \
-  'Status UU Ketenagakerjaan baru' 'kontrak-draft'
+  'Status UU Ketenagakerjaan baru' 'kontrak-draft' 'Status kawin' 'Tempat pekerjaan'
 # STOP rule must name wage, date and party identity.
 f="$ROOT/skills/kontrak-brainstorm/SKILL.md"
 if [ -f "$f" ]; then
@@ -35,7 +35,7 @@ need kontrak-draft \
   'brief.md' 'references/pasal/' 'Catatan penyusun — dasar:' 'lampiran-ip.md' 'STOP' \
   '[ASUMSI]' 'dijamin' '# CATATAN PENYUSUN' 'Tinjauan advokat disarankan sebelum tanda tangan' \
   'GATE-STATUS' 'DISUSUN per' 'signing-authority.md' 'company-legal' 'verified:' \
-  'kontrak-gate' 'kontrak-finish' 'Sama dengan'
+  'kontrak-gate' 'kontrak-finish' 'Sama dengan' 'Status kawin' 'belum kawin' 'TEMPAT_KERJA'
 f="$ROOT/skills/kontrak-draft/SKILL.md"
 if [ -f "$f" ]; then
   # refusal rules: missing brief.md, and [ASUMSI] on a legal-critical fact
@@ -55,7 +55,8 @@ need kontrak-gate \
   'PASS' 'BLOCKING' 'kontrak_sha256' 'reviewed_at' '180' \
   'loop back to kontrak-draft until PASS' 'GATE-STATUS' 'review.md' 'kontrak.md' 'brief.md' \
   'references/pasal/' 'references/hukum/' 'kontrak-draft' 'kontrak-finish' 'shasum -a 256' \
-  'telah dewasa' 'Art. 1309' 'Art. 1307'
+  'telah dewasa' 'Art. 1309' 'Art. 1307' \
+  'P-HKI-04' 'Status kawin' 'belum kawin' 'P-NK-01' 'P-NK-03' '1601x' 'tempat pekerjaan'
 f="$ROOT/skills/kontrak-gate/SKILL.md"
 if [ -f "$f" ]; then
   grep -qE 'TODO|TBD|FIXME' "$f" && { echo "FAIL kontrak-gate: placeholder text"; fail=1; }
@@ -82,7 +83,7 @@ if [ ! -f "$r" ]; then
 else
   for s in 'does not guarantee' 'advocate' 'KONTRAK_LOGO' 'company-legal.md' 'Merek' 'Tagline' \
            'pandoc' 'Chrome' 'NODE_PATH' 'Firecrawl' '180' 'verified:' '0.1.0' 'UU Ketenagakerjaan' \
-           'Risiko' 'kontrak-brainstorm' 'kontrak-finish'; do
+           'Risiko' 'kontrak-brainstorm' 'kontrak-finish' 'An advocate should confirm this reading'; do
     grep -qF -- "$s" "$r" || { echo "FAIL README.md: missing string: $s"; fail=1; }
   done
   grep -iF 'dijamin' "$r" | grep -viE 'tidak ada jaminan|tidak (ada|pernah|boleh|menjanjikan)|does not|never|jangan' | grep -q . \

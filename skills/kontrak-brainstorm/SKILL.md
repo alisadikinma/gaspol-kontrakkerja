@@ -71,9 +71,13 @@ Urutan pertanyaan (lewati yang sudah terjawab):
    Ali; kalau ia belum punya datanya, catat di "belum diketahui".
 2. **Tanggal kontrak** — tanggal mulai (dan tanggal tanda tangan jika berbeda). Tanpa
    tanggal ini usia tidak bisa dihitung. **Hitung usia** pada tanggal tanda tangan dari
-   tanggal lahir, tulis rumus dan hasilnya di brief.
+   tanggal lahir, tulis rumus dan hasilnya di brief. Bila usia < 21, tanyakan juga
+   **Status kawin** Pihak Kedua (belum kawin, sudah kawin, atau pernah kawin), tag `[user]`:
+   KUHPerdata Art. 330 menyebut belum dewasa = belum genap 21 tahun **dan belum kawin**.
 3. **Peran dan hasil kerja** — jabatan atau peran; apa yang dibuat (modul, aplikasi,
-   model, dokumen).
+   model, dokumen). Tanyakan juga **Tempat pekerjaan** (alamat atau lokasi tertulis) dan
+   ringkasan jam kerja serta syarat kerja yang disepakati, untuk PKWT dan PKWTT (PP 35/2021
+   Art. 13; lihat `ketenagakerjaan.md`). Freelancer: tulis "tidak berlaku".
 4. **Uji tiga unsur (pekerjaan, upah, perintah)** — tanyakan satu per satu, bahasa
    sehari-hari:
    - Jam kerja: tetap, atau bebas asal hasil jadi?
@@ -139,12 +143,19 @@ yang akan menahan kontraknya nanti.
 
 ## Usia di bawah 21 tahun
 
-Jika usia pada tanggal tanda tangan < 21 (KUHPerdata Pasal 330): tulis di brief bahwa blok
+Aturannya: usia < 21 **dan belum kawin** (KUHPerdata Pasal 330). Pihak Kedua yang sudah
+kawin atau pernah kawin dianggap dewasa: tidak ada blok wali dan tidak ada pembatasan usia,
+tulis "tidak berlaku" di baris wali brief. Status kawin dicatat sebagai fakta `[user]`;
+`[ASUMSI]` pada fakta ini membuat draf berhenti.
+
+Jika usia < 21 dan belum kawin: tulis di brief bahwa blok
 tanda tangan wali "mengetahui dan menyetujui" **wajib**, dan tanyakan nama serta hubungan
 wali, dan alamatnya (data wali tidak boleh dikarang; kalau belum ada, masuk "belum
 diketahui"; alamat wali ditulis di baris wali atau di "belum diketahui"). Jelaskan
-singkat ke Ali: pasal non-kompetisi paling rapuh untuk orang yang belum dewasa, jadi
-kepemilikan HKI dan rahasia dagang jadi tumpuan. Jika usia < 18, STOP: UU melarang
+singkat ke Ali: pembatasan pasca-kerja (non-kompetisi dan larangan membujuk setelah hubungan
+berakhir) tidak dipasang untuk orang yang belum dewasa, karena Art. 1601x(1) mensyaratkan
+buruh dewasa dan persetujuan wali bukan penyembuh yang didukung sumber; kerahasiaan, HKI,
+dan larangan bersaing selama hubungan berjalan tetap jadi tumpuan. Jika usia < 18, STOP: UU melarang
 mempekerjakan anak (lihat bagian "Usia dan wali" di `ketenagakerjaan.md`); tanya Ali
 bagaimana lanjutnya.
 
@@ -176,7 +187,7 @@ isi **semua** `{{...}}` dengan jawaban nyata. Tidak boleh ada `{{` tersisa. Atur
   dasar belum dibaca langsung.
 - UMK: nilai, sumber, **tanggal verifikasi**, tag `[riset]`. Untuk freelancer yang
   tidak terkena UMK, tulis "tidak berlaku untuk wadah ini" dan alasannya.
-- Usia: tulis tanggal lahir, tanggal acuan, hasil hitung. Bila < 21, baris wali terisi.
+- Usia: tulis tanggal lahir, tanggal acuan, hasil hitung. Status kawin: tulis nilainya. Bila < 21 dan belum kawin, baris wali terisi; bila sudah kawin, "tidak berlaku".
 - Bagian akhir **"Hal yang belum diketahui"**: daftar eksplisit, satu butir per hal, siapa
   yang bisa menjawab. Wajib memuat: peringatan cek ulang status UU Ketenagakerjaan baru
   (jika wadah PKWT), setiap `[ASUMSI]`, dan setiap data yang Ali belum punya. Jika benar

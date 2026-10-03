@@ -1,19 +1,19 @@
 ---
 domain: perdata
 verified: 2026-10-03
-sources: [https://kejari-sukoharjo.kejaksaan.go.id/file/a6d2803a1ea733394063e8f006d31912.pdf, https://peraturan.bpk.go.id/Download/31128/UU%20Nomor%2013%20Tahun%202003.pdf, https://www.dandapala.com/opini/detail/klausul-non-kompetisi-dalam-perjanjian-kerja-apakah-sah-secara-hukum, research/crosscheck.md, research/ask-perdata.md]
+sources: [https://kejari-sukoharjo.kejaksaan.go.id/file/a6d2803a1ea733394063e8f006d31912.pdf, https://peraturan.bpk.go.id/Download/31128/UU%20Nomor%2013%20Tahun%202003.pdf, https://www.dandapala.com/opini/detail/klausul-non-kompetisi-dalam-perjanjian-kerja-apakah-sah-secara-hukum, research/crosscheck.md, research/ask-perdata.md, research/ask-ketenagakerjaan.md]
 ---
 # Perdata (KUHPerdata)
 
 ## Syarat sah dan kecakapan
 - Perjanjian sah bila memenuhi empat syarat: kesepakatan, kecakapan, pokok persoalan tertentu, dan sebab yang tidak terlarang. [dasar: KUHPerdata Art. 1320]
-- Belum dewasa = belum genap 21 tahun dan belum kawin. [dasar: KUHPerdata Art. 330]
-- Perikatan yang dibuat orang belum dewasa batal demi hukum dan, atas tuntutan dari pihak mereka, harus dinyatakan batal semata-mata karena kebelumdewasaan. Praktisnya: kontrak dengan calon di bawah 21 tahun rapuh kecuali ada tanda tangan wali "mengetahui dan menyetujui". [dasar: KUHPerdata Art. 1446(1)]
+- Belum dewasa = belum genap 21 tahun dan belum kawin (tidak kawin sebelumnya). Pihak yang sudah kawin dianggap dewasa walau belum genap 21 tahun, dan bila perkawinannya dibubarkan sebelum umur 21 ia tidak kembali berstatus belum dewasa. Aturan umur yang tidak menyebut syarat "belum kawin" salah. [dasar: KUHPerdata Art. 330]
+- Perikatan yang dibuat orang belum dewasa batal demi hukum dan, atas tuntutan dari pihak mereka, harus dinyatakan batal semata-mata karena kebelumdewasaan. Praktisnya: kontrak kerja biasa dengan calon belum dewasa (di bawah 21 tahun dan belum kawin) rapuh, dan blok tanda tangan wali "mengetahui dan menyetujui" dipakai sebagai mitigasi praktis. Pengecualian: untuk pembatasan pasca-kerja (non-kompetisi, Art. 1601x(1)) wali "mengetahui dan menyetujui" bukan penyembuh yang didukung sumber, lihat bagian berikut. [dasar: KUHPerdata Art. 1446(1); KUHPerdata Art. 330]
 
 ## Perjanjian kerja, pemborongan, dan pembatasan pasca-kerja
 - Perjanjian kerja: buruh menyerahkan tenaganya kepada majikan dengan upah selama waktu tertentu. Pemborongan kerja: pemborong menyelesaikan pekerjaan bagi pemberi tugas dengan harga yang ditentukan. [dasar: KUHPerdata Art. 1601a dan Art. 1601b]
 - Jika satu perjanjian bercampur sifat perjanjian kerja dan perjanjian lain, ketentuan perjanjian kerja yang menang bila bertentangan. [dasar: KUHPerdata Art. 1601c]
-- Larangan bekerja di bidang tertentu setelah hubungan kerja berakhir (non-kompetisi) hanya sah jika dibuat tertulis dengan buruh yang sudah dewasa. Ini dasar utama non-kompetisi. [dasar: KUHPerdata Art. 1601x(1)]
+- Larangan bekerja di bidang tertentu setelah hubungan kerja berakhir (non-kompetisi) hanya sah jika dibuat tertulis dengan buruh yang sudah dewasa. Ini dasar utama non-kompetisi. Dewasa adalah syarat sah, bukan formalitas: riset 2026-10-03 tidak menemukan pasal atau putusan yang menyatakan persetujuan wali menyembuhkan pembatasan pasca-kerja bagi buruh yang belum genap 21 tahun dan belum kawin, jadi pembatasan itu tidak dipasang untuk mereka dan pembacaan ini sebaiknya dikonfirmasi advokat. [dasar: KUHPerdata Art. 1601x(1); hasil riset ask-ketenagakerjaan (Aturan Wali bagi Pekerja Usia 18-20 Tahun)]
 - Pengadilan boleh membatalkan janji non-kompetisi seluruhnya atau sebagian, atas tuntutan atau pembelaan buruh, bila dibanding kepentingan majikan yang dilindungi buruh dirugikan secara tidak adil. Karena itu ruang lingkup (kegiatan, jangka waktu, wilayah) harus spesifik dan tujuannya tertulis. [dasar: KUHPerdata Art. 1601x(2)]
 - Pernyataan buruh bahwa ia akan menyetujui setiap reglemen yang ditetapkan majikan di kemudian hari batal; kontrak tidak boleh menggantungkan diri pada aturan sepihak yang belum ada. [dasar: KUHPerdata Art. 1601l]
 - Majikan tidak boleh mengenakan denda sekaligus menuntut ganti rugi untuk satu perbuatan; perjanjian yang bertentangan batal. [dasar: KUHPerdata Art. 1601v]
