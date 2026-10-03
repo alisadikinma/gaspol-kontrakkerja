@@ -203,6 +203,30 @@ Salin template wadah ke `kontrak.md`, lalu isi dari atas ke bawah.
      field `Dasar hukum` entrinya), asal id-nya ada di pustaka.
 8. **Pustaka tidak punya teks untuk sebuah slot** (id tidak ada, atau entri tidak berlaku
    untuk wadah ini): STOP, jangan mengarang pasal. Katakan id mana yang bermasalah.
+9. **Pasal opsional proyek** (tidak punya slot di template; dipasang **hanya bila brief
+   memintanya**, sebagai pasal baru yang ikut penomoran ulang, dan semuanya dicatat di CATATAN
+   PENYUSUN). Permintaan brief yang tidak punya entri di pustaka: STOP, jangan mengarang.
+   - **P-PR-01** (hanya freelancer; brief menyebut rapat koordinasi atau laporan kemajuan):
+     pasal baru di kontrak sesudah Pasal Lingkup Pekerjaan. Tambahkan satu kalimat jadwal dan
+     cara pertemuan dari brief. Larangan kata di butir 6 tetap berlaku; hari ditulis dengan
+     nama harinya. Alat yang disediakan INDUSIA menurut brief ditulis satu kalimat di Pasal 1
+     (template: "kecuali Para Pihak menyepakati lain secara tertulis").
+   - **P-PR-03** (brief menyebut penugasan di lokasi klien): pasal baru di kontrak sesudah
+     P-PR-01, atau sesudah Pasal Lingkup Pekerjaan bila P-PR-01 tidak dipasang.
+   - **P-PR-02** (hanya freelancer; brief meminta pengembalian imbalan): pasal baru di kontrak
+     tepat sebelum Pasal Keadaan yang Membebaskan dari Ganti Rugi. Kelima sebab pembebas (a)
+     sampai (e) tidak dipersempit walaupun brief memintanya; selisih dengan brief dicatat.
+   - **P-GR-05** (brief menyebut denda non-kompetisi **dan** P-NK-01 dipasang): pasal baru di
+     kontrak sesudah Pasal Pelanggaran HKI dan Rahasia Dagang. Tambahkan dua kalimat dari
+     brief: "Jumlah denda: …" dan "Alasan penetapan jumlah: …". Alasan tidak ada di brief:
+     STOP dan tanya Ali (gate G3 menahan denda besar tanpa alasan tertulis).
+   - **P-RHS-07** (brief meminta imbalan dirahasiakan): pasal baru di Lampiran I sesudah Pasal
+     Akibat Pelanggaran dan Upaya Hukum.
+   - **P-NK-04** (brief meminta larangan menawarkan produk sendiri kepada klien penugasan):
+     pasal baru di Lampiran I sesudah Pasal Larangan Membujuk Klien dan Rekan Kerja. Lama dari
+     brief, tidak melebihi varian ketat; klien yang dimaksud disebut namanya. Untuk Pihak Kedua
+     yang belum genap 21 tahun dan belum kawin P-NK-04 dan P-GR-05 tidak dipasang, sama seperti
+     P-NK-01 dan P-NK-03.
 
 ## Langkah 4 — baris dasar di bawah setiap pasal
 

@@ -24,7 +24,7 @@ hasnt "$nk" 'diperlukan tanda tangan wali'
 has "$nk" 'tidak dipasang untuk Pihak Kedua yang belum genap 21 tahun dan belum kawin'
 has "$nk" 'advokat'
 # P-NK-02 (during employment) stays; the post-employment ones carry the exclusion in their own entry
-awk '/^## P-NK-01/{e="01"} /^## P-NK-02/{e="02"} /^## P-NK-03/{e="03"} /Pengecualian wajib/ && (e=="01"||e=="03") && /belum kawin/ {c++} END{exit (c==2)?0:1}' "$nk" || bad "non-kompetisi.md: P-NK-01 and P-NK-03 Pengecualian wajib must both name 'belum kawin'"
+awk '/^## P-NK-01/{e="01"} /^## P-NK-02/{e="02"} /^## P-NK-03/{e="03"} /^## P-NK-04/{e="04"} /Pengecualian wajib/ && (e=="01"||e=="03"||e=="04") && /belum kawin/ {c++} END{exit (c==3)?0:1}' "$nk" || bad "non-kompetisi.md: P-NK-01, P-NK-03 and P-NK-04 Pengecualian wajib must all name 'belum kawin'"
 awk '/^## P-NK-0[13]/{e=1; next} /^## /{e=0} e && /^\*\*Risiko/ && /advokat/ {c++} END{exit (c==2)?0:1}' "$nk" || bad "non-kompetisi.md: P-NK-01 and P-NK-03 Risiko must say an advocate should confirm the reading"
 # the draft skill, the good fixture and README follow
 d="$S/kontrak-draft/SKILL.md"

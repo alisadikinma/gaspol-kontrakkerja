@@ -956,3 +956,379 @@ Sumber-sumber yang ada hanya mencakup pembahasan hukum ketenagakerjaan dan hubun
   > Hubungan Kerja Ketenagakerjaan (Employment Relationship)Hubungan kerja berdasarkan UU Ketenagakerjaan hanya terbentuk apabila pendiri tersebut diangkat sebagai karyawan operasional biasa di luar mekanisme keputusan RUPS,
 - [12] Rekayasa Hukum Pre-Inkorporasi: Panduan Komprehensif Dokumen Hukum dan Perjanjian Standar Sebelum Pendirian PT bagi Startup di Indonesia — 
   > Pengangkatan seorang karyawan tetap menjadi anggota Direksi melalui RUPS secara hukum mengakhiri hubungan kerjanya sebagai karyawan terhitung sejak tanggal pengangkatan tersebut [cite: 26].Perusahaan wajib menyelesaikan 
+
+
+# Tambahan KKJ-2 — pasal opsional proyek
+
+fetched/ditanya: 2026-10-03  |  notebook: cc822d28-6501-4035-a63b-880c100cca96 (KONTRAK-ID 2026-10)
+
+Sumber primer pembanding: teks KUHPerdata dari https://kejari-sukoharjo.kejaksaan.go.id/file/a6d2803a1ea733394063e8f006d31912.pdf diunduh 2026-10-03, diubah dengan `pdftotext -layout`, pasal dibaca langsung (lihat crosscheck.md).
+
+## (h) Denda atau ancaman hukuman yang diperjanjikan (Pasal 1249, 1304-1312, 1601v, 1601w) dan putusan soal jumlah denda non-kompetisi.
+
+**Pertanyaan:** Topik: denda atau ancaman hukuman (penalty clause) dalam perjanjian perdata.
+(1) Bunyi Pasal 1249 KUHPerdata tentang jumlah ganti rugi yang sudah ditetapkan dalam perjanjian. (2) Bunyi Pasal 1304, 1305, 1306, 1307, 1308, 1309, 1310, 1311, 1312 KUHPerdata, satu per satu. (3) Menurut pasal-pasal itu, kapan hakim boleh mengubah atau menurunkan hukuman, dan apakah hakim boleh menurunkan hanya karena jumlahnya terlalu besar. (4) Pasal 1601v dan 1601w KUHPerdata: bunyinya, dan apakah hanya berlaku antara majikan dan buruh atau juga pada pemborongan pekerjaan. (5) Adakah putusan di sumber yang mengabulkan atau menurunkan denda atas pelanggaran non-kompetisi atau kerahasiaan, berapa jumlahnya.
+
+**Notebook:** cc822d28-6501-4035-a63b-880c100cca96; conversation 2f50db7f-a27e-4664-b447-25e07f4745d1
+
+**Jawaban (sitasi notebook dipertahankan):**
+
+**(1) Bunyi Pasal 1249 KUHPerdata tentang Jumlah Ganti Rugi yang Ditetapkan dalam Perjanjian**
+
+**Pasal 1249 KUHPerdata**:
+> *"Jika dalam suatu perikatan ditentukan bahwa pihak yang lalai memenuhinya harus membayar suatu jumlah uang tertentu sebagai ganti kerugian, maka kepada pihak lain-lain tak boleh diberikan suatu jumlah yang lebih ataupun yang kurang dari jumlah itu."* [1]
+
+---
+
+**(2) Bunyi Pasal 1304 sampai dengan Pasal 1312 KUHPerdata**
+
+* **Pasal 1304 KUHPerdata**:
+  > *"Perjanjian hukuman adalah suatu perjanjian yang menempatkan seseorang sebagai jaminan pelaksanaan suatu perikatan yang mewajibkannya melakukan sesuatu, jika ia tidak melaksanakan hal itu."* [2]
+* **Pasal 1305 KUHPerdata**:
+  > *"Batalnya perikatan pokok mengakibatkan batalnya perjanjian hukuman. Tidak berlakunya perjanjian hukuman, sama sekali tidak mengakibatkan batalnya perjanjian/ perikatan pokok."* [2]
+* **Pasal 1306 KUHPerdata**:
+  > *"Kreditur dapat juga menuntut pemenuhan perikatan pokok sebagai pengganti pelaksanaan hukuman terhadap kreditur."* [2]
+* **Pasal 1307 KUHPerdata**:
+  > *"Penetapan hukuman dimaksudkan sebagai ganti penggantian biaya, kerugian dan bunga, yang diderita kreditur karena tidak dipenuhi perikatan pokok. Ia tidak dapat menuntut utang pokok dan hukumannya bersama-sama, kecuali jika hukuman itu ditetapkan hanya untuk terlambatnya pemenuhan."* [3]
+* **Pasal 1308 KUHPerdata**:
+  > *"Entah perikatan pokok itu memuat ketentuan waktu untuk pelaksanaannya entah tidak, hukuman tidak dikenakan, kecuali jika orang yang terikat untuk memberikan sesuatu atau untuk mengerjakan sesuatu itu tidak melaksanakan hal itu."* [3]
+* **Pasal 1309 KUHPerdata**:
+  > *"Hukuman dapat diubah oleh Hakim, jika sebagian perikatan pokok telah dilaksanakan."* [4]
+* **Pasal 1310 KUHPerdata**:
+  > *"Jika perikatan pokok yang memuat penetapan hukuman adalah mengenai suatu barang yang tak dapat dibagi-bagi, maka hukuman harus dibayar kalau terjadi pelanggaran oleh salah satu ahli waris debitur; dan hukuman ini dapat dituntut, baik untuk seluruhnya dari siapa yang melakukan pelanggaran terhadap perikatan maupun dari masing-masing ahli waris untuk bagiannya, tetapi tanpa mengurangi hak mereka untuk menuntut kembali siapa yang menyebabkan hukuman harus dibayar, segala sesuatu tidak mengurangi hak-hak kreditur hipotek."* [4]
+* **Pasal 1311 KUHPerdata**:
+  > *"Jika perikatan pokok dengan penetapan hukuman itu adalah mengenai suatu barang yang dapat dibagi-bagi, maka hukuman hanya harus dibayar oleh ahli waris debitur yang melanggar perikatan, dan hanya untuk jumlah yang tidak melebihi bagiannya dalam perikatan pokok, tanpa ada tuntutan terhadap mereka yang telah memenuhi perikatan. Peraturan ini dikecualikan, jika perjanjian hukuman ditambah dengan maksud supaya pemenuhan tidak terjadi untuk sebagian, dan salah satu ahli waris telah menghalangi pelaksanaan perikatan untuk seluruh dan dari para ahli waris yang lain hanya untuk bagian mereka, tanpa mengurangi hak mereka untuk menuntut ahli waris yang melanggar perikatan."* [5]
+* **Pasal 1312 KUHPerdata**:
+  > *"Jika suatu perikatan pokok yang dapat dibagi-bagi dan memakai penetapan hukuman yang tak dapat dibagi-bagi hanya dipenuhi untuk sebagian, maka hukuman terhadap ahli waris debitur diganti dengan pembayaran penggantian biaya, kerugian dan bunga."* [6]
+
+---
+
+**(3) Kapan Hakim Boleh Mengubah atau Menurunkan Hukuman Menurut Pasal-Pasal Tersebut**
+
+* **Alasan Hakim Boleh Mengubah**: Berdasarkan **Pasal 1309 KUHPerdata**, hakim boleh mengubah hukuman apabila **sebagian perikatan pokok telah dilaksanakan** [4].
+* **Penurunan Hukuman Hanya Karena Jumlahnya Terlalu Besar**: **Tidak ada di sumber** aturan dalam Pasal 1249 dan Pasal 1304–1312 KUHPerdata yang mengizinkan hakim menurunkan hukuman/denda *hanya karena jumlahnya terlalu besar*. Sebaliknya, **Pasal 1249 KUHPerdata** melarang penyesuaian jumlah tersebut secara sepihak dengan menegaskan bahwa *"kepada pihak lain-lain tak boleh diberikan suatu jumlah yang lebih ataupun yang kurang dari jumlah itu"* [1].
+
+---
+
+**(4) Bunyi Pasal 1601v dan 1601w KUHPerdata serta Keberlakuannya**
+
+* **Pasal 1601v KUHPerdata**:
+  > *"Untuk satu perbuatan majikan tidak boleh mengenakan denda sambil menuntut ganti rugi. Tiap perjanjian yang bertentangan dengan ketentuan ini adalah batal."* [7]
+* **Pasal 1601w KUHPerdata**:
+  > *"Jika salah satu pihak dengan sengaja atau karena kesalahannya berbuat bertentangan dengan salah satu kewajibannya, dan kerugian yang diderita oleh pihak lawan tidak dapat dinilai dengan uang, maka Pengadilan akan menetapkan suatu jumlah uang menurut keadilan sebagai ganti rugi."* [7]
+* **Keberlakuan Antara Majikan-Buruh atau Pemborongan Pekerjaan**:
+  * Teks **Pasal 1601v KUHPerdata** secara eksplisit menyebutkan perbuatan **"majikan"**, yang mana pasal ini berada dalam Bab VIIA Bagian 2 tentang Perjanjian Kerja pada Umumnya (antara majikan dan buruh) [7, 8].
+  * Mengenai apakah Pasal 1601v dan 1601w berlaku juga untuk perjanjian pemborongan pekerjaan (yang diatur terpisah dalam Bab VIIA Bagian 6 Pasal 1604–1617 [9, 10]), **tidak ada di sumber** keterangan atau penjelasan yang menyatakan keberlakuan pasal tersebut pada pemborongan pekerjaan.
+
+---
+
+**(5) Putusan di Sumber Mengenai Pengabulan atau Penurunan Denda atas Pelanggaran Non-Kompetisi atau Kerahasiaan**
+
+* **Ganti Rugi Perjanjian Kerahasiaan yang Dikabulkan**: Dalam **Putusan PN JAKARTA BARAT Nomor 832/Pdt.G/2023/PN Jkt.Brt**, pengadilan mengabulkan sebagian gugatan wanprestasi atas Perjanjian Kerahasiaan (dan Peraturan Perusahaan) serta menghukum Tergugat membayar ganti kerugian materiil sebesar **Rp2.000.000.000,- (dua miliar rupiah)** [11].
+* **Klausul Non-Kompetisi**: Sumber menyebutkan **Putusan Kasasi MA No. 3549 K/Pdt/2023** dan **Putusan PK MA No. 1248 PK/Pdt/2024** yang menyatakan klausul non-kompetisi sah dan pelanggarannya merupakan wanprestasi [12-14], namun rincian mengenai angka/jumlah denda yang dikabulkan **tidak ada di sumber**.
+* **Penurunan Denda**: Rincian mengenai putusan yang secara spesifik *menurunkan* nilai denda atas pelanggaran klausul non-kompetisi atau kerahasiaan **tidak ada di sumber**.
+
+---
+
+⚖️ Apakah Anda ingin menelaah lebih lanjut pertimbangan Mahkamah Konstitusi dalam Putusan No. 168/PUU-XXI/2023 terkait keabsahan mekanisme denda bagi pekerja?
+
+## (i) Pengembalian pembayaran bila pekerjaan borongan gagal atau terlambat (Pasal 1238, 1243-1245, 1253-1267, 1604-1617).
+
+**Pertanyaan:** Topik: pengembalian uang yang sudah dibayar bila pekerjaan borongan gagal atau terlambat.
+(1) Bunyi Pasal 1243, 1244, 1245 KUHPerdata (lalai, ganti rugi, keadaan memaksa). (2) Bunyi Pasal 1265, 1266, 1267 KUHPerdata (syarat batal, pembatalan perjanjian timbal balik, pilihan kreditur). (3) Bunyi Pasal 1604 sampai 1617 KUHPerdata tentang pemborongan pekerjaan, khususnya siapa menanggung bila pekerjaan musnah atau tidak selesai, dan Pasal 1611. (4) Bunyi Pasal 1238 KUHPerdata tentang kapan debitur dinyatakan lalai. (5) Bunyi Pasal 1253 sampai 1264 tentang perikatan bersyarat bila ada di sumber. (6) Adakah di sumber aturan yang melarang pemberi tugas meminta kembali pembayaran dari pemborong bila pekerjaan tidak selesai tepat waktu.
+
+**Notebook:** cc822d28-6501-4035-a63b-880c100cca96; conversation 2f50db7f-a27e-4664-b447-25e07f4745d1
+
+**Jawaban (sitasi notebook dipertahankan):**
+
+**(1) Bunyi Pasal 1243, 1244, dan 1245 KUHPerdata (Lalai, Ganti Rugi, Keadaan Memaksa)**
+
+* **Pasal 1243 KUHPerdata**:
+  > *"Penggantian biaya, kerugian dan bunga karena tak dipenuhinya suatu perikatan mulai diwajibkan, bila debitur, walaupun telah dinyatakan Ialai, tetap Ialai untuk memenuhi perikatan itu, atau jika sesuatu yang harus diberikan atau dilakukannya hanya dapat diberikan atau dilakukannya dalam waktu yang melampaui waktu yang telah ditentukan."* [1]
+* **Pasal 1244 KUHPerdata**:
+  > *"Debitur harus dihukum untuk mengganti biaya, kerugian dan bunga. bila ia tak dapat membuktikan bahwa tidak dilaksanakannya perikatan itu atau tidak tepatnya waktu dalam melaksanakan perikatan itu disebabkan oleh sesuatu hal yang tak terduga, yang tak dapat dipertanggungkan kepadanya. walaupun tidak ada itikad buruk kepadanya."* [2]
+* **Pasal 1245 KUHPerdata**:
+  > *"Tidak ada penggantian biaya. kerugian dan bunga. bila karena keadaan memaksa atau karena hal yang terjadi secara kebetulan, debitur terhalang untuk memberikan atau berbuat sesuatu yang diwajibkan, atau melakukan suatu perbuatan yang terlarang baginya."* [2]
+
+---
+
+**(2) Bunyi Pasal 1265, 1266, dan 1267 KUHPerdata (Syarat Batal, Pembatalan Perjanjian Timbal Balik, Pilihan Kreditur)**
+
+* **Pasal 1265 KUHPerdata**:
+  > *"Suatu syarat batal adalah syarat yang bila dipenuhi akan menghapuskan perikatan dan membawa segala sesuatu kembali pada keadaan semula, seolah-olah tidak pernah ada suatu perikatan. Syarat ini tidak menunda pemenuhan perikatan; ia hanya mewajibkan kreditur mengembalikan apa yang telah diterimanya, bila peristiwa yang dimaksudkan terjadi."* [3]
+* **Pasal 1266 KUHPerdata**:
+  > *"Syarat batal dianggap selalu dicantumkan dalam persetujuan yang timbal balik, andaikata salah satu pihak tidak memenuhi kewajibannya. Dalam hal demikian persetujuan tidak batal demi hukum, tetapi pembatalan harus dimintakan kepada Pengadilan. Permintaan ini juga harus dilakukan, meskipun syarat batal mengenai tidak dipenuhinya kewajiban dinyatakan di dalam persetujuan. Jika syarat batal tidak dinyatakan dalam persetujuan, maka Hakim dengan melihat keadaan, atas permintaan tergugat, leluasa memberikan suatu jangka waktu untuk memenuhi kewajiban, tetapi jangka waktu itu tidak boleh lebih dan satu bulan."* [3, 4]
+* **Pasal 1267 KUHPerdata**:
+  > *"Pihak yang terhadapnya perikatan tidak dipenuhi, dapat memilih; memaksa pihak yang lain untuk memenuhi persetujuan, jika hal itu masih dapat dilakukan, atau menuntut pembatalan persetujuan, dengan penggantian biaya, kerugian dan bunga."* [4]
+
+---
+
+**(3) Bunyi Pasal 1604 sampai Pasal 1617 KUHPerdata tentang Pemborongan Pekerjaan, Penanggungan Kemusnahan Pekerjaan, dan Pasal 1611**
+
+* **Pasal 1604 KUHPerdata**:
+  > *"Dalam perjanjian pemborongan pekerjaan dapat diperjanjikan bahwa pemborong hanya akan melakukan pekerjaan atau bahwa ia juga akan menyediakan bahan-bahannya."* [5]
+* **Pasal 1605 KUHPerdata**:
+  > *"Dalam hal pemborongan harus menyediakan bahan-bahannya, dan hasil pekerjaannya, karena apa pun juga, musnah sebelum diserahkan, maka kegiatan itu dipikul oleh pemborong kecuali jika pemberi tugas itu lalai untuk menerima hasil pekerjaan tersebut."* [5]
+* **Pasal 1606 KUHPerdata**:
+  > *"Dalam hal pemborong hanya harus melakukan pekerjaan dan hasil pekerjaannya itu musnah, maka ia hanya bertanggung jawab atas kemusnahan itu sepanjang hal itu terjadi karena kesalahannya."* [5]
+* **Pasal 1607 KUHPerdata**:
+  > *"Jika musnahnya hasil pekerjaan tersebut dalam pasal yang lalu terjadi di luar kesalahan/kelalaian pemborong sebelum penyerahan dilakukan, sedangkan pemberi tugas pun tidak lalai untuk memeriksa dan menyetujui hasil pekerjaan itu, maka pemborong tidak berhak atas harga yang dijanjikan, kecuali jika barang itu musnah karena bahan-bahannya cacat."* [6]
+* **Pasal 1608 KUHPerdata**:
+  > *"Jika pekerjaan yang diborongkan itu dilakukan sebagian demi sebagian atau menurut ukuran, maka hasil pekerjaan dapat diperiksa sebagian demi sebagian; pemeriksaan itu dianggap telah dilakukan terhadap semua bagian yang telah dibayar, jika pemberi tugas itu membayar pemborongan tiap kali menurut ukuran dan apa yang telah diselesaikan."* [6]
+* **Pasal 1609 KUHPerdata**:
+  > *"Jika sebuah bangunan yang diborongkan dan dibuat dengan suatu harga tertentu, seluruhnya atau sebagian, musnah karena suatu cacat dalam penyusunannya atau karena tanahnya tidak layak, maka para arsitek dan para pemborongnya bertanggung jawab untuk itu selama sepuluh tahun."* [7]
+* **Pasal 1610 KUHPerdata**:
+  > *"Jika seseorang arsitek atau pemborong telah menyanggupi untuk membuat suatu bangunan secara borongan, menurut suatu rencana yang telah dirundingkan dan ditetapkan bersama dengan pemilik lahan, maka ía tidak dapat menuntut tambahan harga, baik dengan dalih bertambahnya upah buruh atau bahan-bahan bangunan maupun dengan dalih telah dibuatnya perubahan-perubahan atau tambahan-tambahan yang tidak termaksud dalam rencana tersebut jika perubahan-perubahan atau tambahan-tambahan itu tidak disetujui secara tertulis dan mengenai harganya tidak diadakan persetujuan dengan pemiliknya."* [7, 8]
+* **Pasal 1611 KUHPerdata**:
+  > *"Pemberi tugas, bila menghendakinya dapat memutuskan perjanjian pemborongan itu, walaupun pekerjaan itu telah dimuai, asal ia memberikan ganti rugi sepenuhnya kepada pemborong atas semua biaya yang telah dikeluarkannya untuk pekerjaan itu dan atas hilangnya keuntungan."* [8]
+* **Pasal 1612 KUHPerdata**:
+  > *"Perjanjian pemborongan berakhir dengan meninggalnya pemborong. Tetapi pemberi tugas itu wajib membayar kepada ahli waris pemborong itu harga hasil pekerjaan yang telah selesai dan harga bahan-bahan bangunan yang telah disiapkan, menurut perbandingan dengan harga yang diperjanjikan dalam perjanjian, asal hasil pekerjaan atau bahan-bahan bangunan tersebut ada manfaatnya bagi pemberi tugas."* [9]
+* **Pasal 1613 KUHPerdata**:
+  > *"Pemborong bertanggung jawab atas tindakan orang-orang yang ia pekerjakan."* [9]
+* **Pasal 1614 KUHPerdata**:
+  > *"Para tukang batu, tukang kayu, tukang besi dan tukang-tukang lainnya yang dipekerjakan untuk mendirikan sebuah bangunan atau membuat suatu barang lain yang diborongkan, dapat mengajukan tuntutan terhadap orang yang mempekerjakan mereka membuat barang itu, tetapi hanya atas sejumlah uang yang harus dibayarkan kepada pemborong pada saat mereka mengajukan tuntutan."* [9, 10]
+* **Pasal 1615 KUHPerdata**:
+  > *"Para tukang batu, tukang kayu, tukang besi dan tukang-tukang lainnya yang dengan suatu harga tertentu menyanggupi pembuatan sesuatu atas tanggung jawab sendiri secara langsung, terikat pada aturan-aturan yang ditetapkan dalam bagian ini. Mereka adalah pemborong dalam bidang yang mereka kerjakan."* [10]
+* **Pasal 1616 KUHPerdata**:
+  > *"Para buruh yang memegang suatu barang milik orang lain untuk mengerjakan sesuatu pada barang itu, berhak menahan barang itu sampai upah dan biaya untuk itu dilunasi, kecuali bila untuk upah dan biaya buruh tersebut pemberi tugas itu telah menyediakan tanggungan secukupnya."* [10]
+* **Pasal 1617 KUHPerdata**:
+  > *"Hak-hak dan kewajiban-kewajiban para pelaut dan nakhoda diatur dalam kitab Undang-undang Hukum Dagang."* [10]
+
+**Ketentuan Siapa Menanggung bila Pekerjaan Musnah / Tidak Selesai**:
+* Jika pemborong menyediakan bahan dan hasil pekerjaan musnah sebelum diserahkan, risiko dipikul oleh pemborong kecuali pemberi tugas lalai menerima [5].
+* Jika pemborong hanya melakukan pekerjaan, ia hanya bertanggung jawab atas kemusnahan bila disebabkan oleh kesalahannya [5]; jika musnah di luar kesalahannya sebelum penyerahan, pemborong tidak berhak atas harga yang dijanjikan kecuali karena bahan cacat [6].
+* Jika bangunan musnah/rusak karena cacat penyusunan atau tanah tidak layak, arsitek dan pemborong bertanggung jawab selama 10 tahun [7].
+
+---
+
+**(4) Bunyi Pasal 1238 KUHPerdata tentang Kapan Debitur Dinyatakan Lalai**
+
+* **Pasal 1238 KUHPerdata**:
+  > *"Debitur dinyatakan Ialai dengan surat perintah, atau dengan akta sejenis itu, atau berdasarkan kekuatan dari perikatan sendiri, yaitu bila perikatan ini mengakibatkan debitur harus dianggap Ialai dengan lewatnya waktu yang ditentukan."* [11]
+
+---
+
+**(5) Bunyi Pasal 1253 sampai Pasal 1264 KUHPerdata tentang Perikatan Bersyarat**
+
+* **Pasal 1253 KUHPerdata**:
+  > *"Suatu perikatan adalah bersyarat jika digantungkan pada suatu peristiwa yang mungkin terjadi dan memang belum terjadi, baik dengan cara menangguhkan berlakunya perikatan itu sampai terjadinya peristiwa itu, maupun dengan cara membatalkan perikatan itu, tergantung pada terjadi tidaknya peristiwa itu."* [12]
+* **Pasal 1254 KUHPerdata**:
+  > *"Semua syarat yang bertujuan melakukan sesuatu yang tak mungkin terlaksana, sesuatu yang bertentangan dengan kesusilaan yang baik, atau sesuatu yang dilarang oleh undang-undang adalah batal dan mengakibatkan persetujuan yang digantungkan padanya tak berlaku."* [12]
+* **Pasal 1255 KUHPerdata**:
+  > *"Syarat yang bertujuan tidak melakukan sesuatu yang tak mungkin dilakukan, tidak membuat perikatan yang digantungkan padanya tak berlaku."* [13]
+* **Pasal 1256 KUHPerdata**:
+  > *"Semua perikatan adalah batal, jika pelaksanaannya semata-mata tergantung pada kemauan orang yang terikat. Tetapi jika perikatan tergantung pada suatu perbuatan yang pelaksanaannya berada dalam kekuasaan orang tersebut, dan perbuatan itu telah terjadi maka perikatan itu adalah sah."* [13]
+* **Pasal 1257 KUHPerdata**:
+  > *"Semua syarat harus dipenuhi dengan cara yang dikehendaki dan dimaksudkan oleh pihak-pihak yang bersangkutan."* [13]
+* **Pasal 1258 KUHPerdata**:
+  > *"Jika suatu perikatan tergantung pada suatu syarat bahwa suatu peristiwa akan terjadi dalam waktu tertentu, maka syarat tersebut dianggap tidak ada, bila waktu tersebut telah lampau sedangkan peristiwa tersebut setiap waktu dapat dipenuhi, dan syarat itu tidak dianggap tidak ada sebelum ada kepastian bahwa peristiwa itu tidak akan terjadi."* [14]
+* **Pasal 1259 KUHPerdata**:
+  > *"Jika suatu perikatan tergantung pada syarat bahwa suatu peristiwa tidak akan terjadi dalam waktu tertentu, maka syarat tersebut telah terpenuhi bila waktu tersebut lampau tanpa terjadinya peristiwa itu. Begitu pula bila syarat itu telah terpenuhi, jika sebelum waktu tersebut lewat telah ada kepastian bahwa peristiwa itu tidak akan terjadinya, tetapi tidak ditetapkan suatu waktu, maka syarat itu tidak terpenuhi sebelum ada kepastian bahwa peristiwa tersebut tidak akan terjadi."* [14]
+* **Pasal 1260 KUHPerdata**:
+  > *"Syarat yang bersangkutan dianggap telah terpenuhi, jika debitur yang terikat oleh syarat itu menghalangi terpenuhinya syarat itu."* [15]
+* **Pasal 1261 KUHPerdata**:
+  > *"Bila syarat telah terpenuhi, maka syarat itu berlaku surut hingga saat terjadinya perikatan. Jika kreditur meninggal sebelum terpenuhinya syarat, maka hak-haknya berpindah kepada para ahli warisnya."* [15]
+* **Pasal 1262 KUHPerdata**:
+  > *"Kreditur sebelum syarat terpenuhi boleh melakukan segala usaha yang perlu untuk menjaga supaya haknya jangan sampai hilang."* [15]
+* **Pasal 1263 KUHPerdata**:
+  > *"Suatu perikatan dengan syarat tunda adalah suatu perikatan yang tergantung pada suatu peristiwa yang masih akan datang dan belum tentu akan terjadi, atau yang tergantung pada suatu hal yang sudah terjadi tetapi hal itu tidak diketahui oleh kedua belah pihak. Dalam hal pertama, perikatan tidak dapat dilaksanakan sebelum peristiwanya terjadi; dalam hal kedua, perikatan mulai berlaku sejak terjadi."* [16]
+* **Pasal 1264 KUHPerdata**:
+  > *"Jika suatu perikatan tergantung pada suatu syarat yang ditunda, maka barang yang menjadi pokok perikatan tetap menjadi tanggungan debitur, yang hanya wajib menyerahkan barang itu bila syarat dipenuhi. Jika barang tersebut musnah seluruhnya di luar kesalahan debitur, maka baik bagi pihak yang satu maupun pihak yang lain, tidak ada lagi perikatan. Jika barang tersebut merosot harganya di luar kesalahan debitur, maka kreditur dapat memilih: memutuskan perikatan atau menuntut penyerahan barang itu dalam keadaan seperti apa adanya, tanpa pengurangan harga yang telah dijanjikan. Jika harga barang itu merosot karena kesalahan debitur, maka kreditur berhak memutuskan perikatan atau menuntut penyerahan barang itu dalam keadaan seperti adanya dengan penggantian kerugian."* [16]
+
+---
+
+**(6) Aturan yang Melarang Pemberi Tugas Meminta Kembali Pembayaran bila Pekerjaan Tidak Selesai Tepat Waktu**
+
+* **Tidak ada di sumber**. Dalam seluruh dokumen sumber yang tersedia, tidak ditemukan aturan yang *melarang* pemberi tugas untuk meminta kembali pembayaran dari pemborong apabila pekerjaan tidak selesai tepat waktu.
+
+---
+
+📌 Apakah Anda memerlukan penyusunan skema atau ringkas syarat-syarat pembatalan perikatan akibat wanprestasi untuk draft klausa kontrak Anda?
+
+## (j) Batas pemborongan dan hubungan kerja, unsur perintah, laporan kemajuan dan pemeriksaan bertahap.
+
+**Pertanyaan:** Topik: batas antara perjanjian jasa atau pemborongan dengan hubungan kerja, khusus unsur perintah.
+(1) Bunyi Pasal 1601a, 1601b, 1601c KUHPerdata. (2) Bunyi Pasal 1 angka 14 dan angka 15 UU 13/2003 dan Pasal 50 UU 13/2003. (3) Adakah di sumber penjelasan atau putusan tentang apa yang dimaksud unsur 'perintah', misalnya jam kerja, absensi, laporan harian, rapat rutin, pemakaian alat milik pemberi kerja. (4) Adakah di sumber aturan yang membolehkan pemberi tugas dalam pemborongan meminta laporan kemajuan atau memeriksa pekerjaan sebelum selesai. (5) Akibat hukum bila perjanjian jasa ternyata memenuhi unsur hubungan kerja.
+
+**Notebook:** cc822d28-6501-4035-a63b-880c100cca96; conversation 2f50db7f-a27e-4664-b447-25e07f4745d1
+
+**Jawaban (sitasi notebook dipertahankan):**
+
+**(1) Bunyi Pasal 1601a, 1601b, dan 1601c KUHPerdata**
+
+* **Pasal 1601a KUHPerdata**:
+  > *"Perjanjian kerja ialah suatu persetujuan bahwa pihak kesatu, yaitu buruh, mengikatkan diri untuk menyerahkan tenaganya kepada pihak lain, yaitu majikan, dengan upah selama waktu yang tertentu."* [1]
+* **Pasal 1601b KUHPerdata**:
+  > *"Perjanjian pemborongan kerja ialah suatu persetujuan bahwa pihak kesatu, yaitu pemborong, mengikatkan diri untuk menyelesaikan suatu pekerjaan bagi pihak lain, yaitu pemberi tugas, dengan harga yang telah ditentukan."* [1]
+* **Pasal 1601c KUHPerdata**:
+  > *"Jika suatu persetujuan mengandung sifat-sifat suatu perjanjian kerja dan persetujuan lain, maka baik ketentuan-ketentuan mengenai perjanjian kerja maupun ketentuan-ketentuan mengenai persetujuan lain yang sifat-sifatnya terkandung di dalamnya, keduanya berlaku; jika ada pertentangan antara kedua jenis ketentuan tersebut, maka yang berlaku adalah ketentuan-ketentuan mengenai perjanjian kerja."* [1]
+
+---
+
+**(2) Bunyi Pasal 1 angka 14, Pasal 1 angka 15, dan Pasal 50 UU Nomor 13 Tahun 2003**
+
+* **Pasal 1 angka 14 UU Nomor 13 Tahun 2003**:
+  > *"Perjanjian kerja adalah perjanjian antara pekerja/buruh dengan pengusaha atau pemberi kerja yang memuat syarat syarat kerja, hak, dan kewajiban para pihak."* [2]
+* **Pasal 1 angka 15 UU Nomor 13 Tahun 2003**:
+  > *"Hubungan kerja adalah hubungan antara pengusaha dengan pekerja/buruh berdasarkan perjanjian kerja, yang mempunyai unsur pekerjaan, upah, dan perintah."* [2]
+* **Pasal 50 UU Nomor 13 Tahun 2003**:
+  > *"Hubungan kerja terjadi karena adanya perjanjian kerja antara pengusaha dan pekerja/buruh."* [3]
+
+---
+
+**(3) Penjelasan atau Putusan Mengenai Unsur 'Perintah' (Jam Kerja, Absensi, Laporan Harian, Rapat Rutin, Pemakaian Alat Milik Pemberi Kerja)**
+
+* **Rincian spesifik mengenai unsur 'perintah' (seperti jam kerja, absensi, laporan harian, rapat rutin, atau pemakaian alat milik pemberi kerja) secara tegas tidak ada di sumber.**
+* **Ketentuan yang ada di sumber**:
+  * Sumber menentukan bahwa hubungan kerja wajib memenuhi tiga unsur utama yaitu **pekerjaan, upah, dan perintah** (Pasal 1 angka 15 UU No. 13 Tahun 2003 [2] dan Pasal 1 angka 1 PP No. 35 Tahun 2021 [4]).
+  * Sumber menyebutkan contoh bukti dokumen yang menunjukkan adanya hubungan kerja, yaitu **"daftar hadir Pekerja dan bukti slip penerimaan upah"** (Penjelasan Pasal 10 ayat (2) huruf a PP Nomor 44 Tahun 2015) [5].
+
+---
+
+**(4) Aturan yang Membolehkan Pemberi Tugas dalam Pemborongan Meminta Laporan Kemajuan atau Memeriksa Pekerjaan Sebelum Selesai**
+
+* **Aturan mengenai frasa spesifik "meminta laporan kemajuan" secara tegas tidak ada di sumber.**
+* **Aturan mengenai pemeriksaan pekerjaan sebelum selesai**: Diatur dalam **Pasal 1608 KUHPerdata**:
+  > *"Jika pekerjaan yang diborongkan itu dilakukan sebagian demi sebagian atau menurut ukuran, maka hasil pekerjaan dapat diperiksa sebagian demi sebagian; pemeriksaan itu dianggap telah dilakukan terhadap semua bagian yang telah dibayar, jika pemberi tugas itu membayar pemborongan tiap kali menurut ukuran dan apa yang telah diselesaikan."* [6]
+
+---
+
+**(5) Akibat Hukum Bila Perjanjian Jasa Ternyata Memenuhi Unsur Hubungan Kerja**
+
+* **Keberlakuan Aturan Perjanjian Kerja (Pasal 1601c KUHPerdata)**:
+  Apabila suatu perjanjian jasa mengandung sifat perjanjian kerja (memenuhi unsur pekerjaan, upah, dan perintah), maka jika terjadi pertentangan aturan, **"yang berlaku adalah ketentuan-ketentuan mengenai perjanjian kerja"** [1].
+* **Beralihnya Status Hubungan Kerja Demi Hukum (Pasal 65 ayat (8) UU No. 13 Tahun 2003 jo. Putusan MK No. 168/PUU-XXI/2023)**:
+  Dalam konstruksi pemborongan pekerjaan/alih daya, jika pelaksanaan pekerjaan tidak memenuhi syarat pemborongan independen (misalnya dilakukan dengan perintah langsung atau merupakan kegiatan utama), akibat hukumnya adalah **"demi hukum status hubungan kerja pekerja/buruh dengan perusahaan penerima pemborongan beralih menjadi hubungan kerja pekerja/buruh dengan perusahaan pemberi pekerjaan"** [7-9].
+* **Tunduk pada Aturan Hukum Publik Ketenagakerjaan (Putusan MK No. 168/PUU-XXI/2023)**:
+  Mahkamah Konstitusi menegaskan bahwa hubungan ketenagakerjaan bukan semata-mata hubungan keperdataan murni, melainkan tunduk pada aturan-aturan hukum publik yang bersifat memaksa (*imperatif*) dalam undang-undang ketenagakerjaan [10, 11].
+
+---
+
+⚖️ Apakah Anda ingin saya menyusun matriks komparasi pasal-pasal ini untuk membantu memetakan batasan operasional dalam draft perjanjian borongan/jasa Anda?
+
+## (k) Kewajiban tambahan: merahasiakan imbalan dan berperilaku patut di lokasi klien (Pasal 1337-1340, 1234, 1242, 1365-1367).
+
+**Pertanyaan:** Topik: kewajiban tambahan dalam perjanjian jasa, yaitu merahasiakan nilai imbalan dan berperilaku patut di lokasi klien.
+(1) Bunyi Pasal 1337, 1338, 1339, 1340 KUHPerdata. (2) Bunyi Pasal 1234 dan 1242 KUHPerdata (perikatan untuk tidak berbuat sesuatu). (3) Bunyi Pasal 1365, 1366, 1367 KUHPerdata bila ada di sumber, khususnya tanggung jawab atas perbuatan orang yang dipekerjakan. (4) Apakah nilai kontrak atau imbalan termasuk informasi yang dapat dilindungi menurut UU 30/2000 Pasal 2 dan Pasal 3. (5) Adakah di sumber aturan yang melarang klausul merahasiakan upah atau imbalan.
+
+**Notebook:** cc822d28-6501-4035-a63b-880c100cca96; conversation 2f50db7f-a27e-4664-b447-25e07f4745d1
+
+**Jawaban (sitasi notebook dipertahankan):**
+
+**(1) Bunyi Pasal 1337, 1338, 1339, dan 1340 KUHPerdata**
+
+* **Pasal 1337 KUHPerdata**:
+  > *"Suatu sebab adalah terlarang, jika sebab itu dilarang oleh undang-undang atau bila sebab itu bertentangan dengan kesusilaan atau dengan ketertiban umum."* [1]
+* **Pasal 1338 KUHPerdata**:
+  > *"Semua persetujuan yang dibuat sesuai dengan undang-undang berlaku sebagai undang-undang bagi mereka yang membuatnya. Persetujuan itu tidak dapat ditarik kembali selain dengan kesepakatan kedua belah pihak, atau karena alasan-alasan yang ditentukan oleh undang-undang. Persetujuan harus dilaksanakan dengan itikad baik."* [2]
+* **Pasal 1339 KUHPerdata**:
+  > *"Persetujuan tidak hanya mengikat apa yang dengan tegas ditentukan di dalamnya, melainkan juga segala sesuatu yang menurut sifatnya persetujuan dituntut berdasarkan keadilan, kebiasaan, atau undang-undang."* [2]
+* **Pasal 1340 KUHPerdata**:
+  > *"Persetujuan hanya berlaku antara pihak-pihak yang membuatnya. Persetujuan tidak dapat merugikan pihak ketiga; persetujuan tidak dapat memberi keuntungan kepada pihak ketiga selain dalam hal yang ditentukan dalam pasal 1317."* [3]
+
+---
+
+**(2) Bunyi Pasal 1234 dan 1242 KUHPerdata (Perikatan untuk Tidak Berbuat Sesuatu)**
+
+* **Pasal 1234 KUHPerdata**:
+  > *"Perikatan ditujukan untuk memberikan sesuatu, untuk berbuat sesuatu, atau untuk tidak berbuat sesuatu."* [4]
+* **Pasal 1242 KUHPerdata**:
+  > *"Jika perikatan itu bertujuan untuk tidak berbuat sesuatu, maka pihak mana pun yang berbuat bertentangan dengan perikatan itu, karena pelanggaran itu saja, diwajibkan untuk mengganti biaya, kerugian dan bunga."* [5]
+
+---
+
+**(3) Bunyi Pasal 1365, 1366, dan 1367 KUHPerdata (Tanggung Jawab atas Perbuatan Orang yang Dipekerjakan)**
+
+* **Pasal 1365 KUHPerdata**:
+  > *"Tiap perbuatan yang melanggar hukum dan membawa kerugian kepada orang lain, mewajibkan orang yang menimbulkan kerugian itu karena kesalahannya untuk menggantikan kerugian tersebut."* [6]
+* **Pasal 1366 KUHPerdata**:
+  > *"Setiap orang bertanggung jawab, bukan hanya atas kerugian yang disebabkan perbuatan-perbuatannya, melainkan juga atas kerugian yang disebabkan kelalaian atau kesembronoannya."* [6]
+* **Pasal 1367 KUHPerdata**:
+  > *"Seseorang tidak hanya bertanggung jawab, atas kerugian yang disebabkan perbuatannya sendiri, melainkan juga atas kerugian yang disebabkan perbuatan-perbuatan orang-orang yang menjadi tanggungannya atau disebabkan barang-barang yang berada di bawah pengawasannya.*
+  > *Orangtua dan wali bertanggung jawab atas kerugian yang disebabkan oleh anak-anak yang belum dewasa, yang tinggal pada mereka dan terhadap siapa mereka melakukan kekuasaan orangtua atau wali.*
+  > *Majikan dan orang yang mengangkat orang lain untuk mewakili urusan-urusan mereka, bertanggung jawab atas kerugian yang disebabkan oleh pelayan atau bawahan mereka dalam melakukan pekerjaan yang ditugaskan kepada orang-orang itu.*
+  > *Guru sekolah atau kepala tukang bertanggung jawab atas kerugian yang disebabkan oleh murid-muridnya atau tukang-tukangnya selama waktu orang-orang itu berada di bawah pengawasannya.*
+  > *Tanggung jawab yang disebutkan di atas berakhir, jika orangtua, guru sekolah atau kepala tukang itu membuktikan bahwa mereka masing-masing tidak dapat mencegah perbuatan itu atas mana mereka seharusnya bertanggung jawab."* [6-8]
+
+---
+
+**(4) Apakah Nilai Kontrak atau Imbalan Termasuk Informasi yang Dapat Dilindungi Menurut UU 30/2000 Pasal 2 dan Pasal 3**
+
+* **Pasal 2 UU Nomor 30 Tahun 2000**:
+  > *"Lingkup perlindungan Rahasia Dagang meliputi metode produksi, metode pengolahan, metode penjualan, atau informasi lain di bidang teknologi dan/atau bisnis yang memiliki nilai ekonomi dan tidak diketahui oleh masyarakat umum."* [9]
+* **Pasal 3 UU Nomor 30 Tahun 2000**:
+  > *" (1) Rahasia Dagang mendapat perlindungan apabila informasi tersebut bersifat rahasia, mempunyai nilai ekonomi, dan dijaga kerahasiaannya melalui upaya sebagaimana mestinya.*
+  > *(2) Informasi dianggap bersifat rahasia apabila informasi tersebut hanya diketahui oleh pihak tertentu atau tidak diketahui secara umum oleh masyarakat.*
+  > *(3) Informasi dianggap memiliki nilai ekonomi apabila sifat kerahasiaan informasi tersebut dapat digunakan untuk menjalankan kegiatan atau usaha yang bersifat komersial atau dapat meningkatkan keuntungan secara ekonomi.*
+  > *(4) Informasi dianggap dijaga kerahasiaannya apabila pemilik atau para pihak yang menguasainya telah melakukan langkah-langkah yang layak dan patut."* [10]
+* **Analisis Menurut Pasal-Pasal Tersebut**:
+  Berdasarkan frasa *"informasi lain di bidang teknologi dan/atau bisnis yang memiliki nilai ekonomi dan tidak diketahui oleh masyarakat umum"* pada **Pasal 2** [9], nilai kontrak atau imbalan dapat dilindungi sebagai Rahasia Dagang sepanjang memenuhi kriteria **Pasal 3** [10], yaitu: (1) bersifat rahasia (hanya diketahui pihak tertentu), (2) memiliki nilai ekonomi (digunakan untuk kegiatan komersial atau meningkatkan keuntungan), dan (3) dijaga kerahasiaannya melalui langkah-langkah yang layak dan patut oleh pemiliknya.
+
+---
+
+**(5) Adakah di Sumber Aturan yang Melarang Klausul Merahasiakan Upah atau Imbalan**
+
+* **Tegas tidak ada di sumber**: Aturan atau ketentuan yang secara spesifik *melarang* pencantuman klausul untuk merahasiakan upah atau imbalan **tidak ada di sumber**.
+* **Keterangan terkait di sumber**: Sebaliknya, dalam **Pasal 1602e KUHPerdata**, sumber justru mengatur bahwa pemberitahuan surat bukti pembukuan upah dapat dilakukan dengan *"meletakkan kewajiban yang dinyatakan secara tegas, bahwa buruh atau orang yang... mewakilinya, harus merahasiakannya"* [11, 12].
+
+---
+
+📜 Apakah Anda ingin disusunkan contoh draf klausa kerahasiaan (*confidentiality clause*) dan klausa kepatutan lokasi kerja yang siap disisipkan ke dalam draft kontrak jasa Anda?
+
+## (l) Larangan menawarkan produk sendiri kepada klien tertentu setelah perjanjian berakhir; Pasal 1601x.
+
+**Pertanyaan:** Topik: larangan menawarkan produk atau jasa sendiri kepada klien tertentu milik pemberi tugas setelah perjanjian berakhir (non-solicitation), dengan jangka 24 bulan.
+(1) Bunyi lengkap Pasal 1601x ayat (1) dan ayat (2) KUHPerdata, dan apakah ada ayat lain. (2) Adakah di sumber batas waktu paling lama untuk pembatasan setelah perjanjian berakhir. (3) Apa kata Putusan MA 3549 K/Pdt/2023 dan 1248 PK/Pdt/2024 di sumber tentang jangka waktu, wilayah, dan jumlah ganti rugi atau denda. (4) Apa alasan PN Bale Bandung 130/Pdt.G/2016, PN Bekasi 545/Pdt.G/2021, PN Jakarta Selatan 292/Pdt.G/2023 membatalkan klausul. (5) Apakah Pasal 1601x menurut sumber berlaku untuk pemborong atau penyedia jasa yang bukan buruh.
+
+**Notebook:** cc822d28-6501-4035-a63b-880c100cca96; conversation 2f50db7f-a27e-4664-b447-25e07f4745d1
+
+**Jawaban (sitasi notebook dipertahankan):**
+
+**(1) Bunyi Lengkap Pasal 1601x Ayat (1) dan Ayat (2) KUHPerdata, serta Keberadaan Ayat Lain**
+
+* **Pasal 1601x Ayat (1) / Alinea Kesatu KUHPerdata**:
+  > *"Suatu perjanjian yang mengurangi hak buruh, bahwa setelah mengakhiri hubungan kerja, ia tidak diperbolehkan untuk melakukan suatu pekerjaan tertentu, hanya sah jika dibuat dalam suatu perjanjian tertulis atau suatu reglemen dengan buruh yang telah dewasa."* [1]
+* **Pasal 1601x Ayat (2) / Alinea Kedua KUHPerdata**:
+  > *"Jika buruh berjanji akan memberikan kepada majikan suatu ganti rugi bila ia melakukan perbuatan-perbuatan yang bertentangan dengan suatu perjanjian sebagaimana dimaksudkan pada alinea pertama, maka Pengadilan senantiasa berwenang mengurangi ,jumlah ganti rugi yang telah ditetapkan, sekedar jumlah itu menurut pendapatnya lebih dari yang sepantasnya."* [2]
+* **Keberadaan Ayat Lain**:
+  * **Tidak ada di sumber** ayat lain dalam Pasal 1601x KUHPerdata; pasal tersebut hanya terdiri dari dua alinea/ayat di atas [1, 2].
+
+---
+
+**(2) Batas Waktu Paling Lama untuk Pembatasan Setelah Perjanjian Berakhir**
+
+* **Dalam Hukum Indonesia**: Batas waktu paling lama untuk klausul pembatasan pasca-kerja secara tegas **tidak ada di sumber** [3]. Sumber menjelaskan bahwa belum ada regulasi khusus dalam hukum ketenagakerjaan Indonesia yang mengatur batasan waktu klausul tersebut [3].
+* **Keterangan Perbandingan di Sumber**: Sumber hanya mencantumkan batas waktu paling lama **2 (dua) tahun** sebagai norma yang berlaku dalam **hukum Jerman** [4].
+
+---
+
+**(3) Pertimbangan Putusan MA 3549 K/Pdt/2023 dan 1248 PK/Pdt/2024 Mengenai Jangka Waktu, Wilayah, dan Jumlah Ganti Rugi atau Denda**
+
+* **Mengenai Keabsahan & Status Hukum**:
+  * **Putusan Kasasi MA No. 3549 K/Pdt/2023** dan **Putusan PK MA No. 1248 PK/Pdt/2024** menyatakan bahwa klausul pembatasan kerja (non-kompetisi) setelah hubungan kerja berakhir adalah **sah secara hukum** (memenuhi Pasal 1320 KUHPerdata) dan tidak bertentangan dengan HAM apabila bertujuan melindungi rahasia dagang atau informasi sensitif pemberi kerja [5-7].
+  * Pelanggaran atas klausul tersebut dinilai mencerminkan iktikad buruk dan dikategorikan sebagai **perbuatan wanprestasi (*breach of contract*)** [6].
+* **Mengenai Rincian Jangka Waktu, Wilayah, dan Ganti Rugi/Denda**:
+  * Sumber hanya menyebutkan frasa *"selama jangka waktu tertentu"* [5].
+  * Rincian angka spesifik mengenai **jumlah jangka waktu (bulan/tahun)**, **cakupan wilayah geografis**, serta **nominal jumlah ganti rugi atau denda** dalam kedua putusan tersebut secara tegas **tidak ada di sumber**.
+
+---
+
+**(4) Alasan PN Bale Bandung No. 130/Pdt.G/2016, PN Bekasi No. 545/Pdt.G/2021, dan PN Jakarta Selatan No. 292/Pdt.G/2023 Membatalkan Klausul**
+
+* **Alasan Pembatalan**:
+  * Pengadilan menganggap klausul pembatasan tersebut **tidak memenuhi syarat objektif sahnya perjanjian**, yaitu suatu sebab yang tidak terlarang, sehingga klausul tersebut tidak sah dan **batal demi hukum (*nietigheid van rechtswege*)** [8].
+  * Pengadilan menilai klausul tersebut **melanggar hak asasi manusia / hak warga negara** untuk mendapatkan pekerjaan yang bebas sesuai yang disukainya dan layak sesuai keahliannya [9].
+  * Dasar norma hukum yang digunakan pengadilan mencakup **Pasal 27 ayat (2) dan Pasal 28D ayat (2) UUD NRI 1945**, **Pasal 38 ayat (2) UU Nomor 39 Tahun 1999 tentang HAM**, serta **Pasal 31 UU Nomor 13 Tahun 2003 tentang Ketenagakerjaan** [9].
+
+---
+
+**(5) Keberlakuan Pasal 1601x KUHPerdata untuk Pemborong atau Penyedia Jasa yang Bukan Buruh**
+
+* **Tidak ada di sumber** aturan atau penjelasan yang menyatakan bahwa Pasal 1601x KUHPerdata berlaku untuk pemborong atau penyedia jasa yang bukan buruh.
+* **Keterangan Teks Sumber**: Teks **Pasal 1601x KUHPerdata** secara eksplisit hanya membatasi ruang lingkupnya pada hubungan antara **"buruh"** dan majikan dalam pengakhiran **"hubungan kerja"** [1], sedangkan perjanjian pemborongan pekerjaan diatur dalam bagian tersendiri secara terpisah (Pasal 1601b KUHPerdata) [10].
+
+---
+
+🤝 Apakah Anda memerlukan analisis perbandingan lebih mendalam mengenai klausul non-solicitation ini dari sudut pandang hukum perjanjian perdata murni?
+
+**KOREKSI (l):** notebook menyebut Pasal 1601x hanya dua alinea dan menomori alinea denda sebagai "ayat (2)". Teks primer memuat lima alinea: (1) sah bila tertulis dengan buruh dewasa; (2) pengadilan boleh membatalkan; (3) dan (4) majikan tidak dapat memakai janji itu bila ia memutus secara melanggar hukum atau karena kesalahannya; (terakhir) pengadilan senantiasa berwenang mengurangi ganti rugi yang dijanjikan. Sumber primer menang; pustaka memakai "Art. 1601x(1)", "Art. 1601x(2)", "alinea ketiga", dan "alinea terakhir".

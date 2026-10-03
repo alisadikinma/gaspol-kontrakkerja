@@ -79,6 +79,13 @@ apa adanya. Pemeriksaan tambahan ada di bawah tiap gate.
 **G1.** Ambil wadah dari `brief.md` dan dari judul kontrak; bandingkan dengan isi.
 - Freelancer: cari jam kerja, absensi, hari kerja, masa percobaan, cuti, lembur, pengawasan
   harian, kewajiban hadir. Satu saja = temuan.
+  Pertemuan koordinasi menurut P-PR-01 bukan temuan hanya bila ketiganya tertulis: jadwal
+  disepakati para pihak, catatan kemajuan tertulis boleh menggantikan pertemuan, dan tidak ada
+  daftar hadir, sanksi atas ketidakhadiran, atau pengaturan cara kerja. Salah satunya hilang =
+  temuan. Bandingkan juga dengan `brief.md`: bila brief menunjukkan pengawasan cara kerja
+  harian atau kewajiban hadir yang tidak bisa diganti catatan tertulis, itu temuan walaupun
+  bunyi pasalnya rapi. Pertemuan setiap hari pada waktu tetap, kewajiban datang ke kantor, dan
+  alat dari INDUSIA yang menumpuk ditulis di kolom Evidence sebagai tanda unsur perintah.
 - PKWT: cari pasal masa percobaan atau kata "masa percobaan" dan "penilaian" yang
   menentukan kelanjutan. Ada = temuan, bahkan bila pasal itu punya baris dasar. Cek juga
   pekerjaan inti yang tetap (bukan proyek, musiman, atau sementara) dan jangka waktu
@@ -118,6 +125,10 @@ apa adanya. Pemeriksaan tambahan ada di bawah tiap gate.
   tetap "terlepas dari kerugian nyata") = temuan, kecuali ada alasan tertulis yang
   menjelaskan mengapa angka itu wajar (rationale pembuktian pengurangan). Pelanggaran IP
   dan rahasia dagang boleh di luar batas bila dibatasi pada kerugian nyata yang dibuktikan.
+  Denda non-kompetisi (P-GR-05) dan pengembalian imbalan (P-PR-02) ikut aturan ini: jumlah
+  dan alasannya harus tertulis di pasal itu sendiri. P-PR-02 tanpa kelima sebab pembebas (a)
+  sampai (e), atau dengan jumlah di atas imbalan yang sudah diterima, = temuan. Denda dan
+  ganti rugi yang ditagih bersama untuk satu perbuatan = temuan (`perdata.md`, Art. 1307).
   Tambahan (c): temuan hanya bila **Art. 1307** dirujuk SEBAGAI dasar hak hakim menurunkan
   penalti (kontrak, atau baris dasar yang menyebut 1307 untuk pengurangan); yang benar
   **Art. 1309 KUHPer**. Merujuk 1307 untuk "penalti menggantikan ganti rugi / tidak boleh
@@ -133,7 +144,7 @@ larangan membujuk): harus ada kalimat tujuan tertulis yang menyebut perlindungan
 dagang atau kepentingan bisnis yang sah, **dan** kegiatan, lama, wilayah yang spesifik.
 Salah satunya hilang atau umum ("semua usaha sejenis, tanpa batas") = temuan. Brief
 meminta non-kompetisi tetapi kontrak tanpa pasalnya bukan temuan G4 (catat di G2/CATATAN).
-**Pembatasan pasca-kerja untuk Pihak Kedua di bawah 21 dan belum kawin (Art. 1601x(1): buruh dewasa):** hitung usia dan baca Status kawin di `brief.md`. Bila di bawah 21 dan belum kawin, setiap klausul yang berlaku setelah hubungan berakhir (P-NK-01, P-NK-03, atau teks setara: dilarang bekerja di bidang tertentu, bersaing, atau membujuk klien atau rekan sesudah Perjanjian berakhir) = temuan G4, BLOCKING walau ada blok wali "mengetahui dan menyetujui"; sebutkan juga di G5. Dasar: `perdata.md` dan `hki-rahasia-dagang.md` (persetujuan wali bukan penyembuh yang didukung sumber; pembacaan ini sebaiknya dikonfirmasi advokat). P-NK-02 (selama hubungan) dan kerahasiaan bukan temuan. Yang sudah kawin: bukan temuan.
+**Pembatasan pasca-kerja untuk Pihak Kedua di bawah 21 dan belum kawin (Art. 1601x(1): buruh dewasa):** hitung usia dan baca Status kawin di `brief.md`. Bila di bawah 21 dan belum kawin, setiap klausul yang berlaku setelah hubungan berakhir (P-NK-01, P-NK-03, atau teks setara: dilarang bekerja di bidang tertentu, bersaing, atau membujuk klien atau rekan sesudah Perjanjian berakhir; termasuk P-NK-04 dan denda P-GR-05) = temuan G4, BLOCKING walau ada blok wali "mengetahui dan menyetujui"; sebutkan juga di G5. Dasar: `perdata.md` dan `hki-rahasia-dagang.md` (persetujuan wali bukan penyembuh yang didukung sumber; pembacaan ini sebaiknya dikonfirmasi advokat). P-NK-02 (selama hubungan) dan kerahasiaan bukan temuan. Yang sudah kawin: bukan temuan.
 
 **G5.** Hitung usia dari tanggal lahir di `brief.md` (atau komparisi) terhadap tanggal tanda
 tangan, dan baca Status kawin di brief. Di bawah 21 dan belum kawin (Art. 330 KUHPerdata, lihat `perdata.md`): harus ada blok wali

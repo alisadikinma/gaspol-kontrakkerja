@@ -51,6 +51,13 @@ equal to `shasum -a 256 kontrak.md`. Nothing is rendered without it.
 - **Clause library:** `references/pasal/<group>.md`, entries `## P-<GROUP>-<NN>` with eight
   non-empty fields; ids unique; every `Dasar hukum` appears in some `references/hukum` `[dasar: …]`.
   No tax or BPJS percentage anywhere.
+- **Optional project clauses (KKJ-2):** `P-PR-01` (progress coordination, FL only), `P-PR-02`
+  (fee refund when the client cancels, FL only), `P-PR-03` (conduct at the client site),
+  `P-GR-05` (agreed non-compete penalty, amount + written reason from the brief), `P-RHS-07`
+  (fee confidentiality), `P-NK-04` (no selling own products to the assigned client, max 24
+  months). No template slot: `kontrak-draft` step 3 item 9 installs them only when the brief
+  asks. Legal basis added to `references/hukum/perdata.md` (Art. 1249, 1601x last paragraph,
+  1238, 1243-1245, 1253, 1265-1267, 1606-1608, 1611, 1613, 1337-1340).
 - **Template slots:** templates use `{{CLAUSE:P-XXX-NN}}` and `{{PIHAK_KEDUA_NAMA}}`-style
   placeholders (the slot contract); a finished `kontrak.md` has zero `{{`. Letterhead values
   in `templates/kop.html` are `{{PT_...}}` placeholders filled from the vault note at render time.
