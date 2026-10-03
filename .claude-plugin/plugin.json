@@ -1,0 +1,20 @@
+{
+  "name": "gaspol-kontrakkerja",
+  "description": "Drafts Indonesian employment contracts (PKWT, PKWTT), freelancer service agreements and an IP/confidentiality attachment (NDA, IP assignment, non-compete) for PT INDUSIA: interview the facts, draft with a cited legal basis per clause, pass a blocking quality gate, then render PDF and DOCX on letterhead.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ali Sadikin",
+    "url": "https://github.com/alisadikinma"
+  },
+  "homepage": "https://github.com/alisadikinma/gaspol-kontrakkerja",
+  "repository": "https://github.com/alisadikinma/gaspol-kontrakkerja",
+  "license": "MIT",
+  "keywords": [
+    "kontrak",
+    "ketenagakerjaan",
+    "hki",
+    "indonesia",
+    "pkwt",
+    "claude-code"
+  ]
+}

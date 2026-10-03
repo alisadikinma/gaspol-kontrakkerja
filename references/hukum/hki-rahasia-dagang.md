@@ -1,0 +1,47 @@
+---
+domain: hki-rahasia-dagang
+verified: 2026-10-03
+sources: [https://peraturan.bpk.go.id/Download/28018/UU%20Nomor%2028%20Tahun%202014.pdf, https://peraturan.bpk.go.id/Home/Download/33395/UU%20Nomor%2030%20Tahun%202000.pdf, https://peraturan.bpk.go.id/Details/337869, https://kejari-sukoharjo.kejaksaan.go.id/file/a6d2803a1ea733394063e8f006d31912.pdf, https://www.dandapala.com/opini/detail/klausul-non-kompetisi-dalam-perjanjian-kerja-apakah-sah-secara-hukum, tesis Magister Hukum ULM 2026 (digilib.ulm.ac.id; URL lihat research/sources.md), https://jurnal.unissula.ac.id/index.php/RH/article/download/48966/14201, research/crosscheck.md, research/ask-hki-rahasia-dagang.md, research/ask-pidana.md]
+---
+# HKI dan Rahasia Dagang (UU 28/2014, UU 30/2000)
+
+## Hak cipta: siapa pemilik awal dan cara mengalihkan
+- Kecuali diperjanjikan lain, pencipta dan pemegang hak cipta atas ciptaan yang dibuat dalam hubungan kerja atau berdasarkan pesanan adalah pihak yang membuat ciptaan. Artinya tanpa klausul tertulis, hak cipta kode buatan karyawan atau freelancer tidak otomatis jatuh ke perusahaan; klausul pengalihan tertulis wajib. [dasar: UU 28/2014 Art. 36]
+- Hak cipta dapat beralih seluruhnya atau sebagian, antara lain karena perjanjian tertulis. Syarat UU hanya: ada perjanjian tertulis. [dasar: UU 28/2014 Art. 16(2) huruf e]
+- Unsur "menyeluruh, permanen, tidak dapat ditarik" bukan syarat UU. Itu desain klausul INDUSIA sendiri, jangan ditulis seolah kewajiban hukum. [dasar: UU 28/2014 Art. 16(2); research/crosscheck.md (teks pasal tidak memuat unsur itu)]
+- Pengalihan hanya menyangkut hak ekonomi; hak moral tetap pada pencipta. [dasar: UU 28/2014 Art. 16(2) dan Art. 5]
+- Program komputer adalah ciptaan yang dilindungi (huruf s), dengan pelindungan 50 tahun sejak pertama kali diumumkan. [dasar: UU 28/2014 Art. 40(1) huruf s dan Art. 59(1) huruf e]
+
+## Hak moral
+- Hak moral melekat abadi pada pencipta dan tidak dapat dialihkan selama pencipta hidup. [dasar: UU 28/2014 Art. 5(1) dan Art. 5(2)]
+- Karena hak moral tidak dapat dialihkan, klausul hanya bisa meminta persetujuan pencipta untuk tidak menggunakan hak itu terhadap perusahaan (non-assertion), bukan mengalihkannya. Ini desain klausul INDUSIA; jangan menulis "hak moral dialihkan". [dasar: UU 28/2014 Art. 5; desain klausul penyusun]
+
+## Risiko: pengalihan jual putus dan Pasal 18
+- Ciptaan buku, karya tulis lain, atau lagu/musik yang dialihkan dengan jual putus atau tanpa batas waktu kembali ke pencipta setelah 25 tahun. [dasar: UU 28/2014 Art. 18]
+- Risiko: Pasal 18 tidak menyebut program komputer. Bila source code dianggap "karya tulis", ada risiko hak kembali ke pencipta setelah 25 tahun. Klausul HKI tidak boleh menjanjikan "tidak dapat kembali selamanya" sebagai kepastian hukum. [dasar: UU 28/2014 Art. 18; research/crosscheck.md (catatan penyusun: program komputer tidak disebut)]
+- Riset tidak menemukan pasal atau putusan yang menyelesaikan risiko Pasal 18 untuk software. Mitigasi hanyalah desain klausul: pengalihan tertulis yang ditegaskan ulang (konfirmasi pengalihan) disertai lisensi tertulis dari pencipta ke perusahaan sebagai lapis cadangan; lisensi dibuat lewat perjanjian tertulis. Pilihan ini desain penyusun, bukan kutipan putusan. [dasar: UU 28/2014 Art. 16(2) dan Art. 80(1); desain klausul penyusun, tidak ada pasal atau putusan khusus]
+- Perjanjian lisensi tidak boleh memuat ketentuan yang mengambil alih seluruh hak pencipta atau bertentangan dengan peraturan perundang-undangan, dan lisensi wajib dicatatkan agar berakibat hukum terhadap pihak ketiga. Pengalihan tertulis (bukan lisensi) tetap jalur utama. [dasar: UU 28/2014 Art. 82 dan Art. 83]
+- Open source dan copyleft tidak diatur eksplisit dalam UU 28/2014; yang ada hanya ketentuan umum program komputer dan lisensi. Garansi copyleft-hygiene harus berupa janji kontraktual. [dasar: UU 28/2014 Art. 1 angka 8, Art. 40(1) huruf s, Art. 80(1); hasil riset ask-hki (e), tidak ada pasal eksplisit open source]
+- Ancaman pidana pelanggaran hak cipta (Art. 112-113) kini memakai versi Lampiran I UU 1/2026; angka tidak ditulis di sini, verifikasi ulang tiap kontrak. [dasar: UU 1/2026 Lampiran I; research/ask-pidana.md (a)]
+
+## Rahasia dagang
+- Rahasia dagang dilindungi bila memenuhi tiga unsur: bersifat rahasia, bernilai ekonomi, dan dijaga kerahasiaannya dengan upaya sebagaimana mestinya. [dasar: UU 30/2000 Art. 3(1)]
+- Informasi dianggap dijaga kerahasiaannya bila pemilik atau pihak yang menguasainya telah melakukan langkah yang layak dan patut ("upaya layak"). Penjelasan menyebut contoh: prosedur baku internal dan penetapan pihak yang bertanggung jawab atas kerahasiaan. Klausul kerahasiaan perlu menyatakan bahwa klausul itu adalah upaya layak pemilik. [dasar: UU 30/2000 Art. 3(4) dan Penjelasan Art. 3(1)]
+- Pelanggaran terjadi bila seseorang dengan sengaja mengungkapkan rahasia dagang, mengingkari kesepakatan, atau mengingkari kewajiban tertulis maupun tidak tertulis untuk menjaga rahasia dagang. [dasar: UU 30/2000 Art. 13]
+- Pemegang hak dapat menggugat ganti rugi dan/atau penghentian perbuatan ke Pengadilan Negeri. Para pihak juga boleh memilih arbitrase atau alternatif penyelesaian sengketa. [dasar: UU 30/2000 Art. 11(1) dan Art. 11(2) dan Art. 12]
+- Tidak dianggap pelanggaran: pengungkapan atau penggunaan demi pertahanan keamanan, kesehatan, atau keselamatan masyarakat, dan rekayasa ulang produk semata-mata untuk pengembangan lebih lanjut produk itu. Pengecualian kerahasiaan dalam kontrak perlu selaras. [dasar: UU 30/2000 Art. 15]
+- Pidana: penggunaan atau pengungkapan rahasia dagang secara sengaja dan tanpa hak, atau pelanggaran Art. 13 dan 14, diancam penjara paling lama 2 tahun dan/atau denda kategori III (Rp50 juta menurut Pasal 79 UU 1/2023) sejak 2 Januari 2026 menurut UU 1/2026. Angka lama Rp300 juta sudah usang. Delik aduan. [dasar: UU 30/2000 Art. 17(1) dan Art. 17(2); UU 1/2026 Lampiran I no. 25; UU 1/2023 Art. 79]
+
+## Non-kompetisi: dasar dan putusan
+- Tidak ada pasal UU Ketenagakerjaan yang khusus mengatur non-kompetisi (jangka waktu, wilayah, kompensasi). Dasarnya KUHPerdata: kebebasan berkontrak, syarat sah perjanjian, dan Art. 1601x. [dasar: KUHPerdata Art. 1338, Art. 1320, Art. 1601x; hasil riset ask-hki (c)]
+- Non-kompetisi hanya sah bila tertulis dengan buruh dewasa, dan pengadilan boleh membatalkannya seluruhnya atau sebagian bila buruh dirugikan secara tidak adil dibanding kepentingan majikan. Ini dasar primer; semua putusan di bawah hanya pendukung. [dasar: KUHPerdata Art. 1601x(1) dan Art. 1601x(2)]
+- Syarat praktis yang diambil dari sumber: memenuhi Art. 1320, bertujuan melindungi rahasia dagang atau kepentingan bisnis yang sah (bukan mematikan mata pencaharian), dan tidak diterapkan mutlak atau sewenang-wenang. Batas waktu 2 tahun, wilayah, dan kompensasi bulanan bukan norma Indonesia; itu standar hukum Jerman yang dipakai hanya sebagai pembanding, jadi isi spesifik (kegiatan, durasi, wilayah) adalah pilihan penyusun. [dasar: KUHPerdata Art. 1320 dan Art. 1601x; hasil riset ask-hki (c) (sumber sekunder untuk uraian syarat)]
+- Putusan Kasasi MA 3549 K/Pdt/2023: klausul non-kompetisi sah (memenuhi Art. 1320) dan tidak bertentangan dengan HAM bila melindungi rahasia dagang atau informasi sensitif pemberi kerja; pelanggaran = wanprestasi. Putusan asli tidak ditemukan; jangan dikutip lebih dari ini. [dasar: MA 3549 K/Pdt/2023 (sumber sekunder: Dandapala dan tesis ULM; putusan asli tidak ditemukan)]
+- Putusan PK MA 1248 PK/Pdt/2024: menguatkan arah 3549; pelanggaran non-kompetisi menunjukkan itikad buruk dan wanprestasi. Putusan asli tidak ditemukan. [dasar: MA 1248 PK/Pdt/2024 (sumber sekunder: Dandapala dan tesis ULM; putusan asli tidak ditemukan)]
+- Sebelumnya beberapa PN membatalkan klausul non-kompetisi dengan alasan hak atas pekerjaan (UUD 1945 Pasal 27(2), 28D(2); UU 39/1999 Pasal 38(2); UU 13/2003 Pasal 31): PN Bale Bandung 130/Pdt.G/2016/PN.Blb, PN Bekasi 545/Pdt.G/2021/PN Bks, PN Jakarta Selatan 292/Pdt.G/2023/PN Jkt.Sel. Jadi klausul yang terlalu luas tetap berisiko batal. [dasar: PN 130/Pdt.G/2016/PN.Blb, 545/Pdt.G/2021/PN Bks, 292/Pdt.G/2023/PN Jkt.Sel (sumber sekunder: Dandapala; putusan asli tidak diperiksa)]
+- Bagi calon di bawah 21 tahun dan belum kawin, non-kompetisi tidak sah tanpa buruh dewasa; perlu tanda tangan wali. [dasar: KUHPerdata Art. 1601x(1) dan Art. 330]
+
+## NDA: preseden
+- PN Jakarta Barat 832/Pdt.G/2023/PN.Jkt.Brt: gugatan dikabulkan sebagian; perjanjian kerahasiaan dan peraturan perusahaan sah dan mengikat, pekerja wanprestasi karena bekerja untuk pesaing. [dasar: PN Jkt.Brt 832/Pdt.G/2023/PN.Jkt.Brt (sumber sekunder: jurnal Daulat Hukum UPNVJ dan agregator putusan; putusan asli tidak diperiksa)]
+- Dalam 832 hakim tidak memakai UU 30/2000, hanya wanprestasi. Pelajaran untuk drafting: kerahasiaan jangan bersandar pada UU Rahasia Dagang saja; tulis sebagai kewajiban kontrak yang jelas. [dasar: PN Jkt.Brt 832/Pdt.G/2023/PN.Jkt.Brt (sumber sekunder: jurnal Daulat Hukum UPNVJ)]
+- Pembocoran rahasia perusahaan tempat bekerja atau pernah bekerja juga pidana, lihat pidana.md. [dasar: UU 1/2023 Art. 444(1)]
