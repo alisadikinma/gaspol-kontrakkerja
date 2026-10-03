@@ -160,7 +160,41 @@ Salin template wadah ke `kontrak.md`, lalu isi dari atas ke bawah.
    - "masa percobaan, masa uji coba" → "masa uji coba"
    Kata jam kerja, absensi, hari kerja, masa percobaan, cuti, dan lembur tidak boleh ada di
    kontrak freelancer.
-7. **Pustaka tidak punya teks untuk sebuah slot** (id tidak ada, atau entri tidak berlaku
+7. **Teks pustaka yang memuat wadah lain** (ditemukan e2e; semuanya dicatat di CATATAN PENYUSUN):
+   - Entri apa pun yang menyebut daftar wadah ("karyawan PKWT, PKWTT, dan freelancer",
+     "(untuk karyawan) atau (untuk freelancer)"): tulis hanya wadah kontrak ini.
+   - **PKWT: tidak boleh ada "masa percobaan" di kontrak** (aturan umum: hapus setiap
+     kemunculannya di teks pustaka, bukan hanya dua entri di bawah) (Art. 58 UU 13/2003, batal demi
+     hukum; gate G1 menahannya). Hapus frasa "termasuk selama masa percobaan bila ada"
+     (P-PJ-04 ketat) dan "masa percobaan," dari P-HKI-06 ketat ("masa uji coba atau proyek
+     percontohan" tetap).
+   - **UMK: satu kalimat verifikasi saja** di Pasal Upah. Kalimat verifikasi di teks P-PJ-04
+     ("pada tanggal penandatanganan … dari keputusan Gubernur yang berlaku") **diganti**
+     kalimat dari langkah 2 (tanggal ambil dan sumber dari brief). Jangan ada dua kalimat
+     verifikasi dengan tanggal atau sumber berbeda.
+   - **Perjumpaan utang (P-GR-03) untuk PKWT dan PKWTT:** keluarkan upah, THR, uang kompensasi,
+     dan hak wajib lain dari objek perjumpaan (batas potongan upah tidak ada di pustaka);
+     tulis kalimat "Perjumpaan tidak dilakukan terhadap upah, tunjangan hari raya, uang
+     kompensasi, atau hak lain yang wajib dibayar menurut peraturan". Hanya sisa imbalan non-wajib
+     yang boleh diperjumpakan. Catat penyesuaian itu. Freelancer: teks pustaka apa adanya.
+   - **Forum sengketa di entri lain (P-RHS-06 dan sejenisnya):** untuk PKWT dan PKWTT
+     buang setiap kalimat yang membuka arbitrase atau "alternatif penyelesaian sengketa" bagi
+     perselisihan hubungan kerja (P-FS-01: urutannya musyawarah, bipartit, mediasi, PHI, tidak
+     diganti arbitrase). Rujuk ke pasal forum kontrak ini saja. Catat penyesuaian itu.
+   - **Cabang non-kompetisi yang tidak diminta brief** (misalnya larangan "memiliki
+     kepentingan di pihak ketiga") boleh dibuang; kegiatan yang tersisa harus tetap spesifik.
+     Catat pembuangannya. Cara bayar (misalnya transfer bank) dari brief boleh ditambahkan
+     satu frasa di Pasal Upah.
+   - **Non-kompetisi:** penyesuaian kegiatan, lama, wilayah dari brief berlaku untuk **semua**
+     entri NK yang dipasang (P-NK-01, 02, 03), bukan hanya P-NK-01. Setiap larangan harus
+     menyebut kegiatan, lama, dan wilayah yang spesifik; larangan bersaing selama perjanjian
+     (P-NK-02) memakai kegiatan dan wilayah yang sama dengan brief.
+   - **Rujukan antar pasal** di teks pustaka ("Pasal Penyelesaian Sengketa", "Pasal Ganti
+     Rugi", dll.): ganti dengan **judul pasal yang benar-benar ada** di kontrak ini. Tidak
+     boleh ada rujukan yang menggantung.
+   - **Pasal 1 dari template** memakai baris dasar template apa adanya (boleh lebih luas dari
+     field `Dasar hukum` entrinya), asal id-nya ada di pustaka.
+8. **Pustaka tidak punya teks untuk sebuah slot** (id tidak ada, atau entri tidak berlaku
    untuk wadah ini): STOP, jangan mengarang pasal. Katakan id mana yang bermasalah.
 
 ## Langkah 4 — baris dasar di bawah setiap pasal

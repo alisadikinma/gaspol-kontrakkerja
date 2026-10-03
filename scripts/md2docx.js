@@ -3,7 +3,8 @@
 // Letterhead goes into the document header, signature blocks become real Word tables.
 // Needs the npm package docx (preinstalled with the anthropic-skills:docx skill).
 const fs=require('fs');const d=require('docx');
-const [,, MD, VAULT, OUT, LOGO]=process.argv;
+const [,, MD, VAULT, OUT, LOGOARG]=process.argv;
+const LOGO=LOGOARG||process.env.KONTRAK_LOGO||'/Users/alisadikin/Drive-D/my-data/INDUSIA/PT/brand-industria-logo.png';
 const v=fs.readFileSync(VAULT,'utf8').split('\n');
 const bullet=(k)=>{const l=v.find(x=>x.startsWith('- **'+k));if(!l)return '';return l.replace(/^[^:]*\*\*:\s*/,'').replace(/\s*\(.*$/,'');};
 const nama=bullet('Nama'),nib=bullet('NIB'),npwp=bullet('NPWP'),sk=bullet('SK Pengesahan'),telp=bullet('Telp'),email=bullet('Email');

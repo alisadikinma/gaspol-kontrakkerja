@@ -86,7 +86,9 @@ Urutan pertanyaan (lewati yang sudah terjawab):
 7. **Imbalan** — nilainya **ditanyakan ke Ali**. Jangan sebut angka sendiri. Tanya juga
    ada tunjangan tetap atau tidak. Bila wadahnya hubungan kerja, ambil **UMK** wilayah
    kerja secara langsung lewat Firecrawl (`firecrawl_search` lalu `firecrawl_scrape`
-   ke situs resmi pemerintah). Catat nilai, sumber (URL), dan **tanggal ambil**. Tanpa
+   ke situs resmi pemerintah). Catat nilai, sumber (URL), dan **tanggal ambil**. Sumber
+   selain situs resmi (misalnya berita) boleh dipakai bila SK penetapannya disebut, tetapi
+   catat "sumber non-resmi, SK belum dibaca langsung" di "belum diketahui". Tanpa
    tanggal ambil, angka itu tidak boleh masuk brief. Jika Firecrawl gagal: STOP, katakan
    gagal, minta Ali memberi nilai dan sumbernya.
 8. **Akses** — apakah orang ini akan memegang source code, repositori, atau data klien
@@ -168,6 +170,10 @@ isi **semua** `{{...}}` dengan jawaban nyata. Tidak boleh ada `{{` tersisa. Atur
 - Isi Pihak Pertama dari `company-legal` dengan tanggal baca vault. Penandatangan dan
   dasar kewenangan: dari vault dan `../../references/hukum/signing-authority.md`;
   jika dasar kewenangan tidak ada di vault, tulis `[ASUMSI]` dan masukkan ke "belum diketahui".
+  Bila vault menyebut penandatangan sebagai Direktur **dan** memuat akta pendirian serta
+  pengesahannya, itu dasar kewenangan yang cukup: tulis `[vault]` dengan rujukan Art. 98(1)
+  UU 40/2007 dari `signing-authority.md`, dan catat di "belum diketahui" hanya bahwa anggaran
+  dasar belum dibaca langsung.
 - UMK: nilai, sumber, **tanggal verifikasi**, tag `[riset]`. Untuk freelancer yang
   tidak terkena UMK, tulis "tidak berlaku untuk wadah ini" dan alasannya.
 - Usia: tulis tanggal lahir, tanggal acuan, hasil hitung. Bila < 21, baris wali terisi.

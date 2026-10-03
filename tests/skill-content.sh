@@ -63,5 +63,32 @@ if [ -f "$f" ]; then
   [ "$(wc -l < "$f")" -le 290 ] || { echo "FAIL kontrak-gate: longer than 290 lines"; fail=1; }
 fi
 
+need gaspol-kontrakkerja \
+  'brief.md' 'kontrak.md' 'review.md' 'kontrak-brainstorm' 'kontrak-draft' 'kontrak-gate' \
+  'kontrak-finish' 'shasum -a 256' 'kontrak_sha256' 'BLOCKING' 'PASS' \
+  'Tidak ada PDF atau DOCX tanpa PASS yang berlaku' 'Router tidak pernah menulis teks kontrak' \
+  '../../' 'mtime' 'selesai'
+f="$ROOT/skills/gaspol-kontrakkerja/SKILL.md"
+if [ -f "$f" ]; then
+  grep -qE 'TODO|TBD|FIXME' "$f" && { echo "FAIL gaspol-kontrakkerja: placeholder text"; fail=1; }
+  grep -qiE 'buat kontrak|PKWT|freelancer' "$f" || { echo "FAIL gaspol-kontrakkerja: no Indonesian trigger words"; fail=1; }
+  [ "$(grep -c '^| ' "$f")" -ge 8 ] || { echo "FAIL gaspol-kontrakkerja: routing table too short"; fail=1; }
+fi
+
+# README: honest-guarantee boundary; "dijamin" only inside a negation line
+r="$ROOT/README.md"
+if [ ! -f "$r" ]; then
+  echo "FAIL README.md: No such file or directory"; fail=1
+else
+  for s in 'does not guarantee' 'advocate' 'KONTRAK_LOGO' 'company-legal.md' 'Merek' 'Tagline' \
+           'pandoc' 'Chrome' 'NODE_PATH' 'Firecrawl' '180' 'verified:' '0.1.0' 'UU Ketenagakerjaan' \
+           'Risiko' 'kontrak-brainstorm' 'kontrak-finish'; do
+    grep -qF -- "$s" "$r" || { echo "FAIL README.md: missing string: $s"; fail=1; }
+  done
+  grep -iF 'dijamin' "$r" | grep -viE 'tidak ada jaminan|tidak (ada|pernah|boleh|menjanjikan)|does not|never|jangan' | grep -q . \
+    && { echo "FAIL README.md: 'dijamin' outside a negation line"; fail=1; }
+  grep -qE 'TODO|TBD|FIXME' "$r" && { echo "FAIL README.md: placeholder text"; fail=1; }
+fi
+
 [ "$fail" -eq 0 ] && echo "PASS skill-content"
 exit "$fail"

@@ -96,6 +96,10 @@ membungkus penutup + tanda tangan dalam `::: ttd` (satu halaman), dan menolak (k
 review bukan PASS yang berlaku. `build.sh` mengisi `../../templates/kop.html` dan memakai
 `../../templates/style.css`.
 
+Pesan `line NNN: <file>.pdf: No such file or directory` di stderr saat Chrome menulis adalah
+pemeriksaan polling dan tidak berbahaya selama kode keluar 0 dan PDF ada. Nama PT untuk
+`grep` di langkah 4 dibaca dari bullet `- **Nama**:` catatan vault.
+
 Kode keluar `build.sh`: 2 = logo, catatan vault, atau nilai kop tidak ada (pesan menyebut
 yang mana; selesaikan, jangan dilewati). Kolom kop yang boleh kosong hanya dua:
 
@@ -133,8 +137,9 @@ Muat skill `anthropic-skills:docx` (Skill tool). Bahannya adalah `$TMPDIR/bersih
 | kalimat PASS di akhir | paragraf biasa di akhir |
 
 Pembuat bawaan plugin: `node ../../scripts/md2docx.js "$TMPDIR/bersih.md" <company-legal.md> KONTRAK-<CODE>-<NNN>.docx "$KONTRAK_LOGO"`
-(paket npm `docx` ikut terpasang dengan skill docx; gagal memuat: `npm install docx` di
-folder sementara dan set `NODE_PATH`). Pembuat ini memakai catatan vault yang sama dengan
+(argumen logo boleh kosong: skrip memakai `$KONTRAK_LOGO`, lalu logo bawaan yang sama
+dengan `build.sh`. Paket npm `docx` belum tentu terpasang; `Cannot find module 'docx'`:
+`npm install docx` di folder sementara lalu `export NODE_PATH=<folder>/node_modules`). Pembuat ini memakai catatan vault yang sama dengan
 `build.sh`; nilai kosong membuatnya berhenti dengan kode 2. Perlu tata letak lain: tulis
 skrip docx-js sendiri sesuai tabel di atas, dari salinan bersih yang sama. Tanpa catatan
 penyusun di DOCX, selalu.
