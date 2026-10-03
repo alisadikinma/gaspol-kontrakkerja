@@ -9,12 +9,14 @@ Dibuat oleh kontrak-brainstorm pada {{TANGGAL_BRIEF}}. Setiap baris fakta berakh
 
 ## Pihak Pertama (PT)
 - Nama, alamat, penandatangan, dan dasar kewenangan diambil dari vault company-legal pada {{TANGGAL_BACA_VAULT}} [vault]
+- Jenis usaha Pihak Pertama: {{PT_JENIS_USAHA}} (wajib untuk PKWT dan PKWTT; freelancer: "tidak berlaku") [vault]
 - Penandatangan: {{PT_PENANDATANGAN_NAMA}}, {{PT_PENANDATANGAN_JABATAN}}; dasar kewenangan: {{PT_DASAR_KEWENANGAN}} [vault]
 
 ## Pihak Kedua
 - Nama lengkap: {{PIHAK_KEDUA_NAMA}} [user]
 - Tanggal lahir: {{PIHAK_KEDUA_TANGGAL_LAHIR}}; usia pada tanggal tanda tangan: {{PIHAK_KEDUA_USIA}} [user]
-- Status kawin: {{STATUS_KAWIN}} (belum kawin / sudah kawin / pernah kawin; Art. 330 KUHPerdata: belum dewasa = belum genap 21 tahun DAN belum kawin; yang sudah atau pernah kawin dianggap dewasa) [user]
+- Jenis kelamin: {{PIHAK_KEDUA_JENIS_KELAMIN}} (wajib untuk PKWT dan PKWTT; freelancer: "tidak berlaku") [user]
+- Status kawin: {{STATUS_KAWIN}} (belum kawin / sudah kawin / pernah kawin; usia 21 tahun ke atas: tulis "tidak relevan (usia 21 tahun ke atas)"; Art. 330 KUHPerdata: belum dewasa = belum genap 21 tahun DAN belum kawin; yang sudah atau pernah kawin dianggap dewasa) [user]
 - Jika usia di bawah 21 tahun DAN belum kawin: blok tanda tangan wali "mengetahui dan menyetujui" WAJIB, dan pembatasan pasca-kerja (non-kompetisi, larangan membujuk) tidak dipasang. Wali: {{WALI_NAMA}}, hubungan: {{WALI_HUBUNGAN}}; bila tidak berlaku tulis "tidak berlaku" [user]
 - Alamat: {{PIHAK_KEDUA_ALAMAT}} [user]
 - Jenis dan nomor identitas: {{PIHAK_KEDUA_JENIS_ID}} {{PIHAK_KEDUA_NO_ID}} [user]
@@ -24,7 +26,7 @@ Dibuat oleh kontrak-brainstorm pada {{TANGGAL_BRIEF}}. Setiap baris fakta berakh
 - Jabatan atau peran: {{JABATAN}} [user]
 - Hasil kerja yang dibuat: {{HASIL_KERJA}} [user]
 - Jam kerja, tempat, alat, dan pengawasan (uji tiga unsur): {{JAM_TEMPAT_ALAT_PENGAWASAN}} [user]
-- Tempat pekerjaan (alamat atau lokasi tertulis; wajib untuk PKWT dan PKWTT, PP 35/2021 Art. 13; freelancer: tulis "tidak berlaku"): {{TEMPAT_KERJA}} [user]
+- Tempat pekerjaan (alamat atau lokasi tertulis; wajib untuk PKWT dan PKWTT, dasar di `ketenagakerjaan.md`; freelancer: tulis "tidak berlaku"): {{TEMPAT_KERJA}} [user]
 - Ringkasan jam kerja dan syarat kerja yang disepakati (PKWT dan PKWTT; freelancer: "tidak berlaku"): {{KONDISI_KERJA}} [user]
 - Eksklusivitas dan klien lain: {{EKSKLUSIVITAS}} [user]
 - Akses ke source code dan data klien: {{TINGKAT_AKSES}} (akses ada = varian ketat) [user]

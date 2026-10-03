@@ -4,9 +4,9 @@ Nomor: {{NOMOR_KONTRAK}}
 
 Pada hari ini, {{HARI_TANGGAL_TTD}}, bertempat di {{TEMPAT_TTD}}, yang bertanda tangan di bawah ini:
 
-1. **{{PT_NAMA}}**, berkedudukan di {{PT_ALAMAT}}, dalam hal ini diwakili oleh **{{PT_PENANDATANGAN_NAMA}}**, selaku {{PT_PENANDATANGAN_JABATAN}}, berdasarkan {{PT_DASAR_KEWENANGAN}}, selanjutnya disebut **"INDUSIA"**.
+1. **{{PT_NAMA}}**, berkedudukan di {{PT_ALAMAT}}, bergerak di bidang usaha {{PT_JENIS_USAHA}}, dalam hal ini diwakili oleh **{{PT_PENANDATANGAN_NAMA}}**, selaku {{PT_PENANDATANGAN_JABATAN}}, berdasarkan {{PT_DASAR_KEWENANGAN}}, selanjutnya disebut **"INDUSIA"**.
 
-2. **{{PIHAK_KEDUA_NAMA}}**, lahir pada tanggal {{PIHAK_KEDUA_TANGGAL_LAHIR}}, pemegang {{PIHAK_KEDUA_JENIS_ID}} nomor {{PIHAK_KEDUA_NO_ID}}, beralamat di {{PIHAK_KEDUA_ALAMAT}}, selanjutnya disebut **"Pihak Kedua"**.
+2. **{{PIHAK_KEDUA_NAMA}}**, berjenis kelamin {{PIHAK_KEDUA_JENIS_KELAMIN}}, lahir pada tanggal {{PIHAK_KEDUA_TANGGAL_LAHIR}} (berusia {{PIHAK_KEDUA_USIA}} tahun pada tanggal Perjanjian ini), pemegang {{PIHAK_KEDUA_JENIS_ID}} nomor {{PIHAK_KEDUA_NO_ID}}, beralamat di {{PIHAK_KEDUA_ALAMAT}}, selanjutnya disebut **"Pihak Kedua"**.
 
 INDUSIA dan Pihak Kedua selanjutnya disebut bersama **"Para Pihak"**. Para Pihak sepakat membuat perjanjian kerja waktu tertentu dengan ketentuan berikut.
 

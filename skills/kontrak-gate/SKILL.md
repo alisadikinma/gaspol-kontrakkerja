@@ -62,7 +62,9 @@ description: The blocking gate of gaspol-kontrakkerja. Use before any employment
 Jalankan semuanya, berurutan, setiap kali. Teks gate di bawah adalah daftar resmi, disalin
 apa adanya. Pemeriksaan tambahan ada di bawah tiap gate.
 
-- **G1 Wadah:** wadah (PKWT / PKWTT / freelancer) contradicts the facts. Fixed working hours or attendance in a freelancer agreement; probation in a PKWT (Art. 58 UU 13/2003, batal demi hukum); PKWT used for permanent core work; PKWT or PKWTT without a stated place of work (tempat pekerjaan, PP 35/2021 Art. 13 huruf d).
+- **G1 Wadah:** wadah (PKWT / PKWTT / freelancer) contradicts the facts. Fixed working hours or attendance in a freelancer agreement; probation in a PKWT (Art. 58 UU 13/2003, batal demi hukum); PKWT used for permanent core work;
+  PKWT without a stated place of work (tempat pekerjaan), the company's jenis usaha, or the worker's jenis kelamin (PP 35/2021 Art. 13 huruf a, b, d);
+  PKWTT without the same three (UU 13/2003 Art. 54(1) huruf a, b, d).
 - **G2 Dasar hukum:** a clause without a `Catatan penyusun — dasar:` line, or citing a clause id absent from `../../references/pasal/`.
 - **G3 Jebakan terlarang:** withholding diploma/ID/original documents; wage below UMK while a work relationship exists (prohibition Art. 88E(2) UU 13/2003 jo. UU 6/2023; criminal sanction per Art. 185 as amended by UU 1/2026 — cite from `../../references/hukum/ketenagakerjaan.md`, never a figure from memory); removing mandatory rights (BPJS enrolment, PKWT compensation, THR, overtime); penalty above ~1 month fee/wage (Art. 1309 KUHPer: judge may reduce if the main obligation was partly performed) without a stated reduction-proof rationale; time limit on ownership of IP or source code.
 - **G4 Non-kompetisi:** non-compete without an explicit written purpose of protecting trade secrets / legitimate business interest; or scope not specific (activity, duration, area); or any post-employment restriction (P-NK-01, P-NK-03 or equivalent text: non-compete or non-solicit that runs after the relationship ends, Art. 1601x KUHPerdata requires an adult worker) on a party under 21 and not married (belum kawin), BLOCKING even when a guardian block is present.
@@ -85,9 +87,11 @@ apa adanya. Pemeriksaan tambahan ada di bawah tiap gate.
 - Kontradiksi wadah yang dicatat penyusun di CATATAN PENYUSUN tetap temuan; gate yang
   memutuskan, bukan catatan.
 - PKWT dan PKWTT: Pasal 1 (atau pasal pekerjaan) harus menyebut tempat pekerjaan (alamat
-  atau lokasi). Tidak ada, atau hanya placeholder kosong = temuan (`ketenagakerjaan.md`,
-  PP 35/2021 Art. 13). Ketiadaan klausul THR, lembur, atau cuti BUKAN temuan. Freelancer: tidak
-  diminta.
+  atau lokasi); komparisi harus memuat jenis usaha perusahaan dan jenis kelamin Pihak Kedua.
+  Tidak ada, atau hanya placeholder kosong = temuan. Dasar PKWT: `ketenagakerjaan.md`, PP 35/2021
+  Art. 13. Dasar PKWTT (baris terpisah): UU 13/2003 Art. 54(1), yang di `ketenagakerjaan.md`
+  ditandai hanya dibaca dari PDF primer. Ketiadaan klausul THR, lembur, atau cuti BUKAN temuan.
+  Freelancer: tidak diminta.
 
 **G2.** Untuk setiap `## Pasal` (di kontrak **dan** di Lampiran I) harus ada baris
 `> **Catatan penyusun — dasar:** P-XXX-NN; …` tepat di bawah judul.
@@ -135,7 +139,7 @@ meminta non-kompetisi tetapi kontrak tanpa pasalnya bukan temuan G4 (catat di G2
 tangan, dan baca Status kawin di brief. Di bawah 21 dan belum kawin (Art. 330 KUHPerdata, lihat `perdata.md`): harus ada blok wali
 berisi "mengetahui dan menyetujui", nama wali, dan hubungan; di kontrak **dan** di Lampiran
 I bila lampiran punya blok tanda tangan sendiri. Tambahan (a): kalimat bahwa Pihak Kedua
-"telah dewasa" (misal "menyatakan telah dewasa menurut hukum") padahal berusia di bawah 21
+"telah dewasa" (misal "menyatakan telah dewasa menurut hukum") padahal berusia di bawah 21 dan belum kawin
 adalah **kontradiksi G5/G1** dan BLOCKING, sekalipun blok wali ada. Kutip kalimatnya.
 Usia di kontrak harus sama dengan hasil hitungan; selisih = temuan. Usia di bawah 18 = temuan.
 Pihak Kedua yang sudah kawin atau pernah kawin dianggap dewasa (Art. 330): blok wali atau kalimat "belum genap 21" untuknya adalah temuan (kalimat tidak benar); kalimat "telah dewasa" benar. Status kawin kosong atau `[ASUMSI]` di brief untuk usia di bawah 21 = temuan.

@@ -19,7 +19,7 @@ done
 # stub logo (1x1 PNG) and a working copy of the good fixture with the draft-written marker
 echo 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==' | base64 -d > "$TMP/logo.png"
 cp "$GOOD" "$TMP/kontrak.md"
-printf '\n<!-- GATE-STATUS -->Draf ini DISUSUN per 2026-10-03; status pemeriksaan aturan: menunggu kontrak-gate. Tinjauan advokat disarankan sebelum tanda tangan.\n' >> "$TMP/kontrak.md"
+grep -q "GATE-STATUS" "$TMP/kontrak.md" || printf '\n<!-- GATE-STATUS -->Draf ini DISUSUN per 2026-10-03; status pemeriksaan aturan: menunggu kontrak-gate. Tinjauan advokat disarankan sebelum tanda tangan.\n' >> "$TMP/kontrak.md"
 SHA="$(shasum -a 256 "$TMP/kontrak.md" | awk '{print $1}')"
 printf '## Verdict: PASS\n\nreviewed_at: 2026-10-03\nkontrak_sha256: %s\n' "$SHA" > "$TMP/review.md"
 printf '## Verdict: PASS\n\nreviewed_at: 2026-10-03\nkontrak_sha256: %064d\n' 0 > "$TMP/review-stale.md"

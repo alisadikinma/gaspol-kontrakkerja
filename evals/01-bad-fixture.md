@@ -24,3 +24,5 @@ Verbatim gate output: `evals/results/01-bad-fixture-review.md` (separate sonnet 
 Result, round 2 (round 1 was blocked only by the scratch brief, see below): verdict BLOCKING; caught D1 (G1), D2 (G2 and G3), D3 (G3), D4 (G3 and G6), D5 (G5), D6 (G8), plus the extra "telah dewasa" catch (G5). Missed: none. Gate skill needed no change for this fixture.
 
 Fix-round 1 re-run (new rules: Status kawin, post-employment restriction under 21, P-HKI-04, place of work): verdict BLOCKING; D1 (G1), D2 and D3 (G3), D4 (G3/G6), D5 (G5), D6 (G8) all caught, plus the extra "telah dewasa" catch and the new G1 finding (no place of work) and G4 finding (post-employment clause for an unmarried 19-year-old). Scratch brief gained `Status kawin: belum kawin`. Verbatim output refreshed in `evals/results/01-bad-fixture-review.md`.
+
+Fix-round 2 re-run (Art. 13 identity fields, G5 extra (a) conditional on belum kawin): bad BLOCKING (D1-D6 caught), good PASS (fixture now ends with the draft GATE-STATUS line and carries jenis usaha and jenis kelamin), eval 03 BLOCKING. Outputs refreshed.

@@ -2,7 +2,7 @@
 # Smoke test for scripts/md2docx.js (DOCX path of kontrak-finish): success path and letterhead exit-2 cases.
 # Fictional stub vault note and stub logo only. The npm package "docx" is not part of the repo:
 # it is looked up in $NODE_PATH, <repo>/.cache/node_modules (npm install docx --prefix .cache),
-# then the author's scratch installs. Not found => the success-path asserts are SKIPPED, loudly,
+# Not found => the success-path asserts are SKIPPED, loudly,
 # and a SKIP never counts as a pass (run-all.sh prints SKIP, not OK). The exit-2 cases need no package.
 set -uo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -20,7 +20,7 @@ command -v node >/dev/null 2>&1 || { echo "SKIP docx-smoke (node not installed):
 
 echo 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==' | base64 -d > "$TMP/logo.png"
 cp "$GOOD" "$TMP/kontrak.md"
-printf '\n<!-- GATE-STATUS -->Draf ini DISUSUN per 2026-10-03; status pemeriksaan aturan: menunggu kontrak-gate. Tinjauan advokat disarankan sebelum tanda tangan.\n' >> "$TMP/kontrak.md"
+grep -q "GATE-STATUS" "$TMP/kontrak.md" || printf '\n<!-- GATE-STATUS -->Draf ini DISUSUN per 2026-10-03; status pemeriksaan aturan: menunggu kontrak-gate. Tinjauan advokat disarankan sebelum tanda tangan.\n' >> "$TMP/kontrak.md"
 SHA="$(shasum -a 256 "$TMP/kontrak.md" | awk '{print $1}')"
 printf '## Verdict: PASS\n\nreviewed_at: 2026-10-03\nkontrak_sha256: %s\n' "$SHA" > "$TMP/review.md"
 bash "$ROOT/scripts/clean.sh" "$TMP/kontrak.md" "$TMP/clean.md" "$TMP/review.md" || { echo "FAIL clean.sh on good fixture"; exit 1; }
@@ -35,21 +35,19 @@ run2() { # <label> <vault-file>
 # no ## Alamat heading at all: the front-matter '---' must NOT be taken as the address
 awk '/^## Alamat/{skip=1; next} skip && /^## /{skip=0} !skip{print}' "$STUB" > "$TMP/stub-noalamat.md"
 run2 "missing ## Alamat heading" "$TMP/stub-noalamat.md"
-check "missing ## Alamat: message names Alamat" grep -qi 'alamat' "$TMP/e.log"
+check "missing ## Alamat: message names the heading" grep -qF '## Alamat' "$TMP/e.log"
 # heading present but empty (next heading follows)
 awk '/^## Alamat/{print; print ""; skip=1; next} skip && /^## /{skip=0} !skip{print}' "$STUB" > "$TMP/stub-emptyalamat.md"
 run2 "empty ## Alamat section" "$TMP/stub-emptyalamat.md"
 for key in Nama NIB NPWP 'SK Pengesahan' Telp Email; do
   grep -v "^- \*\*$key" "$STUB" > "$TMP/stub-no.md"
   run2 "missing $key" "$TMP/stub-no.md"
-  check "missing $key: message names it" grep -qi "$key" "$TMP/e.log"
+  check "missing $key: message names it" grep -qF -- "- **$key**" "$TMP/e.log"
 done
 
 # --- success path
 NM=""
-for c in "${NODE_PATH:-}" "$ROOT/.cache/node_modules" \
-  /private/tmp/claude-501/-Users-alisadikin-Drive-D-claude-plugin-gaspol-kontrakkerja/8bb1afc3-9d6d-4c98-99da-2fed56f97fe0/scratchpad/refute-md2docx/nm \
-  /private/tmp/claude-501/-Users-alisadikin-Drive-D-claude-plugin-gaspol-kontrakkerja/8bb1afc3-9d6d-4c98-99da-2fed56f97fe0/scratchpad/smoke-J/node_modules; do
+for c in "${NODE_PATH:-}" "$ROOT/.cache/node_modules"; do
   [ -n "$c" ] && [ -d "$c/docx" ] && { NM="$c"; break; }
 done
 if [ -z "$NM" ]; then

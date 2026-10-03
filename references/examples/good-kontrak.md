@@ -4,9 +4,9 @@ Nomor: 001/PKWT/CPL/X/2026
 
 Pada hari ini, Sabtu, 3 Oktober 2026, bertempat di Kota Batam, yang bertanda tangan di bawah ini:
 
-1. **PT Contoh Perangkat Lunak**, berkedudukan di Jalan Contoh Nomor 1, Kota Batam, Kepulauan Riau, dalam hal ini diwakili oleh **Siti Fiktif**, selaku Direktur Utama, berdasarkan akta pendirian dan anggaran dasar PT Contoh Perangkat Lunak yang disahkan Menteri Hukum dan HAM serta keputusan RUPS tentang pengangkatan direksi (data fiktif untuk contoh), selanjutnya disebut **"INDUSIA"**.
+1. **PT Contoh Perangkat Lunak**, berkedudukan di Jalan Contoh Nomor 1, Kota Batam, Kepulauan Riau, bergerak di bidang usaha pengembangan perangkat lunak, dalam hal ini diwakili oleh **Siti Fiktif**, selaku Direktur Utama, berdasarkan akta pendirian dan anggaran dasar PT Contoh Perangkat Lunak yang disahkan Menteri Hukum dan HAM serta keputusan RUPS tentang pengangkatan direksi (data fiktif untuk contoh), selanjutnya disebut **"INDUSIA"**.
 
-2. **Budi Contoh**, lahir pada tanggal 15 Maret 2007 (berusia 19 tahun pada tanggal Perjanjian ini), pemegang KTP nomor 9999-0000-1111-2222 (data fiktif), beralamat di Jalan Fiktif Nomor 7, Kota Batam, Kepulauan Riau, selanjutnya disebut **"Pihak Kedua"**.
+2. **Budi Contoh**, berjenis kelamin laki-laki, lahir pada tanggal 15 Maret 2007 (berusia 19 tahun pada tanggal Perjanjian ini), pemegang KTP nomor 9999-0000-1111-2222 (data fiktif), beralamat di Jalan Fiktif Nomor 7, Kota Batam, Kepulauan Riau, selanjutnya disebut **"Pihak Kedua"**.
 
 INDUSIA dan Pihak Kedua selanjutnya disebut bersama **"Para Pihak"**. Para Pihak sepakat membuat perjanjian kerja waktu tertentu dengan ketentuan berikut.
 
@@ -236,4 +236,4 @@ Pemberitahuan: memperoleh, mengumpulkan, mengungkapkan, atau memakai data pribad
 - Wadah: PKWT untuk pekerjaan berbasis proyek yang selesai dalam waktu tidak terlalu lama; bukan pekerjaan tetap.
 - Angka upah Rp 6.500.000 adalah kesepakatan Para Pihak per tanggal Perjanjian; UMK tidak ditulis sebagai angka dan diverifikasi ulang pada tanggal penandatanganan.
 - File hukum yang dirujuk dan tanggal verifikasinya: ketenagakerjaan 2026-10-03; perdata 2026-10-03; hki-rahasia-dagang 2026-10-03; pidana 2026-10-03; data-pribadi 2026-10-03; pajak-jaminan-sosial 2026-10-03; signing-authority 2026-10-03.
-- Draf ini lolos pemeriksaan aturan per 2026-10-03. Tinjauan advokat disarankan sebelum tanda tangan.
+<!-- GATE-STATUS -->Draf ini DISUSUN per 2026-10-03; status pemeriksaan aturan: menunggu kontrak-gate. Tinjauan advokat disarankan sebelum tanda tangan.

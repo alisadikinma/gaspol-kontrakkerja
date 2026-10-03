@@ -77,7 +77,10 @@ Urutan pertanyaan (lewati yang sudah terjawab):
 3. **Peran dan hasil kerja** — jabatan atau peran; apa yang dibuat (modul, aplikasi,
    model, dokumen). Tanyakan juga **Tempat pekerjaan** (alamat atau lokasi tertulis) dan
    ringkasan jam kerja serta syarat kerja yang disepakati, untuk PKWT dan PKWTT (PP 35/2021
-   Art. 13; lihat `ketenagakerjaan.md`). Freelancer: tulis "tidak berlaku".
+   Art. 13 untuk PKWT, UU 13/2003 Art. 54(1) untuk PKWTT; lihat `ketenagakerjaan.md`).
+   Freelancer: tulis "tidak berlaku". Untuk PKWT dan PKWTT catat juga **Jenis usaha**
+   Pihak Pertama (dari vault, atau tanya Ali bila tidak ada) dan **Jenis kelamin** Pihak
+   Kedua; keduanya wajib di komparisi (`[user]` atau `[vault]`).
 4. **Uji tiga unsur (pekerjaan, upah, perintah)** — tanyakan satu per satu, bahasa
    sehari-hari:
    - Jam kerja: tetap, atau bebas asal hasil jadi?
@@ -187,7 +190,7 @@ isi **semua** `{{...}}` dengan jawaban nyata. Tidak boleh ada `{{` tersisa. Atur
   dasar belum dibaca langsung.
 - UMK: nilai, sumber, **tanggal verifikasi**, tag `[riset]`. Untuk freelancer yang
   tidak terkena UMK, tulis "tidak berlaku untuk wadah ini" dan alasannya.
-- Usia: tulis tanggal lahir, tanggal acuan, hasil hitung. Status kawin: tulis nilainya. Bila < 21 dan belum kawin, baris wali terisi; bila sudah kawin, "tidak berlaku".
+- Usia: tulis tanggal lahir, tanggal acuan, hasil hitung. Status kawin: tulis nilainya; usia 21 tahun ke atas tidak ditanya, tulis `tidak relevan (usia 21 tahun ke atas)`. Bila < 21 dan belum kawin, baris wali terisi; bila sudah kawin, "tidak berlaku".
 - Bagian akhir **"Hal yang belum diketahui"**: daftar eksplisit, satu butir per hal, siapa
   yang bisa menjawab. Wajib memuat: peringatan cek ulang status UU Ketenagakerjaan baru
   (jika wadah PKWT), setiap `[ASUMSI]`, dan setiap data yang Ali belum punya. Jika benar

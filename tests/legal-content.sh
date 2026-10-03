@@ -6,9 +6,10 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 R="$ROOT/references"; T="$ROOT/templates"; S="$ROOT/skills"
 fail=0
 bad() { echo "FAIL legal-content: $*"; fail=1; }
-has()  { grep -qF -- "$2" "$1" 2>/dev/null || bad "${1#$ROOT/}: missing: $2"; }
-hasnt(){ grep -qF -- "$2" "$1" 2>/dev/null && bad "${1#$ROOT/}: must not contain: $2"; }
-hasre(){ grep -qE -- "$2" "$1" 2>/dev/null || bad "${1#$ROOT/}: missing pattern: $2"; }
+# every helper fails when the file is missing (a renamed file must not pass silently)
+has()  { [ -f "$1" ] || { bad "${1#$ROOT/}: No such file"; return; }; grep -qF -- "$2" "$1" || bad "${1#$ROOT/}: missing: $2"; }
+hasnt(){ [ -f "$1" ] || { bad "${1#$ROOT/}: No such file"; return; }; grep -qF -- "$2" "$1" && bad "${1#$ROOT/}: must not contain: $2"; }
+hasre(){ [ -f "$1" ] || { bad "${1#$ROOT/}: No such file"; return; }; grep -qE -- "$2" "$1" || bad "${1#$ROOT/}: missing pattern: $2"; }
 
 # --- C1: guardian does NOT cure a post-employment restriction (Art. 1601x(1): buruh dewasa)
 for f in "$R/hukum/hki-rahasia-dagang.md" "$R/hukum/perdata.md"; do
@@ -93,6 +94,43 @@ has "$S/kontrak-draft/SKILL.md" 'TEMPAT_KERJA'
 has "$S/kontrak-brainstorm/SKILL.md" 'Tempat pekerjaan'
 has "$gt" 'tempat pekerjaan'
 has "$g" 'bertempat kerja di'
+
+# --- fix-round 2
+# I1: PKWT/PKWTT komparisi carries the Art. 13 identity fields (jenis usaha, jenis kelamin, umur); freelancer untouched
+for f in "$T/kontrak-pkwt.md" "$T/kontrak-pkwtt.md"; do
+  for k in PT_JENIS_USAHA PIHAK_KEDUA_JENIS_KELAMIN PIHAK_KEDUA_USIA; do has "$f" "{{$k}}"; done
+done
+for k in PT_JENIS_USAHA PIHAK_KEDUA_JENIS_KELAMIN PIHAK_KEDUA_USIA; do
+  has "$T/brief-template.md" "{{$k}}"; hasnt "$T/kontrak-freelancer.md" "{{$k}}"
+done
+has "$S/kontrak-brainstorm/SKILL.md" 'Jenis usaha'
+has "$S/kontrak-brainstorm/SKILL.md" 'Jenis kelamin'
+has "$S/kontrak-draft/SKILL.md" 'PT_JENIS_USAHA'
+has "$S/kontrak-draft/SKILL.md" 'PIHAK_KEDUA_JENIS_KELAMIN'
+has "$gt" 'jenis usaha'
+has "$gt" 'jenis kelamin'
+hasre "$g" 'bergerak di bidang '
+hasre "$g" 'berjenis kelamin '
+# I2: G5 extra (a) is conditional on 'belum kawin'
+grep -qE 'padahal berusia di bawah 21( *$| +[^d])' "$gt" && bad "kontrak-gate/SKILL.md: G5 extra (a) not conditional on belum kawin"
+has "$gt" 'padahal berusia di bawah 21 dan belum kawin'
+# M4: Art. 13 is PKWT only; PKWTT basis is UU 13/2003 Art. 54(1), flagged as primary-PDF only
+for f in "$S"/*/SKILL.md "$T"/*.md; do
+  [ -f "$f" ] && grep -E 'PKWTT' "$f" | grep -qF 'PP 35/2021 Art. 13' && bad "${f#$ROOT/}: a PKWTT line cites PP 35/2021 Art. 13 (PKWT only)"
+done
+hasnt "$T/kontrak-pkwtt.md" 'PP 35/2021 Art. 13'
+has "$T/kontrak-pkwtt.md" 'UU 13/2003 Art. 54(1)'
+has "$gt" 'UU 13/2003 Art. 54(1)'
+has "$R/hukum/ketenagakerjaan.md" 'hanya dibaca dari PDF primer'
+# M5: STATUS_KAWIN value defined for age >= 21
+has "$T/brief-template.md" 'tidak relevan (usia 21 tahun ke atas)'
+has "$S/kontrak-brainstorm/SKILL.md" 'tidak relevan (usia 21 tahun ke atas)'
+# M6: no dead 'telah dewasa' replacement branch in the draft skill
+hasnt "$S/kontrak-draft/SKILL.md" 'pasal lain Lampiran I (bila ada)'
+# M7: a drafted kontrak.md never says 'lolos pemeriksaan'; the good fixture ends with the draft GATE-STATUS line
+hasnt "$g" 'lolos pemeriksaan'
+has "$g" '<!-- GATE-STATUS -->Draf ini DISUSUN per'
+[ "$(grep -c 'GATE-STATUS' "$g")" -eq 1 ] || bad "good-kontrak.md: GATE-STATUS must appear exactly once"
 
 # --- item 10: env var inline on the build.sh call
 hasre "$S/kontrak-finish/SKILL.md" 'KONTRAK_REVIEW=review\.md bash \.\./\.\./scripts/build\.sh'

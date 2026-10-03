@@ -31,6 +31,11 @@ scan_all() {
 }
 scan_all "employee first name Herry (case-insensitive, docs/ and research/ included)" 'herry'
 scan_all "personal employee folder path my-data/.../Karyawan/" 'my-data/[^ ]*/Karyawan/'
+# Absolute home or session paths: allowed only in the INDUSIA-specific default-path files (scripts/, skills/, README), never in tests/ or templates/ or references/.
+hits=$(cd "$ROOT" && grep -rEIn --exclude-dir=docs --exclude-dir=research --exclude-dir=.gaspol --exclude-dir=.git --exclude-dir=.cache --exclude-dir=node_modules \
+  --exclude="$(basename "$SELF")" -e '/Users/[A-Za-z0-9_.-]+/|/private/tmp/claude-' . 2>/dev/null \
+  | grep -vE '^\./(scripts/(build\.sh|md2docx\.js)|skills/[a-z-]+/SKILL\.md|README\.md):' | grep -v '^$')
+if [ -n "$hits" ]; then echo "FAIL guard-generic: absolute /Users/<name>/ or session path outside the allow-list"; echo "$hits" | head -5; fail=1; fi
 scan "16-digit number (NIK pattern)" '[0-9]{16}'
 scan "forbidden token ktp-" 'ktp-'
 scan "forbidden token npwp-" 'npwp-'

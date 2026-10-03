@@ -75,7 +75,7 @@ pertanyaan, pilihan yang bisa diklik lewat `AskUserQuestion`). Jangan menulis se
 | Usia | hitung ulang dari tanggal lahir dan tanggal tanda tangan; beda dengan brief, atau di bawah 18 tahun |
 | Status kawin | usia di bawah 21 tetapi Status kawin kosong atau `[ASUMSI]` (Art. 330: belum dewasa = belum genap 21 tahun DAN belum kawin) |
 | Wali | usia di bawah 21 **dan belum kawin** tetapi nama atau hubungan wali tidak ada (alamat wali boleh belum ada; catat di CATATAN PENYUSUN). Pihak Kedua yang sudah kawin atau pernah kawin dianggap dewasa: tidak ada wali, tidak ada pembatasan usia |
-| Tempat pekerjaan (PKWT dan PKWTT) | `Tempat pekerjaan` di brief kosong (PP 35/2021 Art. 13 huruf d) |
+| Tempat pekerjaan, jenis usaha, jenis kelamin (PKWT dan PKWTT) | `Tempat pekerjaan`, `Jenis usaha Pihak Pertama`, atau `Jenis kelamin` di brief kosong (`ketenagakerjaan.md`) |
 | Penandatangan PT | nama, jabatan, atau dasar kewenangan kosong atau `[ASUMSI]`; bukan direksi tanpa surat kuasa khusus; atau ada benturan kepentingan (UU 40/2007 Art. 98 dan 99, Art. 103, lihat `signing-authority.md`) |
 | UMK (PKWT dan PKWTT) | nilai, sumber, atau tanggal ambil tidak ada di brief |
 | Jangka waktu | tanggal mulai atau selesai kosong |
@@ -99,7 +99,10 @@ Salin template wadah ke `kontrak.md`, lalu isi dari atas ke bawah.
 - **Placeholder para pihak dan jangka waktu** (`{{PIHAK_KEDUA_NAMA}}`, `{{TANGGAL_MULAI}}`,
   dst.): dari brief dan vault. Tanggal ditulis panjang (15 Oktober 2026). Uang ditulis
   `Rp 18.000.000 (delapan belas juta rupiah)`.
-- `{{TEMPAT_KERJA}}` dan `{{KONDISI_KERJA}}` (hanya PKWT dan PKWTT; freelancer tidak punya slot ini dan tidak boleh diberi bahasa jam kerja): dari baris `Tempat pekerjaan` dan `Ringkasan jam kerja dan syarat kerja` di brief, apa adanya. `{{TEMPAT_KERJA}}` kosong: STOP (tempat pekerjaan wajib tertulis, `ketenagakerjaan.md`, PP 35/2021 Art. 13).
+- `{{TEMPAT_KERJA}}` dan `{{KONDISI_KERJA}}` (hanya PKWT dan PKWTT; freelancer tidak punya slot ini dan tidak boleh diberi bahasa jam kerja): dari baris `Tempat pekerjaan` dan `Ringkasan jam kerja dan syarat kerja` di brief, apa adanya. `{{TEMPAT_KERJA}}` kosong: STOP (tempat pekerjaan wajib tertulis, `ketenagakerjaan.md`).
+- `{{PT_JENIS_USAHA}}`, `{{PIHAK_KEDUA_JENIS_KELAMIN}}`, `{{PIHAK_KEDUA_USIA}}` (hanya PKWT dan PKWTT, komparisi): dari baris `Jenis usaha Pihak Pertama`, `Jenis kelamin`, dan `usia` di brief. Salah satunya kosong: STOP.
+  Dasar untuk PKWT: PP 35/2021 Art. 13. Dasar untuk perjanjian kerja tertulis umum:
+  UU 13/2003 Art. 54(1) (`ketenagakerjaan.md`).
 - `{{HARI_TANGGAL_TTD}}`: nama hari dihitung dari tanggal tanda tangan di brief
   (`date -j -f "%Y-%m-%d" <tanggal> "+%A"`), bukan ditebak.
 - `{{TEMPAT_TTD}}`: dari brief; jika tidak ada, kota kedudukan PT dari vault, dan catat itu
@@ -155,10 +158,7 @@ Salin template wadah ke `kontrak.md`, lalu isi dari atas ke bawah.
    "Pihak Kedua menyatakan telah dewasa menurut hukum dan menandatangani klausul ini secara
    tertulis" hanya benar untuk Pihak Kedua dewasa. Untuk yang belum genap 21 tahun dan belum
    kawin P-NK-01 dan P-NK-03 tidak dipasang sama sekali, jadi kalimat itu dan kalimat
-   "persetujuan wali" untuk klausul pasca-kerja tidak pernah ditulis. Kalimat "telah dewasa"
-   di pasal lain Lampiran I (bila ada) diganti "Pihak Kedua belum genap 21 (dua puluh satu)
-   tahun dan menandatangani dengan persetujuan Wali sebagaimana tertulis pada blok tanda
-   tangan wali" hanya bila klausulnya bukan pembatasan pasca-kerja; catat penggantian itu.
+   "persetujuan wali" untuk klausul pasca-kerja tidak pernah ditulis.
 6. **Freelancer: tidak boleh ada bahasa hubungan kerja** di kontrak. Teks pustaka
    yang memuatnya diganti tepat begini, dan penggantian dicatat:
    - "hari kerja" → "hari kalender"
