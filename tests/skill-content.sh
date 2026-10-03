@@ -31,5 +31,23 @@ if [ -f "$f" ]; then
   grep -q '1307' "$f" && { echo "FAIL kontrak-brainstorm: repeats wrong article 1307"; fail=1; }
 fi
 
+need kontrak-draft \
+  'brief.md' 'references/pasal/' 'Catatan penyusun — dasar:' 'lampiran-ip.md' 'STOP' \
+  '[ASUMSI]' 'dijamin' '# CATATAN PENYUSUN' 'Tinjauan advokat disarankan sebelum tanda tangan' \
+  'GATE-STATUS' 'DISUSUN per' 'signing-authority.md' 'company-legal' 'verified:' \
+  'kontrak-gate' 'kontrak-finish' 'Sama dengan'
+f="$ROOT/skills/kontrak-draft/SKILL.md"
+if [ -f "$f" ]; then
+  # refusal rules: missing brief.md, and [ASUMSI] on a legal-critical fact
+  grep -E 'STOP|[Tt]olak' "$f" | grep -qF 'brief.md' || { echo "FAIL kontrak-draft: no refusal rule for missing brief.md"; fail=1; }
+  grep -E 'STOP' "$f" | grep -qF '[ASUMSI]' || { echo "FAIL kontrak-draft: STOP rule does not mention [ASUMSI]"; fail=1; }
+  # the word dijamin is only ever named as forbidden
+  grep -F 'dijamin' "$f" | grep -qiE 'jangan|tidak boleh|nol|dilarang' || { echo "FAIL kontrak-draft: 'dijamin' is not stated as forbidden"; fail=1; }
+  grep -F 'dijamin' "$f" | grep -viE 'jangan|tidak boleh|nol|dilarang|grep' | grep -q . && { echo "FAIL kontrak-draft: 'dijamin' used outside a prohibition line"; fail=1; }
+  grep -q '[0-9]\+[a-z]\.' "$f" && grep -qE '^[0-9]+[a-z]\. ' "$f" && { echo "FAIL kontrak-draft: lettered numbering used"; fail=1; }
+  grep -q '1307' "$f" && { echo "FAIL kontrak-draft: repeats article 1307"; fail=1; }
+  grep -qE 'TODO|TBD|FIXME' "$f" && { echo "FAIL kontrak-draft: placeholder text"; fail=1; }
+fi
+
 [ "$fail" -eq 0 ] && echo "PASS skill-content"
 exit "$fail"
