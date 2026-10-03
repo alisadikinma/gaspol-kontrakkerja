@@ -90,12 +90,12 @@ Markdown skill files (Claude Code plugin), bash tests (bash + grep + awk), pando
 | Clause library | `references/pasal/*.md` | file read by kontrak-draft | No | Create in Phases G-H (real clauses with real basis) |
 | UMK / rates at contract time | Firecrawl live fetch | `firecrawl_search` | Yes | Fetched per contract, stored only in that contract's `brief.md` with date |
 | PDF render | `scripts/build.sh` + `templates/style.css` (adapted from the earlier render script's) | pandoc + Chrome headless | Source yes | Create parametrised copy in Phase J |
-| DOCX render | skill `anthropic-skills:docx` (same route as gaspol-brdwriter's brd-finish) fed by the stripped, letterhead-filled markdown | Skill tool | Yes | Invoke from kontrak-finish in Phase J; letterhead as document header |
+| DOCX render | `scripts/md2docx.js` (docx-js, default builder; skill `anthropic-skills:docx` stays a documented alternative) fed by the stripped, letterhead-filled markdown | node + npm `docx` | Yes (amended: builder is the in-repo script) | Invoke from kontrak-finish in Phase J; letterhead as document header; exit 2 on a missing letterhead value |
 | Logo | `/Users/alisadikin/Drive-D/my-data/INDUSIA/PT/brand-industria-logo.png` | env `KONTRAK_LOGO`, default this path | Yes | Do not copy into repo |
 | Plugin manifest | `.claude-plugin/plugin.json` | — | No | Create in Phase A |
 
 ## Out of scope (one line)
-Shareholder agreements / AD (see vault `startup-notariil-conversion-method`), consultant-company (PT-to-PT) service contracts, payroll computation, e-signature integration, `git init`.
+Shareholder agreements / AD (see vault `startup-notariil-conversion-method`), consultant-company (PT-to-PT) service contracts, payroll computation, e-signature integration. (`git init` was out of scope at plan time; the user later asked for a repo — see Plan amendments.)
 
 ---
 
@@ -366,7 +366,7 @@ Shareholder agreements / AD (see vault `startup-notariil-conversion-method`), co
 **Steps:**
 1. Write failing test: extend `tests/skill-content.sh` — kontrak-draft SKILL.md contains `brief.md`, `references/pasal/`, `Catatan penyusun — dasar:`, `lampiran-ip.md`, a refusal rule ("refuse" / "STOP") when `brief.md` is missing or has an `[ASUMSI]` on a legal-critical fact, the sentence that the word "dijamin" must never appear in the output, and the drafter-note requirement (rule-check date + advocate review recommended). Expected error: `skills/kontrak-draft/SKILL.md: No such file or directory`.
 2. Run, confirm the expected failure.
-3. Write the skill. Contract: refuses without `brief.md`; picks template by wadah; fills each `{{CLAUSE:P-XXX-NN}}` by selecting the clause variant (standard vs strict: strict when role has source-code or client-data access); every clause gets the `> **Catatan penyusun — dasar:** P-XXX-NN; <article>` line; attaches `lampiran-ip.md` to all three types; adds guardian block when brief says age <21; adds PT signatory block per `references/hukum/signing-authority.md` and vault `company-legal`; ends with a `# CATATAN PENYUSUN` section listing assumptions, verification dates of every referenced hukum file, and the sentence "Draf ini lolos pemeriksaan aturan per <tanggal>. Tinjauan advokat disarankan sebelum tanda tangan."; numbering renumbered fully (never `2a.`, `4a.` — Markdown does not support them); prorata uses calendar days with the formula written out; BPJS and tax wording without percentages; no `{{` left in output; criminal-law text only as a notice.
+3. Write the skill. Contract: refuses without `brief.md`; picks template by wadah; fills each `{{CLAUSE:P-XXX-NN}}` by selecting the clause variant (standard vs strict: strict when role has source-code or client-data access); every clause gets the `> **Catatan penyusun — dasar:** P-XXX-NN; <article>` line; attaches `lampiran-ip.md` to all three types; adds guardian block when brief says age <21; adds PT signatory block per `references/hukum/signing-authority.md` and vault `company-legal`; ends with a `# CATATAN PENYUSUN` section listing assumptions, verification dates of every referenced hukum file, and a final line `<!-- GATE-STATUS -->Draf ini DISUSUN per <tanggal>; status pemeriksaan aturan: menunggu kontrak-gate. Tinjauan advokat disarankan sebelum tanda tangan.` (amended: the draft never writes "lolos"; only scripts/clean.sh replaces it with `Draf ini lolos pemeriksaan aturan per <reviewed_at>. Tinjauan advokat disarankan sebelum tanda tangan.` on a working copy after a current PASS); numbering renumbered fully (never `2a.`, `4a.` — Markdown does not support them); prorata uses calendar days with the formula written out; BPJS and tax wording without percentages; no `{{` left in output; criminal-law text only as a notice.
 4. Run `bash tests/run-all.sh`.
 5. Dry-run from the Phase G dry-run `brief.md`: produce `kontrak.md`; grep it: zero `{{`, every clause followed by a `dasar:` line, zero occurrences of `dijamin`.
 6. Commit: n/a (no git).
@@ -459,3 +459,13 @@ Shareholder agreements / AD (see vault `startup-notariil-conversion-method`), co
 - [ ] README states the guarantee boundary; no unqualified "dijamin"
 - [ ] `CLAUDE.md` lists all skills and test contracts
 - [ ] No placeholder/TODO comments in new files
+
+---
+
+## Plan amendments (during execution, all user-approved or evidence-driven)
+
+- 2026-10-03 user: output is PDF **and** DOCX (Phase J). DOCX default builder is `scripts/md2docx.js`.
+- 2026-10-03 research (Phase C), user-approved: Art. 1307→1309 (judge reduces penalty), Art. 185 basis 88E(2)+UU 1/2026, Art. 16(2) only 'tertulis', Art. 18 UU 28/2014 risk note.
+- 2026-10-03 user: git repo + marketplace link. Phases A–E1 are one commit (`0dd55c6`); later phases commit per phase.
+- 2026-10-03 draft mechanism: `<!-- GATE-STATUS -->` marker instead of a self-declared pass sentence (Phase H).
+- 2026-10-03 review fix-round 1 (refuter-confirmed): under-21 unmarried party gets no post-employment non-compete (Art. 1601x(1) adulthood); marital status asked (Art. 330); Art. 1309 only for partial performance; open BPJS list incl. JHT; G6 requires P-HKI-04; place of work required (PP 35/2021 Art. 13); md2docx exit 2 on missing letterhead values; DOCX success-path test; real employee name removed from docs.

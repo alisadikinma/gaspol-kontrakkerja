@@ -25,7 +25,7 @@ reduce or annul (e.g. Art. 1309 KUHPer) are treated as defects, not as company b
 | `kontrak-brainstorm` | Interview facts (hours, tools, place, exclusivity, age, access to source/client data); decide wadah (PKWT / PKWTT / freelancer) from facts, not from the title | `brief.md` |
 | `kontrak-draft` | Assemble contract from the clause library per `brief.md` | `kontrak.md` |
 | `kontrak-gate` | Blocking review: legal basis, traps, numbers, freshness | `review.md` (PASS/BLOCKING) |
-| `kontrak-finish` | Requires PASS; render PDF via build.sh + style.css and DOCX via `anthropic-skills:docx` | PDF + DOCX |
+| `kontrak-finish` | Requires PASS; render PDF via build.sh + style.css and DOCX via `scripts/md2docx.js` (docx-js; `anthropic-skills:docx` is a documented alternative) | PDF + DOCX |
 
 No PDF without a current PASS. The IP attachment attaches to all three contract types; strictness
 scales with the role's access to source code and client data.
