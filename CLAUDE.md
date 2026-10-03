@@ -5,7 +5,7 @@ IP and client-data protection. Every clause carries a legal basis; a blocking ga
 fragile clauses. Output: PDF (signing) and DOCX (editing) on letterhead. Design:
 `docs/plans/2026-10-03-KKJ-1-gaspol-kontrakkerja-spec.md`, plan: `…-plan.md`.
 
-Status: v0.1.0, all phases of KKJ-1 built. Pending risk: a new UU Ketenagakerjaan may land
+Status: v0.1.1, all phases of KKJ-1 built. Pending risk: a new UU Ketenagakerjaan may land
 around 31 Oct 2026 (MK 168/PUU-XXI/2023 deadline); the PKWT basis must then be re-researched.
 
 ## Skills and what each reads/writes

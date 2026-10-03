@@ -5,7 +5,7 @@ PKWT, PKWTT, freelancer service agreements, and an attachment (Lampiran I) with 
 non-compete. Every clause carries a cited legal basis. A blocking gate rejects fragile clauses before a
 PDF (for signing) and a DOCX (for editing) are produced on the company letterhead.
 
-Status: v0.1.0. Contract text and skills are in Bahasa Indonesia; this README is English.
+Status: v0.1.1. Contract text and skills are in Bahasa Indonesia; this README is English.
 
 ## Pipeline
 

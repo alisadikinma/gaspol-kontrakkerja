@@ -82,7 +82,7 @@ if [ ! -f "$r" ]; then
   echo "FAIL README.md: No such file or directory"; fail=1
 else
   for s in 'does not guarantee' 'advocate' 'KONTRAK_LOGO' 'company-legal.md' 'Merek' 'Tagline' \
-           'pandoc' 'Chrome' 'NODE_PATH' 'Firecrawl' '180' 'verified:' '0.1.0' 'UU Ketenagakerjaan' \
+           'pandoc' 'Chrome' 'NODE_PATH' 'Firecrawl' '180' 'verified:' '0.1.1' 'UU Ketenagakerjaan' \
            'Risiko' 'kontrak-brainstorm' 'kontrak-finish' 'An advocate should confirm this reading'; do
     grep -qF -- "$s" "$r" || { echo "FAIL README.md: missing string: $s"; fail=1; }
   done
