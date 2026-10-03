@@ -17,6 +17,8 @@
 
 **Additional expected catch (not planted as D1-D6):** Lampiran I Pasal 12 "Pihak Kedua menyatakan telah dewasa menurut hukum" while under 21 — G5/G1 contradiction.
 
-## Round 1
+## Evidence
 
-Verdict BLOCKING (G1, G2, G3, G5, G6, G8 failed; G4, G7, G9 passed). Caught: D1 (G1), D2 (G3), D3 (G3), D4 (G3 and G6), D5 (G5), D6 (G8), plus "telah dewasa" (G5) and a G2 finding that Pasal 10 rests on P-AA-01 while P-AA-03 is the id that prohibits withholding. Missed: none. Gate skill unchanged; no rounds needed after this.
+Verbatim gate output: `evals/results/01-bad-fixture-review.md` (separate sonnet subagent, no defect hints; scratch brief is a fictional-data fixture brief with a dated UMK record).
+
+Result, round 2 (round 1 was blocked only by the scratch brief, see below): verdict BLOCKING; caught D1 (G1), D2 (G2 and G3), D3 (G3), D4 (G3 and G6), D5 (G5), D6 (G8), plus the extra "telah dewasa" catch (G5). Missed: none. Gate skill needed no change for this fixture.

@@ -110,9 +110,11 @@ apa adanya. Pemeriksaan tambahan ada di bawah tiap gate.
   tetap "terlepas dari kerugian nyata") = temuan, kecuali ada alasan tertulis yang
   menjelaskan mengapa angka itu wajar (rationale pembuktian pengurangan). Pelanggaran IP
   dan rahasia dagang boleh di luar batas bila dibatasi pada kerugian nyata yang dibuktikan.
-  Tambahan (c): rujukan **Art. 1307** untuk hak hakim menurunkan penalti salah; yang benar
-  **Art. 1309 KUHPer**. Kontrak yang memakai Art. 1307 untuk itu = temuan; bila dasar
-  baris memuat 1307 untuk pengurangan, itu juga temuan.
+  Tambahan (c): temuan hanya bila **Art. 1307** dirujuk SEBAGAI dasar hak hakim menurunkan
+  penalti (kontrak, atau baris dasar yang menyebut 1307 untuk pengurangan); yang benar
+  **Art. 1309 KUHPer**. Merujuk 1307 untuk "penalti menggantikan ganti rugi / tidak boleh
+  ditagih dobel" BUKAN temuan: itu pemakaian yang benar (mis. baris `Dasar hukum` P-GR-01
+  yang memuat 1307 bersama 1309). Periksa untuk apa 1307 dirujuk, bukan hanya ada atau tidaknya.
 - Batas waktu kepemilikan: kewajiban kerahasiaan source code atau rahasia dagang yang
   berakhir (misal "1 tahun sejak Perjanjian berakhir"), atau hak memakai, menjual,
   menerbitkan Hasil Karya yang dibatasi waktu = temuan. Kerahasiaan informasi umum boleh

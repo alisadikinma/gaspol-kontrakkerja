@@ -34,6 +34,11 @@ check "clean: no Catatan penyusun (any case)" bash -c '! grep -qi "catatan penyu
 check "clean: no GATE-STATUS marker" bash -c '! grep -q "GATE-STATUS" "$1"' _ "$TMP/clean.md"
 check "clean: PASS sentence present" grep -qF "$PASS_SENTENCE" "$TMP/clean.md"
 check "clean: ttd wrapper present" grep -q '^::: ttd' "$TMP/clean.md"
+# every signature block (table headed by **PIHAK KEDUA**) sits in a ::: ttd group; guardian block shares the group
+check "clean: ttd openers == signature tables" test "$(grep -c '^::: ttd' "$TMP/clean.md")" -eq "$(grep -c '^| \*\*INDUSIA\*\* | \*\*PIHAK KEDUA\*\* |' "$TMP/clean.md")"
+check "clean: 2 ttd groups (main + Lampiran I)" test "$(grep -c '^::: ttd' "$TMP/clean.md")" -eq 2
+check "clean: every WALI block inside a ttd group" awk '/^::: ttd/{o=1} /^:::$/{o=0} /WALI PIHAK KEDUA/{n++; if(!o)b=1} END{exit (n>=1 && !b)?0:1}' "$TMP/clean.md"
+check "clean: Lampiran I signature + WALI in the SAME group" awk '/^::: ttd/{g++} /PIHAK KEDUA\*\* \|$/ && /INDUSIA/{a=g} /WALI PIHAK KEDUA/{w=g} END{exit (a>0 && a==w)?0:1}' "$TMP/clean.md"
 check "clean: Lampiran I kept" grep -q '^# LAMPIRAN I' "$TMP/clean.md"
 check "clean: original kontrak.md unchanged" test "$(shasum -a 256 "$TMP/kontrak.md" | awk '{print $1}')" = "$SHA"
 
@@ -76,6 +81,11 @@ fi
 KONTRAK_LOGO="$TMP/tidak-ada.png" bash "$ROOT/scripts/build.sh" "$TMP/kontrak.md" "$TMP/o3.pdf" "$STUB" >"$TMP/e1.log" 2>&1
 check "missing logo: exit 2" test $? -eq 2
 check "missing logo: message names logo" grep -qi 'logo' "$TMP/e1.log"
+if command -v node >/dev/null 2>&1; then
+  node "$ROOT/scripts/md2docx.js" "$TMP/clean.md" "$STUB" "$TMP/o6.docx" "$TMP/tidak-ada.png" >"$TMP/e6.log" 2>&1
+  check "md2docx missing logo: exit 2" test $? -eq 2
+  check "md2docx missing logo: message names logo" grep -qi 'logo' "$TMP/e6.log"
+fi
 bash "$ROOT/scripts/build.sh" "$TMP/kontrak.md" "$TMP/o4.pdf" "$TMP/tidak-ada.md" >"$TMP/e2.log" 2>&1
 check "missing vault note: exit 2" test $? -eq 2
 check "missing vault note: message names the note" grep -qi 'company-legal\|catatan\|vault' "$TMP/e2.log"

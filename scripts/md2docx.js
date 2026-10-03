@@ -2,9 +2,11 @@
 // DOCX renderer for kontrak-finish: same cleaned markdown as the PDF (scripts/clean.sh output).
 // Letterhead goes into the document header, signature blocks become real Word tables.
 // Needs the npm package docx (preinstalled with the anthropic-skills:docx skill).
-const fs=require('fs');const d=require('docx');
+const fs=require('fs');
 const [,, MD, VAULT, OUT, LOGOARG]=process.argv;
 const LOGO=LOGOARG||process.env.KONTRAK_LOGO||'/Users/alisadikin/Drive-D/my-data/INDUSIA/PT/brand-industria-logo.png';
+if(!fs.existsSync(LOGO)){console.error('md2docx: logo tidak ditemukan: '+LOGO+' (set KONTRAK_LOGO)');process.exit(2);}
+const d=require('docx');
 const v=fs.readFileSync(VAULT,'utf8').split('\n');
 const bullet=(k)=>{const l=v.find(x=>x.startsWith('- **'+k));if(!l)return '';return l.replace(/^[^:]*\*\*:\s*/,'').replace(/\s*\(.*$/,'');};
 const nama=bullet('Nama'),nib=bullet('NIB'),npwp=bullet('NPWP'),sk=bullet('SK Pengesahan'),telp=bullet('Telp'),email=bullet('Email');

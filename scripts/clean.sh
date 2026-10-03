@@ -4,7 +4,8 @@
 #  - drops "# CATATAN PENYUSUN" to end of file and every "> **Catatan penyusun" line
 #  - drops the GATE-STATUS marker line; only with a CURRENT PASS (review.md verdict PASS and
 #    kontrak_sha256 equal to the sha of kontrak.md) appends the PASS sentence instead
-#  - wraps the closing + signature block in "::: ttd" (up to Lampiran I)
+#  - wraps the closing + signature block in "::: ttd" (up to Lampiran I), and in each Lampiran
+#    wraps every signature table together with its guardian block in its own "::: ttd" group
 #  - kontrak.md itself is never modified (its sha256 stays valid)
 # Exit: 0 ok, 2 bad usage or missing file, 3 review.md is not a current PASS, 4 leftover {{ or drafter note.
 set -euo pipefail
@@ -41,11 +42,16 @@ fi
           for (i = 1; i <= n; i++) print line[i]
         }' \
     | awk '
+        # t: 0 none, 1 main closing+signature group open, 2 in Lampiran (no group open), 3 Lampiran group open
         /^\*\*DEMIKIANLAH PERJANJIAN INI\*\*/ && !t && !seen { print "::: ttd"; t = 1 }
         /^::: ttd/ { seen = 1 }
-        /^# LAMPIRAN I / && t == 1 { print ":::"; print ""; t = 2 }
+        /^# / && (t == 1 || t == 3) { print ":::"; print ""; t = 2 }
+        /^# LAMPIRAN/ && !t { t = 2 }
+        # a signature table (header row of bold-only cells) opens one unbreakable group that
+        # also carries the guardian block and anything else up to the next heading
+        t == 2 && /^\|( *\*\*[^|*]+\*\* *\|)+ *$/ { print "::: ttd"; t = 3 }
         { print }
-        END { if (t == 1) { print ""; print ":::" } }'
+        END { if (t == 1 || t == 3) { print ""; print ":::" } }'
   if [ -n "$PASS_LINE" ]; then
     printf '\n%s\n' "$PASS_LINE"
   fi

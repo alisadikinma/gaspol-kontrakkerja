@@ -92,7 +92,7 @@ bash ../../scripts/build.sh kontrak.md KONTRAK-<CODE>-<NNN>.pdf
 skrip di folder plugin.) `clean.sh` membuang `# CATATAN PENYUSUN` sampai akhir file dan
 tiap baris `> **Catatan penyusun`, mengganti baris GATE-STATUS dengan kalimat
 `Draf ini lolos pemeriksaan aturan per <reviewed_at>. Tinjauan advokat disarankan sebelum tanda tangan.`,
-membungkus penutup + tanda tangan dalam `::: ttd` (satu halaman), dan menolak (kode 3) bila
+membungkus penutup + tanda tangan, dan tiap tabel tanda tangan Lampiran bersama blok walinya, dalam grup `::: ttd` (tidak terbelah halaman), dan menolak (kode 3) bila
 review bukan PASS yang berlaku. `build.sh` mengisi `../../templates/kop.html` dan memakai
 `../../templates/style.css`.
 
@@ -115,12 +115,20 @@ pdftotext -layout KONTRAK-<CODE>-<NNN>.pdf - | grep -ci 'catatan penyusun'   # h
 pdftoppm -r 70 -png KONTRAK-<CODE>-<NNN>.pdf "$TMPDIR/hal"
 ```
 
+Cari SEMUA halaman yang memuat blok tanda tangan atau wali, per halaman:
+
+```bash
+n=$(pdfinfo KONTRAK-<CODE>-<NNN>.pdf | awk '/^Pages:/{print $2}')
+for p in $(seq 1 "$n"); do pdftotext -f $p -l $p KONTRAK-<CODE>-<NNN>.pdf - | grep -qE 'PIHAK KEDUA|WALI|DEMIKIANLAH' && echo "hal $p"; done
+```
+
 Lalu **buka PNG-nya dengan Read dan lihat**: (a) halaman 1: logo terlihat, nilai kop terisi
-semua, tidak ada `{{`; (b) halaman yang memuat `DEMIKIANLAH PERJANJIAN INI`: kalimat
-penutup, tabel tanda tangan, dan blok wali (bila ada) utuh dalam satu halaman, tidak
-terpotong; (c) halaman pertama Lampiran I mulai di halaman baru. Cari halaman dengan
-`pdftotext -f N -l N`. Ada yang salah: perbaiki sumbernya (CSS, kop, vault), render ulang;
-jangan menyerahkan file yang belum dilihat.
+semua, tidak ada `{{`; (b) SETIAP halaman dari daftar di atas (bukan hanya yang memuat
+`DEMIKIANLAH PERJANJIAN INI`): kalimat penutup, tabel tanda tangan, dan blok wali (bila ada)
+utuh dalam satu halaman, tidak terpotong; tabel tanda tangan Lampiran I dan blok wali-nya
+harus di halaman yang sama, dan tepi kanan tabel tidak terpotong; (c) halaman pertama
+Lampiran I mulai di halaman baru. Ada yang salah: perbaiki sumbernya (CSS, kop, vault),
+render ulang; jangan menyerahkan file yang belum dilihat.
 
 ## Langkah 3 — DOCX dari salinan bersih yang sama
 
