@@ -49,5 +49,19 @@ if [ -f "$f" ]; then
   grep -qE 'TODO|TBD|FIXME' "$f" && { echo "FAIL kontrak-draft: placeholder text"; fail=1; }
 fi
 
+need kontrak-gate \
+  'G1 Wadah' 'G2 Dasar hukum' 'G3 Jebakan terlarang' 'G4 Non-kompetisi' 'G5 Usia' \
+  'G6 HKI' 'G7 Penegakan' 'G8 Angka & kesegaran' 'G9 Penandatangan' \
+  'PASS' 'BLOCKING' 'kontrak_sha256' 'reviewed_at' '180' \
+  'loop back to kontrak-draft until PASS' 'GATE-STATUS' 'review.md' 'kontrak.md' 'brief.md' \
+  'references/pasal/' 'references/hukum/' 'kontrak-draft' 'kontrak-finish' 'shasum -a 256' \
+  'telah dewasa' 'Art. 1309' 'Art. 1307'
+f="$ROOT/skills/kontrak-gate/SKILL.md"
+if [ -f "$f" ]; then
+  grep -qE 'TODO|TBD|FIXME' "$f" && { echo "FAIL kontrak-gate: placeholder text"; fail=1; }
+  grep -qiE 'never edit|tidak (pernah )?(mengubah|mengedit)|jangan (mengubah|mengedit)' "$f" || { echo "FAIL kontrak-gate: no never-edit-kontrak.md rule"; fail=1; }
+  [ "$(wc -l < "$f")" -le 290 ] || { echo "FAIL kontrak-gate: longer than 290 lines"; fail=1; }
+fi
+
 [ "$fail" -eq 0 ] && echo "PASS skill-content"
 exit "$fail"
