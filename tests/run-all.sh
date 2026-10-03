@@ -2,7 +2,7 @@
 # Runs the explicit list of test scripts. A missing script is RED, never skipped.
 set -uo pipefail
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-TESTS="frontmatter.sh guard-generic.sh research-shape.sh crosscheck-shape.sh hukum-shape.sh freshness.sh pasal-shape.sh"
+TESTS="frontmatter.sh guard-generic.sh research-shape.sh crosscheck-shape.sh hukum-shape.sh freshness.sh pasal-shape.sh fixture-shape.sh"
 red=0
 for t in $TESTS; do
   if [ ! -f "$DIR/$t" ]; then
