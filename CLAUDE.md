@@ -34,6 +34,18 @@ equal to `shasum -a 256 kontrak.md`. Nothing is rendered without it.
 - **Fixtures:** `references/examples/bad-kontrak.md` keeps six planted defects `D1`–`D6`
   (`<!-- DEFECT Dn -->`). They are NEVER fixed; a gate that passes the bad fixture is fixed
   instead. `good-kontrak.md` has none and must PASS. Fixture parties are fictional.
+  The bad fixture also yields two documented EXTRA catches (the "telah dewasa" sentence and the
+  post-employment non-compete for an unmarried 19-year-old); see `evals/01-bad-fixture.md`.
+  Evals live in `evals/01..03-*.md`; verbatim gate outputs in `evals/results/`. Eval 03 = an
+  under-21 party with a post-employment non-compete must be BLOCKING.
+- **Age rule (legal contract):** a party under 21 AND not married (KUHPerdata Art. 330) gets a
+  guardian block and NO post-employment non-compete (P-NK-01/P-NK-03), because Art. 1601x(1)
+  makes adulthood a validity condition; guardian consent is not a source-backed cure
+  (`references/hukum/perdata.md`). A married party counts as adult. An advocate should confirm
+  this reading. Brief carries `Status kawin` (`tidak relevan` for age 21+).
+- **Minimum contents:** PKWT = PP 35/2021 Art. 13 (jenis usaha, jenis kelamin, usia, place of
+  work); PKWTT = UU 13/2003 Art. 54(1) (read from the primary PDF only). Gate G1 checks them.
+  Gate G6 requires P-HKI-04 (confirmation of assignment + licence-back, Art. 18 UU 28/2014).
 - **Freshness:** every `references/hukum/*.md` carries `verified: YYYY-MM-DD`; more than 180 days
   old is RED (`tests/freshness.sh`) and gate G8 fails. Every body bullet ends with `[dasar: …]`.
 - **Clause library:** `references/pasal/<group>.md`, entries `## P-<GROUP>-<NN>` with eight
@@ -50,10 +62,19 @@ equal to `shasum -a 256 kontrak.md`. Nothing is rendered without it.
   <reviewed_at>…". The word "dijamin" is never in a contract.
 - **kontrak.md stays byte-identical after PASS:** finish never edits it (sha before = after).
 - **Generic repo:** `tests/guard-generic.sh` fails on a NIK-like 16-digit number, a 13-digit NIB,
-  a formatted NPWP, or personal names/tokens. Company values come from the vault at run time.
+  a formatted NPWP, or personal names/tokens (also scanned in `docs/` and `research/`), and on
+  Claude session scratch paths (under the OS temp dir) anywhere outside `docs/`/`research/`.
+  Absolute home-directory paths are tolerated only for the vault/my-data defaults in `scripts/`,
+  `skills/` and `README.md` (the exact pattern lives in the guard). Company values come from the vault at run time.
 - **Skills:** `tests/skill-content.sh` (required strings per skill and README honesty rules),
   `tests/refs-resolve.sh` (every `../../…` path resolves), `tests/frontmatter.sh`,
-  `tests/build-smoke.sh` (PDF build on a stub vault note, exit 2 cases).
+  `tests/build-smoke.sh` (PDF build on a stub vault note, signature groups, exit 2 cases),
+  `tests/docx-smoke.sh` (DOCX success path + exit 2 per missing letterhead value; needs the npm
+  `docx` package in `.cache/` (gitignored) or `$NODE_PATH`; a missing package prints `SKIP` and
+  `run-all.sh` reports SKIPPED, never OK), `tests/legal-content.sh` (cross-file legal consistency:
+  Art. 1309 vs 1307, age/marital rule, Art. 13 fields, open BPJS list, P-HKI-04 in G6; a missing
+  file fails), plus `research-shape.sh`, `crosscheck-shape.sh`, `hukum-shape.sh`, `freshness.sh`,
+  `pasal-shape.sh`, `fixture-shape.sh`.
 
 ## Rendering
 
